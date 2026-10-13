@@ -1,0 +1,444 @@
+id_venta,FECHA_VENTA,CLIENTE_LIMPIO,PRODUCTO_STD,PRECIO_UNIT,CANTIDAD_NUM,TOTAL_VENTA_NUM,TOTAL_CALCULADO,TOTAL_CONSISTENTE,CIUDAD_STD,GENERO_STD,METODO_PAGO_STD,archivo_origen,CORRECCIONES
+84,2003-01-27,ELVIS AVILA VELASQUEZ,Air Max,110.23,1,110.23,110.23,S,MEDELLIN,ND,ND,ventas_zapatillas_Errores.xlsx,
+22,2011-07-19,ANGEL FLOREZ ANGULO,Air Max,147.59,1,302.16,147.59,N,BOGOTA,M,Efectivo,ventas_zapatillas_Errores.xlsx,cantidad: texto a numero
+111,1971-11-14,ALFONSO FERNEY MIRANDA,Super Star,186.42,1,577.96,186.42,N,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido; cantidad: texto a numero
+33,1977-11-25,VANESA MARIBEL SALAMANCA SANCHEZ,Air Max,116.17,2,501.79,232.34,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido
+130,1999-11-28,ESTEBAN EDUARDO GUZMAN,Ultra Boost,140.34,1,540.06,140.34,N,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores.xlsx,cantidad: texto a numero
+91,1987-04-10,MAGALY MILENA ORDONEZ,Ultra Boost,190.27,3,222.19,570.81,N,BOGOTA,M,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido
+113,1971-11-04,YESENIA MARTINEZ VERA,Super Star,165.26,1,478.61,165.26,N,MEDELLIN,F,ND,ventas_zapatillas_Errores.xlsx,total: signo corregido; cantidad: texto a numero
+27,1981-12-07,PABLO MORALES GONZALEZ,Super Star,93.93,1,351.80,93.93,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido; cantidad: texto a numero
+62,2022-02-16,ND,Ultra Boost,196.12,3,588.36,588.36,S,BOGOTA,M,Tarjeta,ventas_zapatillas_Errores.xlsx,
+87,2025-05-02,CLAUDIA JOHANA CABALLERO SANDOVAL,Ultra Boost,96.84,2,193.68,193.68,S,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores.xlsx,
+132,1992-11-03,MILENA MARTHA VARGAS VALENCIA,Ultra Boost,96.57,1,96.57,96.57,S,BOGOTA,ND,Transferencia,ventas_zapatillas_Errores.xlsx,
+43,1974-09-13,ND,Super Star,138.01,4,552.04,552.04,S,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+77,1983-07-31,AMPARO ANDREA MARTINEZ PEREZ,Air Max,137.67,1,163.27,137.67,N,BOGOTA,M,Transferencia,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: usd removido; cantidad: texto a numero
+132,1978-03-05,JOHN SALAMANCA,Super Star,151.81,2,303.62,303.62,S,BOGOTA,F,ND,ventas_zapatillas_Errores.xlsx,
+25,2021-06-19,GERMAN DOMINGUEZ LONDONO,Super Star,142.21,1,436.87,142.21,N,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido; cantidad: texto a numero
+72,2010-02-20,WILLIAM GOMEZ MARIN,Ultra Boost,184.23,2,368.46,368.46,S,BOGOTA,F,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+128,1979-07-31,CARLOS FERNANDO TORRES,Ultra Boost,86.45,2,172.90,172.90,S,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+86,2021-11-17,RUTH AURORA SANCHEZ BENITEZ,Super Star,126.41,4,87.33,505.64,N,BOGOTA,M,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido
+83,2006-02-07,ELSY RODRIGUEZ GAMBOA,Ultra Boost,92.83,2,248.55,185.66,N,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido
+150,1984-04-09,INES OSPINA,Air Max,113.51,4,454.04,454.04,S,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+31,1983-12-24,ND,Super Star,104.82,3,314.46,314.46,S,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+109,1985-05-28,YEIMY MARGARITA PERDOMO ARBOLEDA,Super Star,126.64,1,398.87,126.64,N,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido; cantidad: texto a numero
+86,1981-08-07,FABIOLA MOLINA RIOS,Super Star,102.81,1,491.97,102.81,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; cantidad: texto a numero
+44,2006-02-01,SANDRA ROJAS,Air Max,109.88,1,510.78,109.88,N,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,cantidad: texto a numero
+22,1992-03-20,ESPERANZA MARQUEZ BERMUDEZ,Ultra Boost,176.16,3,147.57,528.48,N,BOGOTA,ND,Transferencia,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido
+7,2020-06-25,CARMEN MAGDA BOHORQUEZ,Air Max,96.38,3,289.14,289.14,S,BOGOTA,M,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+85,1976-08-07,FABIAN RAMIREZ,Ultra Boost,171.84,4,687.36,687.36,S,MEDELLIN,ND,Transferencia,ventas_zapatillas_Errores.xlsx,
+78,2021-08-15,ND,Super Star,195.35,1,175.23,195.35,N,BOGOTA,F,Efectivo,ventas_zapatillas_Errores.xlsx,total: signo corregido; cantidad: texto a numero
+32,1993-06-23,SANDRA RAMIREZ,Air Max,182.19,1,182.19,182.19,S,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+120,2004-02-29,JUAN LONDONO OCHOA,Ultra Boost,150.86,2,301.72,301.72,S,BOGOTA,F,Transferencia,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+54,1991-11-29,STELLA YUDY ROJAS OSPINA,Ultra Boost,95.12,1,95.12,95.12,S,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+139,1991-11-24,ND,Ultra Boost,137.68,1,137.68,137.68,S,BOGOTA,M,Transferencia,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+4,1992-09-04,ND,Air Max,178.49,1,529.85,178.49,N,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido; cantidad: texto a numero
+113,1977-06-06,DIEGO MORA,Air Max,131.23,3,393.69,393.69,S,BOGOTA,F,Transferencia,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+117,2006-06-10,ANTONIO CAMPO ROMERO,Air Max,130.17,2,255.67,260.34,N,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido
+33,1999-08-04,LUIS SERRANO,Super Star,120.00,4,459.55,480.00,N,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido
+96,1975-02-28,ALIRIO JOSE HENAO,Super Star,143.56,1,204.36,143.56,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: usd removido; cantidad: texto a numero
+36,2018-08-24,MAURICIO LOPEZ,Super Star,94.02,3,301.67,282.06,N,BOGOTA,M,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido
+122,1998-05-01,ND,Ultra Boost,199.17,1,442.24,199.17,N,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: signo corregido; cantidad: texto a numero
+25,1986-01-03,LUCIA YENNY GONZALEZ,Ultra Boost,116.72,1,218.71,116.72,N,MEDELLIN,ND,ND,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: usd removido; cantidad: texto a numero
+80,1971-06-07,ISABEL ANDREA PINEDA,Super Star,126.49,1,91.56,126.49,N,BOGOTA,ND,ND,ventas_zapatillas_Errores.xlsx,total: usd removido; cantidad: texto a numero
+9,2021-09-13,MIRIAM ROMERO LOPEZ,Air Max,182.15,3,297.33,546.45,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido
+54,2020-03-12,ND,Super Star,173.58,4,694.32,694.32,S,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,
+55,2001-09-20,ESTELLA SANCHEZ,Super Star,141.40,1,400.67,141.40,N,MEDELLIN,M,Transferencia,ventas_zapatillas_Errores.xlsx,cantidad: texto a numero
+49,1975-09-26,JOSE EDWIN MORENO SERNA,Super Star,192.71,1,328.58,192.71,N,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores.xlsx,total: signo corregido; cantidad: texto a numero
+42,1982-06-16,ND,Super Star,186.13,1,546.15,186.13,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; cantidad: texto a numero
+71,1980-02-15,DANIELA YAMILE MARIN,Super Star,175.18,1,331.47,175.18,N,MEDELLIN,M,ND,ventas_zapatillas_Errores.xlsx,cantidad: texto a numero
+54,1978-12-15,CARMEN MILENA AVILA,Ultra Boost,160.40,3,481.20,481.20,S,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,
+111,1999-05-26,CARMENZA XIMENA GOMEZ MEDINA,Ultra Boost,90.22,3,270.66,270.66,S,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+108,1984-02-11,ND,Super Star,141.30,1,228.93,141.30,N,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; cantidad: texto a numero
+150,2000-09-26,RUTH GLADYS CARDENAS,Super Star,92.04,3,453.39,276.12,N,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido
+23,2014-04-27,ALBERTO RAMIREZ AREVALO,Super Star,138.68,4,495.37,554.72,N,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido
+18,2020-08-28,ND,Air Max,111.11,2,222.22,222.22,S,BOGOTA,M,ND,ventas_zapatillas_Errores.xlsx,
+35,1973-12-02,JESSICA CLARA MIRANDA,Super Star,191.15,1,478.61,191.15,N,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido; cantidad: texto a numero
+65,2012-07-05,LUCIA DIAZ ORTIZ,Air Max,199.29,1,250.35,199.29,N,BOGOTA,M,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; cantidad: texto a numero
+11,2000-03-22,SEBASTIAN ISAAC BARBOSA MOSQUERA,Super Star,165.93,4,366.70,663.72,N,MEDELLIN,F,Transferencia,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido
+49,1986-03-22,JAIDER AUGUSTO RODRIGUEZ,Ultra Boost,143.26,3,429.78,429.78,S,BOGOTA,F,ND,ventas_zapatillas_Errores.xlsx,
+17,2018-06-09,MARIA ALEXANDRA SANDOVAL,Super Star,173.55,3,520.65,520.65,S,MEDELLIN,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,
+23,1975-11-09,DIANA MARIA CEBALLOS RESTREPO,Ultra Boost,99.77,1,99.77,99.77,S,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores.xlsx,
+86,1998-12-10,ND,Air Max,80.98,1,585.21,80.98,N,MEDELLIN,F,Transferencia,ventas_zapatillas_Errores.xlsx,total: usd removido; cantidad: texto a numero
+65,2008-03-15,BEATRIZ GARCIA,Air Max,180.58,4,423.96,722.32,N,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido
+74,2003-02-08,EDGAR HECTOR SALAZAR MUNOZ,Super Star,123.46,1,401.68,123.46,N,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido; cantidad: texto a numero
+85,2023-10-05,ND,Air Max,134.45,1,134.45,134.45,S,BOGOTA,ND,ND,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+81,2022-12-08,ND,Air Max,109.55,3,328.65,328.65,S,MEDELLIN,F,Transferencia,ventas_zapatillas_Errores.xlsx,
+24,1971-02-16,ND,Air Max,120.88,3,362.64,362.64,S,BOGOTA,F,Transferencia,ventas_zapatillas_Errores.xlsx,
+86,2000-04-16,ND,Air Max,176.08,3,528.24,528.24,S,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores.xlsx,
+115,2008-06-15,ND,Super Star,191.73,1,158.82,191.73,N,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido; cantidad: texto a numero
+83,2022-08-18,ND,Super Star,133.22,2,266.44,266.44,S,BOGOTA,ND,ND,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+57,2024-07-30,JOSE GAITAN FIGUEROA,Ultra Boost,169.85,1,280.66,169.85,N,BOGOTA,M,Efectivo,ventas_zapatillas_Errores.xlsx,total: usd removido; cantidad: texto a numero
+111,1988-07-04,MANUEL MOLANO,Super Star,104.65,4,418.60,418.60,S,MEDELLIN,ND,Transferencia,ventas_zapatillas_Errores.xlsx,
+73,1979-03-15,PABLO BERMUDEZ RODRIGUEZ,Ultra Boost,90.09,2,180.18,180.18,S,BOGOTA,ND,Transferencia,ventas_zapatillas_Errores.xlsx,
+48,2012-06-15,LINA CARMEN BELTRAN VARGAS,Air Max,178.11,1,344.31,178.11,N,MEDELLIN,M,Transferencia,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido
+54,1986-06-06,ND,Super Star,97.19,3,388.40,291.57,N,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido
+93,2007-04-02,ALBERTO CRISTIAN MERCADO,Ultra Boost,98.94,3,296.82,296.82,S,BOGOTA,M,ND,ventas_zapatillas_Errores.xlsx,
+27,2007-01-08,MARIA MARINA SANCHEZ ALFONSO,Ultra Boost,167.04,2,334.08,334.08,S,BOGOTA,M,Efectivo,ventas_zapatillas_Errores.xlsx,
+135,1995-04-28,CECILIA VERONICA PEREA,Ultra Boost,184.91,3,554.73,554.73,S,BOGOTA,M,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+30,2013-04-06,ANA DELGADO GARZON,Super Star,114.35,2,228.70,228.70,S,MEDELLIN,M,ND,ventas_zapatillas_Errores.xlsx,
+25,2019-05-20,LUIS PENA,Ultra Boost,122.96,1,588.12,122.96,N,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido; cantidad: texto a numero
+19,1996-07-30,CESAR SILVA VARGAS,Super Star,116.63,1,245.06,116.63,N,BOGOTA,F,ND,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: usd removido; cantidad: texto a numero
+145,2016-03-09,ND,Super Star,182.61,1,349.17,182.61,N,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: usd removido; cantidad: texto a numero
+114,2013-06-09,EDUAR DANIEL PEREZ,Ultra Boost,112.18,1,450.17,112.18,N,BOGOTA,M,ND,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido
+56,1973-08-02,ND,Ultra Boost,118.20,1,110.50,118.20,N,BOGOTA,M,Transferencia,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido; cantidad: texto a numero
+86,1971-08-16,ELKIN VICTOR ESCOBAR,Ultra Boost,133.83,2,267.66,267.66,S,MEDELLIN,M,ND,ventas_zapatillas_Errores.xlsx,
+124,1985-02-14,YANETH PAZ,Air Max,147.47,1,599.80,147.47,N,MEDELLIN,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,total: usd removido; cantidad: texto a numero
+61,2020-10-08,ALEJANDRO CARLOS AGUILAR,Ultra Boost,111.06,3,483.95,333.18,N,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido
+63,1977-04-25,ADRIANA ADRIANA PAEZ QUINTERO,Air Max,180.88,1,161.91,180.88,N,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: signo corregido; cantidad: texto a numero
+72,2010-02-01,ANDRES VALENCIA GARZON,Ultra Boost,113.16,1,93.82,113.16,N,BOGOTA,F,Transferencia,ventas_zapatillas_Errores.xlsx,total: usd removido; cantidad: texto a numero
+121,2017-02-23,ND,Air Max,180.76,1,517.77,180.76,N,BOGOTA,F,Transferencia,ventas_zapatillas_Errores.xlsx,total: signo corregido; cantidad: texto a numero
+121,1999-03-15,LEIDY LUNA,Super Star,180.28,2,130.97,360.56,N,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido
+43,1972-09-03,ANDREA ANA LOPEZ ROJAS,Super Star,167.40,2,334.80,334.80,S,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+12,2004-01-24,DIEGO RIOS RUIZ,Super Star,90.53,3,83.34,271.59,N,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido
+28,1975-09-04,EDUARDO VICTOR ORTIZ HERNANDEZ,Air Max,84.42,1,125.47,84.42,N,BOGOTA,M,ND,ventas_zapatillas_Errores.xlsx,cantidad: texto a numero
+107,1996-04-22,ND,Super Star,195.21,2,390.42,390.42,S,BOGOTA,M,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+124,2022-07-15,CARLOS LOPEZ,Super Star,102.34,3,307.02,307.02,S,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,
+127,1982-07-18,ND,Air Max,152.22,3,456.66,456.66,S,MEDELLIN,ND,Transferencia,ventas_zapatillas_Errores.xlsx,
+54,2007-07-08,LUIS ANDRES ROJAS,Super Star,183.17,1,303.87,183.17,N,BOGOTA,M,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido
+20,2006-12-04,LORENA JULIETH PATINO MARIN,Super Star,130.58,2,261.16,261.16,S,MEDELLIN,ND,Transferencia,ventas_zapatillas_Errores.xlsx,
+2,1975-05-07,ND,Air Max,161.90,2,129.01,323.80,N,MEDELLIN,F,ND,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido
+45,1996-12-04,ESTEBAN LUIS RAMIREZ,Ultra Boost,144.30,2,288.60,288.60,S,BOGOTA,ND,Transferencia,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+50,1990-09-30,ND,Ultra Boost,100.38,1,188.27,100.38,N,MEDELLIN,ND,Transferencia,ventas_zapatillas_Errores.xlsx,precio: usd removido; cantidad: texto a numero
+60,2010-01-13,YOLIMA ROSA ORDONEZ,Ultra Boost,168.24,4,672.96,672.96,S,BOGOTA,M,Transferencia,ventas_zapatillas_Errores.xlsx,
+90,2019-06-30,HEIDY QUINTERO,Ultra Boost,108.70,1,464.02,108.70,N,BOGOTA,M,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido
+28,1983-09-06,ALIRIO ALBERTO HERNANDEZ,Air Max,142.16,1,287.44,142.16,N,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido; cantidad: texto a numero
+9,2001-11-10,ANGELICA ZAMBRANO,Super Star,179.49,3,538.47,538.47,S,MEDELLIN,ND,Transferencia,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+116,1971-03-27,ALONSO EFRAIN OSPINA GOMEZ,Super Star,116.15,3,348.45,348.45,S,BOGOTA,ND,ND,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+104,2011-09-16,GLADYS FORERO RODRIGUEZ,Ultra Boost,162.15,1,453.03,162.15,N,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido; cantidad: texto a numero
+125,2007-08-10,ND,Ultra Boost,99.32,3,297.96,297.96,S,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+146,2007-08-01,DANIELA LUISA BERNAL VASQUEZ,Air Max,125.28,1,383.36,125.28,N,MEDELLIN,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,total: usd removido; cantidad: texto a numero
+32,1976-10-15,ANGEL LUIS DIAZ,Ultra Boost,157.32,2,314.64,314.64,S,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores.xlsx,
+9,2010-08-12,ND,Air Max,116.56,4,159.38,466.24,N,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido
+142,1980-10-20,CAROLINA JACQUELINE ALVAREZ,Air Max,143.94,4,265.49,575.76,N,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido
+68,2024-05-08,JORGE JULIO ROMERO PERDOMO,Super Star,151.89,2,303.78,303.78,S,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+34,1985-06-27,ND,Super Star,185.08,1,399.16,185.08,N,BOGOTA,M,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; cantidad: texto a numero
+142,1998-03-19,LADY MIREYA VERA,Air Max,177.27,3,124.86,531.81,N,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido
+8,1997-12-08,MARIA GRACIELA MARIN,Ultra Boost,165.56,3,496.68,496.68,S,BOGOTA,M,Tarjeta,ventas_zapatillas_Errores.xlsx,
+118,1998-10-17,ORLANDO JAIR LEON CASTRILLON,Ultra Boost,96.86,3,267.58,290.58,N,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido
+5,2019-07-06,ROSALBA RICO,Super Star,122.35,1,128.61,122.35,N,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido; cantidad: texto a numero
+54,2013-11-28,ND,Air Max,177.15,3,531.45,531.45,S,BOGOTA,M,ND,ventas_zapatillas_Errores.xlsx,
+75,2004-03-07,ADRIANA ROSA GUZMAN BARRETO,Super Star,198.28,3,594.84,594.84,S,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,
+105,1998-09-12,ND,Air Max,120.91,2,241.82,241.82,S,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores.xlsx,
+121,2013-07-19,DEISY ESTRADA VERGARA,Super Star,183.71,1,498.18,183.71,N,BOGOTA,F,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido; cantidad: texto a numero
+41,2015-04-22,GILMA GARCIA CORREA,Air Max,192.65,3,577.95,577.95,S,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores.xlsx,
+119,2011-09-25,IVAN DIAZ SANCHEZ,Ultra Boost,122.14,1,122.27,122.14,N,BOGOTA,M,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; cantidad: texto a numero
+44,2013-12-04,ND,Super Star,164.31,1,255.13,164.31,N,BOGOTA,F,ND,ventas_zapatillas_Errores.xlsx,precio: signo corregido; cantidad: texto a numero
+103,1983-08-02,DARIO JOHN HERRERA PENA,Air Max,189.04,3,567.12,567.12,S,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores.xlsx,
+128,2018-09-07,ANA NANCY ARENAS,Air Max,181.18,3,543.54,543.54,S,MEDELLIN,F,ND,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+18,2019-11-16,ALEXANDRA MENDEZ,Air Max,168.97,2,337.94,337.94,S,MEDELLIN,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+82,2004-02-24,ND,Air Max,180.13,2,360.26,360.26,S,MEDELLIN,ND,Transferencia,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+19,1974-07-26,PEDRO RESTREPO,Air Max,135.53,1,135.53,135.53,S,MEDELLIN,M,Transferencia,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+143,1983-04-18,EVER VICTOR LOAIZA,Air Max,182.64,1,182.64,182.64,S,MEDELLIN,ND,Transferencia,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+16,1996-04-01,JAIME DARIO MOLANO,Air Max,104.96,4,265.82,419.84,N,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido
+90,2016-12-26,KARINA CARO ARENAS,Super Star,176.37,4,705.48,705.48,S,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+137,1982-06-04,MILENA CEBALLOS DIAZ,Super Star,143.18,2,419.18,286.36,N,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido
+6,1979-07-04,JUAN MARTINEZ BOHORQUEZ,Air Max,81.36,1,81.36,81.36,S,MEDELLIN,F,ND,ventas_zapatillas_Errores.xlsx,
+88,2019-12-15,LEIDY MARIBEL GONZALEZ,Super Star,108.97,4,435.88,435.88,S,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores.xlsx,
+134,2022-01-10,HUGO CASTRO,Air Max,101.18,3,303.54,303.54,S,MEDELLIN,ND,ND,ventas_zapatillas_Errores.xlsx,
+59,1996-02-19,JOSE JAIME SANCHEZ MORALES,Ultra Boost,193.27,1,193.27,193.27,S,BOGOTA,ND,Transferencia,ventas_zapatillas_Errores.xlsx,
+86,1996-04-04,YANETH LUZ RODRIGUEZ,Ultra Boost,99.83,2,199.66,199.66,S,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores.xlsx,
+57,1996-02-12,VICTOR QUIROZ GUERRERO,Ultra Boost,111.70,1,507.13,111.70,N,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: usd removido; cantidad: texto a numero
+44,1994-11-10,MARIA LINA FONSECA,Ultra Boost,87.73,2,358.68,175.46,N,BOGOTA,F,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido
+51,2023-12-07,ND,Air Max,166.56,2,342.79,333.12,N,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido
+98,1987-09-30,LORENZO JOSE CARDENAS DIAZ,Ultra Boost,92.83,1,297.23,92.83,N,BOGOTA,M,ND,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido; cantidad: texto a numero
+52,2002-05-30,FERNANDA ROSARIO ALVAREZ,Air Max,191.04,3,573.12,573.12,S,MEDELLIN,ND,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido
+100,1986-05-17,MARIA MARIA LOZANO,Ultra Boost,164.21,1,325.73,164.21,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores.xlsx,total: signo corregido; cantidad: texto a numero
+127,1995-12-08,EDISON GIRALDO,Ultra Boost,108.15,1,108.15,108.15,S,BOGOTA,M,ND,ventas_zapatillas_Errores.xlsx,
+69,1994-03-23,PABLO MARIN DIAZ,Air Max,91.91,2,332.01,183.82,N,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido
+118,2008-04-17,DANILO LUIS ALVAREZ,Super Star,190.27,2,380.54,380.54,S,BOGOTA,F,Efectivo,ventas_zapatillas_Errores.xlsx,
+32,2016-10-16,ND,Air Max,187.82,1,495.20,187.82,N,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; cantidad: texto a numero
+148,2001-03-31,ANDRES ANTONIO AMAYA,Ultra Boost,93.91,1,312.55,93.91,N,MEDELLIN,M,ND,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido; cantidad: texto a numero
+56,2004-06-08,MARINA GARCIA,Air Max,146.52,3,281.24,439.56,N,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido
+9,1995-09-12,MARIA PILAR MOSQUERA,Air Max,132.12,1,428.55,132.12,N,MEDELLIN,ND,Transferencia,ventas_zapatillas_Errores.xlsx,precio: signo corregido; cantidad: texto a numero
+92,1995-08-27,JOHN SUAREZ CASTRO,Air Max,125.54,2,251.08,251.08,S,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+49,1976-07-12,CONSTANZA SOLANO,Ultra Boost,82.54,1,265.58,82.54,N,BOGOTA,M,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,cantidad: texto a numero
+11,1983-12-20,ENITH MERCEDES GOMEZ,Super Star,191.26,1,249.14,191.26,N,BOGOTA,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido; cantidad: texto a numero
+56,1999-04-10,JUAN DAIRO CRUZ,Air Max,95.33,3,285.99,285.99,S,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+47,1992-02-25,LEONOR DELGADO CARDENAS,Super Star,169.33,1,125.73,169.33,N,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido
+6,1979-08-12,MARINO JEISSON ALVAREZ RIVERA,Ultra Boost,95.39,1,95.39,95.39,S,MEDELLIN,M,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+97,2014-02-12,JORGE AUGUSTO SALAZAR,Ultra Boost,130.64,1,569.12,130.64,N,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,total: usd removido; cantidad: texto a numero
+130,1977-07-01,ESTHER GARCIA SERRANO,Air Max,101.42,3,304.26,304.26,S,BOGOTA,M,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+101,2019-04-08,ANA VALENCIA CORTES,Ultra Boost,153.75,2,339.53,307.50,N,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido
+80,1977-04-30,ARMANDO GERSON HERNANDEZ CARRILLO,Air Max,80.43,1,293.65,80.43,N,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; cantidad: texto a numero
+21,1997-12-12,JOSUE SOTO,Super Star,100.41,2,200.82,200.82,S,MEDELLIN,M,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,
+71,1989-06-24,ND,Ultra Boost,133.49,1,133.49,133.49,S,BOGOTA,M,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+76,1994-01-19,ND,Ultra Boost,188.45,4,753.80,753.80,S,BOGOTA,ND,ND,ventas_zapatillas_Errores_Uno.xlsx,
+71,2005-10-27,ND,Super Star,123.68,1,447.49,123.68,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,total: usd removido; cantidad: texto a numero
+40,2011-02-22,FELIPE CESAR CANO,Air Max,90.33,2,180.66,180.66,S,MEDELLIN,F,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+149,1982-06-25,LUZ VILLAMIZAR GARCIA,Super Star,122.51,1,155.05,122.51,N,MEDELLIN,M,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,total: signo corregido; cantidad: texto a numero
+114,2011-12-09,LUCIA VIVIANA VELASQUEZ GUTIERREZ,Air Max,147.87,1,343.11,147.87,N,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,total: signo corregido; cantidad: texto a numero
+36,1979-09-22,JULIAN JHON VALLEJO CAMACHO,Air Max,92.33,1,364.23,92.33,N,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,cantidad: texto a numero
+133,1985-03-25,GLADYS ROJAS,Super Star,89.84,1,89.84,89.84,S,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,
+148,2009-01-08,MILENA FORERO SERRANO,Super Star,185.98,3,557.94,557.94,S,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,
+131,1980-01-24,CARLOS HURTADO,Ultra Boost,115.53,3,346.59,346.59,S,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,
+43,2016-08-30,GUILLERMO MENA,Super Star,86.95,4,193.81,347.80,N,MEDELLIN,ND,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: signo corregido
+11,1994-07-09,MARLENY GARCIA,Air Max,123.64,2,247.28,247.28,S,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,
+1,2018-08-07,LUCIA MARINA PADILLA RIOS,Super Star,101.21,3,343.10,303.63,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido
+43,1979-07-27,ADRIANA ESCOBAR,Ultra Boost,110.08,2,220.16,220.16,S,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,
+91,1997-09-21,MYRIAM GUERRERO,Ultra Boost,167.24,1,244.63,167.24,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: usd removido
+81,2019-06-15,MARY KATHERINE MENA GUERRERO,Air Max,194.28,1,269.33,194.28,N,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; cantidad: texto a numero
+53,1974-12-14,ND,Air Max,126.25,2,252.50,252.50,S,MEDELLIN,M,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+31,2020-03-04,ALEXANDER JAIRO BONILLA ARBOLEDA,Ultra Boost,162.98,1,374.43,162.98,N,BOGOTA,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: usd removido; cantidad: texto a numero
+27,1982-06-11,ALONSO RODRIGUEZ,Ultra Boost,109.76,3,329.28,329.28,S,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+102,1992-06-04,ND,Ultra Boost,122.49,1,195.86,122.49,N,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; cantidad: texto a numero
+20,1993-01-18,PAULA ESCOBAR NIETO,Ultra Boost,164.02,1,207.07,164.02,N,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,total: usd removido; cantidad: texto a numero
+43,2010-11-10,ND,Super Star,117.27,3,534.94,351.81,N,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: signo corregido
+21,2010-05-14,HERNANDO ALBERTO MEJIA,Super Star,116.21,4,343.34,464.84,N,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido
+24,2018-08-01,JOSE JORGE CORREA,Air Max,174.64,3,523.92,523.92,S,MEDELLIN,ND,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+41,1974-03-19,BRYAN ZAMBRANO,Air Max,155.86,3,425.06,467.58,N,MEDELLIN,ND,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: usd removido
+49,2002-09-06,CONCEPCION BELTRAN MEDINA,Air Max,156.30,3,350.39,468.90,N,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: signo corregido
+3,1974-06-13,LISETH MARIA ESCOBAR ORTIZ,Ultra Boost,186.88,1,186.88,186.88,S,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,
+43,1990-10-13,JIMENA MARIA GONZALEZ BUITRAGO,Super Star,197.79,2,395.58,395.58,S,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+87,2009-07-17,ND,Ultra Boost,158.66,1,431.59,158.66,N,MEDELLIN,M,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido
+103,1984-05-09,INES SANCHEZ GUZMAN,Ultra Boost,150.01,2,274.97,300.02,N,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido
+1,2007-05-02,ALEXANDER FELIPE RODRIGUEZ,Ultra Boost,147.39,2,294.78,294.78,S,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+48,2020-04-22,JUAN VICTOR MENDEZ JAIMES,Ultra Boost,96.05,3,241.11,288.15,N,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: usd removido
+91,1991-12-14,MARCELA SANDRA ROJAS,Ultra Boost,190.87,2,434.99,381.74,N,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido
+61,1992-08-21,JAIDER CRISTIAN HENAO FLOREZ,Ultra Boost,143.08,1,539.45,143.08,N,MEDELLIN,F,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido
+54,2016-06-03,ANA MILENA SILVA,Ultra Boost,183.46,2,366.92,366.92,S,BOGOTA,M,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+89,1983-08-21,OSCAR ALVAREZ,Air Max,156.97,1,593.35,156.97,N,MEDELLIN,ND,ND,ventas_zapatillas_Errores_Uno.xlsx,total: usd removido; cantidad: texto a numero
+145,2012-08-30,ADOLFO PARADA CORREA,Air Max,105.16,2,210.32,210.32,S,BOGOTA,M,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+148,2001-10-23,ARLEY BALLESTEROS,Air Max,82.78,1,581.05,82.78,N,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido; cantidad: texto a numero
+111,1995-10-12,MARIA PEREZ GONZALEZ,Super Star,109.92,1,313.90,109.92,N,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: usd removido; cantidad: texto a numero
+73,2009-03-17,JOSE CASTANO VERA,Ultra Boost,130.45,3,391.35,391.35,S,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,
+14,1972-03-04,MERY MARIA LOPEZ,Air Max,148.68,1,354.59,148.68,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,total: usd removido; cantidad: texto a numero
+94,2010-01-02,GONZALO NELSON NARVAEZ,Air Max,101.11,1,101.11,101.11,S,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,
+51,1971-03-20,MARIA VALENCIA,Ultra Boost,164.37,4,657.48,657.48,S,BOGOTA,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,
+4,1984-09-08,CRISTINA DIANA GARZON GOMEZ,Ultra Boost,155.83,2,311.66,311.66,S,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+96,2003-05-25,MONICA MELO,Super Star,147.88,1,344.85,147.88,N,MEDELLIN,M,ND,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: signo corregido; cantidad: texto a numero
+18,1992-05-31,ND,Ultra Boost,140.95,1,140.95,140.95,S,BOGOTA,ND,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,
+126,1974-03-17,ND,Air Max,169.13,2,338.26,338.26,S,BOGOTA,M,ND,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+149,2012-09-01,YOLANDA SALAS CARDENAS,Super Star,138.25,3,414.75,414.75,S,BOGOTA,F,ND,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+132,1983-10-19,ND,Ultra Boost,174.82,2,349.64,349.64,S,MEDELLIN,M,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+109,1998-03-18,ND,Super Star,166.95,1,251.42,166.95,N,BOGOTA,M,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido; cantidad: texto a numero
+26,2016-04-19,DIANA HOYOS,Air Max,81.47,1,550.39,81.47,N,MEDELLIN,F,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: signo corregido; cantidad: texto a numero
+149,1984-04-02,PABLO ANDRES MORENO,Super Star,147.22,1,91.38,147.22,N,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,total: signo corregido; cantidad: texto a numero
+77,2019-05-09,ND,Ultra Boost,177.78,1,496.70,177.78,N,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: usd removido; cantidad: texto a numero
+40,2004-06-19,BENJAMIN RUEDA ALVAREZ,Super Star,168.01,1,168.01,168.01,S,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,
+82,1980-03-17,ND,Super Star,175.90,4,703.60,703.60,S,MEDELLIN,ND,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,
+118,2012-08-01,ND,Air Max,143.20,3,264.60,429.60,N,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido
+36,1988-07-15,CLAUDIA OLAYA BARRERA,Air Max,169.14,1,483.52,169.14,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: usd removido; cantidad: texto a numero
+140,1977-04-05,ND,Ultra Boost,162.97,1,289.25,162.97,N,MEDELLIN,F,ND,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: usd removido; cantidad: texto a numero
+139,2021-03-05,CESAR GALVIS HOYOS,Air Max,94.57,2,189.14,189.14,S,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,
+62,1970-12-22,MARLEN MONTENEGRO CALDERON,Ultra Boost,193.79,3,581.37,581.37,S,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,
+95,1977-07-24,JAIRO RESTREPO,Super Star,83.12,4,135.47,332.48,N,BOGOTA,M,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: usd removido
+76,1986-03-07,SANDRA CRISTINA RIVERA,Super Star,152.76,2,305.52,305.52,S,BOGOTA,F,ND,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+5,2008-05-17,PAULINA GARCIA,Ultra Boost,169.37,1,573.78,169.37,N,MEDELLIN,ND,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: usd removido
+28,2013-06-17,ALEXANDER OSWALDO CARDONA ESPINOSA,Ultra Boost,98.39,1,522.67,98.39,N,MEDELLIN,ND,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido; cantidad: texto a numero
+32,2017-11-22,ND,Ultra Boost,176.83,2,353.66,353.66,S,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,
+27,1988-11-14,DIEGO CORDOBA,Ultra Boost,118.23,2,236.46,236.46,S,MEDELLIN,F,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,
+66,1992-08-30,JOAN RODRIGUEZ,Super Star,166.04,3,245.73,498.12,N,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido
+25,2001-12-12,ND,Super Star,164.11,1,431.04,164.11,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: usd removido; cantidad: texto a numero
+103,1996-02-12,EMILIA LILIA AGUIRRE,Air Max,161.29,2,322.58,322.58,S,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+7,1996-02-11,ND,Air Max,90.98,1,501.35,90.98,N,BOGOTA,ND,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: signo corregido; cantidad: texto a numero
+139,1985-11-26,ND,Ultra Boost,97.37,2,561.16,194.74,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido
+6,2001-04-22,ND,Air Max,147.33,1,182.74,147.33,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; cantidad: texto a numero
+14,1988-06-11,FANNY ESTELA MEJIA,Ultra Boost,184.15,4,486.03,736.60,N,BOGOTA,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido
+67,1975-12-12,ANDREA ARIAS SALAMANCA,Ultra Boost,129.93,1,404.84,129.93,N,BOGOTA,F,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,total: usd removido; cantidad: texto a numero
+26,1983-05-22,ND,Super Star,90.37,3,372.78,271.11,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido
+139,1986-12-06,DARIO LUIS JIMENEZ,Air Max,153.08,2,306.16,306.16,S,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+5,1977-04-08,LUZ SERNA LEAL,Super Star,175.36,1,412.41,175.36,N,BOGOTA,F,ND,ventas_zapatillas_Errores_Uno.xlsx,total: signo corregido; cantidad: texto a numero
+74,1973-03-18,BEATRIZ FABIOLA PACHECO,Air Max,151.15,1,564.41,151.15,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,total: usd removido; cantidad: texto a numero
+143,1986-08-09,JAVIER GARCIA,Ultra Boost,96.28,1,88.95,96.28,N,BOGOTA,ND,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: signo corregido; cantidad: texto a numero
+125,2018-11-09,JHONATAN VELASQUEZ VARGAS,Air Max,150.36,1,194.32,150.36,N,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,total: signo corregido; cantidad: texto a numero
+51,1987-03-11,LUIS GONZALEZ CRUZ,Air Max,153.18,1,595.66,153.18,N,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: usd removido; cantidad: texto a numero
+83,2018-12-11,ND,Ultra Boost,82.28,1,368.63,82.28,N,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido; cantidad: texto a numero
+1,1970-08-17,FERNANDO TORRES CRUZ,Air Max,90.21,3,564.08,270.63,N,MEDELLIN,M,ND,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: signo corregido
+148,1972-02-16,EDUARDO VELEZ,Ultra Boost,176.22,1,438.68,176.22,N,BOGOTA,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,total: usd removido; cantidad: texto a numero
+36,1986-05-26,OSCAR ANDRES CORTES TORRES,Super Star,163.61,3,490.83,490.83,S,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+28,1995-07-24,ROBERT TORRES RODRIGUEZ,Ultra Boost,185.20,2,370.40,370.40,S,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,
+80,2009-03-21,CARLOS VICENTE RAMIREZ,Air Max,169.63,1,205.08,169.63,N,BOGOTA,M,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: usd removido; cantidad: texto a numero
+102,1989-07-09,OMAR BRAYAN PACHECO FLOREZ,Air Max,170.38,3,511.14,511.14,S,BOGOTA,M,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+44,2003-04-15,DEIBY RAMIREZ,Ultra Boost,105.57,4,422.28,422.28,S,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,
+3,2020-02-02,YENNY RODRIGUEZ RODRIGUEZ,Super Star,176.45,1,101.25,176.45,N,MEDELLIN,M,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: signo corregido
+4,2019-12-29,ND,Super Star,123.70,1,285.87,123.70,N,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; cantidad: texto a numero
+106,1977-08-08,MIGUEL SANDOVAL,Super Star,84.51,3,253.53,253.53,S,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,
+134,1978-01-14,CAROLINA LOPEZ,Ultra Boost,142.01,2,284.02,284.02,S,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,
+98,1984-06-13,CECILIA MARIA ESCOBAR JAIMES,Air Max,143.09,3,380.88,429.27,N,MEDELLIN,ND,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: usd removido
+64,2011-02-22,ND,Super Star,117.62,4,470.48,470.48,S,MEDELLIN,M,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,
+92,2022-02-24,ERNESTO MAURICIO GOMEZ GUERRERO,Super Star,173.79,4,695.16,695.16,S,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,
+13,1996-05-17,ELVIRA GAITAN CEBALLOS,Super Star,146.73,3,440.19,440.19,S,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,
+81,1995-05-02,NANCY AURA GUZMAN MURILLO,Ultra Boost,125.85,1,416.81,125.85,N,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: usd removido; cantidad: texto a numero
+101,1977-12-07,ND,Air Max,138.20,1,184.35,138.20,N,MEDELLIN,ND,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: usd removido; cantidad: texto a numero
+47,1977-10-30,JORGE HERRERA CANO,Super Star,124.89,1,560.17,124.89,N,BOGOTA,M,ND,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: usd removido; cantidad: texto a numero
+143,1981-03-10,DARIO MENDOZA,Super Star,111.61,1,391.34,111.61,N,BOGOTA,M,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; cantidad: texto a numero
+45,1994-10-25,GERMAN BARRAGAN BERMUDEZ,Air Max,94.16,2,188.32,188.32,S,BOGOTA,ND,ND,ventas_zapatillas_Errores_Uno.xlsx,
+5,2018-06-06,LUZ GUTIERREZ,Super Star,180.40,4,202.37,721.60,N,MEDELLIN,ND,ND,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: signo corregido
+14,2004-01-15,JAIRO GIRALDO,Air Max,104.92,3,314.76,314.76,S,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+34,1995-12-06,DAVID RODRIGUEZ PEREZ,Ultra Boost,151.96,2,596.82,303.92,N,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: usd removido
+62,2015-12-12,MARCELA PAULA GAMBOA,Air Max,109.60,3,328.80,328.80,S,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,
+139,1981-05-08,PAOLA MORALES LOPEZ,Ultra Boost,164.89,1,151.15,164.89,N,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,total: usd removido; cantidad: texto a numero
+101,1991-08-23,ND,Ultra Boost,110.81,1,110.81,110.81,S,BOGOTA,M,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+3,2000-04-03,JULIO ALBERTO ACEVEDO LEON,Super Star,188.87,3,566.61,566.61,S,MEDELLIN,M,ND,ventas_zapatillas_Errores_Uno.xlsx,
+133,2005-10-29,GLORIA MARINA MORENO LOPEZ,Ultra Boost,119.95,1,169.76,119.95,N,MEDELLIN,ND,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; cantidad: texto a numero
+6,1990-05-27,ND,Ultra Boost,137.43,1,381.41,137.43,N,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,total: usd removido; cantidad: texto a numero
+73,2018-10-10,ND,Super Star,189.41,1,200.75,189.41,N,MEDELLIN,ND,ND,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: usd removido; cantidad: texto a numero
+107,1994-10-05,EDILBERTO ORTIZ,Ultra Boost,182.75,3,548.25,548.25,S,MEDELLIN,M,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+97,2023-10-10,ALBERTO PARRA MARTINEZ,Ultra Boost,192.35,3,577.05,577.05,S,BOGOTA,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+149,2007-05-10,LUZ SANCHEZ MARTINEZ,Super Star,142.38,1,587.76,142.38,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: usd removido; cantidad: texto a numero
+119,2011-11-16,ND,Ultra Boost,140.48,3,421.44,421.44,S,BOGOTA,ND,ND,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+77,1998-10-02,SILVIO JAVIER ERAZO CASTRO,Air Max,122.22,4,583.31,488.88,N,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: signo corregido
+102,1987-08-29,ALEXANDER MEDINA,Ultra Boost,122.78,1,122.78,122.78,S,MEDELLIN,M,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,
+51,1988-05-14,CECILIA VALENCIA GUTIERREZ,Air Max,185.62,1,80.54,185.62,N,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; cantidad: texto a numero
+102,1986-03-07,ANGEL SMITH SOTO,Ultra Boost,174.73,3,524.19,524.19,S,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+71,2018-08-21,ND,Air Max,80.24,2,160.48,160.48,S,MEDELLIN,ND,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+113,1982-06-07,ND,Super Star,188.93,1,349.76,188.93,N,MEDELLIN,F,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: usd removido
+7,2017-03-16,JORGE VICTOR RODRIGUEZ GARZON,Super Star,91.16,3,273.48,273.48,S,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+49,1994-04-23,OMAR SERRANO,Air Max,152.25,1,152.25,152.25,S,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+143,1973-12-04,ANDRES GARCIA,Super Star,124.58,2,249.16,249.16,S,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+114,1978-10-19,ANDREA DIANA FAJARDO,Super Star,165.12,1,364.29,165.12,N,MEDELLIN,F,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; cantidad: texto a numero
+122,2016-05-18,LILIANA VARGAS VALENCIA,Air Max,84.06,1,84.06,84.06,S,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,
+48,1979-09-11,JOHN FLOREZ SANCHEZ,Ultra Boost,81.02,1,161.31,81.02,N,MEDELLIN,M,ND,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: usd removido; cantidad: texto a numero
+73,1977-08-26,LUCERO PAOLA MEDINA,Air Max,163.05,1,280.98,163.05,N,MEDELLIN,M,ND,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido; cantidad: texto a numero
+103,2021-08-22,TATIANA LIZETH RAMIREZ,Super Star,131.27,4,525.08,525.08,S,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,
+97,1980-10-26,ND,Ultra Boost,168.01,4,672.04,672.04,S,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+3,2003-09-20,EMILSE GUEVARA,Air Max,176.45,1,180.05,176.45,N,MEDELLIN,F,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,total: usd removido; cantidad: texto a numero
+1,1994-06-16,MERY SALAS,Super Star,88.17,2,176.34,176.34,S,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+122,2002-11-17,ND,Super Star,105.31,1,427.09,105.31,N,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; cantidad: texto a numero
+88,2014-07-07,DEYANIRA LORENA MUNOZ,Super Star,161.97,4,647.88,647.88,S,MEDELLIN,ND,ND,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+64,1994-03-23,JOSE VALENCIA LOZANO,Super Star,91.41,1,597.56,91.41,N,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,total: signo corregido; cantidad: texto a numero
+122,1985-09-11,JOSE GONZALEZ MENDEZ,Super Star,165.40,2,330.80,330.80,S,BOGOTA,F,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido
+99,2006-06-21,LEONARDO EDUARDO AGUILAR,Air Max,197.54,2,395.08,395.08,S,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,
+72,2011-07-03,MARTHA MIREYA VERA TORRES,Super Star,143.47,2,180.81,286.94,N,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido
+69,1992-12-23,ESTHER YULIETH BARRERA,Air Max,112.97,3,338.91,338.91,S,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,
+14,2014-10-24,MARIELA LUCIA MORENO,Ultra Boost,139.68,3,419.04,419.04,S,BOGOTA,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,
+64,1986-09-19,JEAN DARIO PAZ GIRALDO,Super Star,101.90,1,101.90,101.90,S,MEDELLIN,F,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+121,2015-08-18,LUIS RAFAEL ROA,Air Max,193.71,1,448.41,193.71,N,BOGOTA,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: usd removido; cantidad: texto a numero
+147,2000-09-23,ND,Super Star,137.88,4,551.52,551.52,S,MEDELLIN,M,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+64,1991-01-01,CONCEPCION LUZ MORALES,Air Max,102.95,3,308.85,308.85,S,MEDELLIN,F,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+5,1992-10-20,JULIANA JIMENA CHAPARRO,Air Max,186.89,3,285.72,560.67,N,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido
+134,2023-02-28,MIGUEL JOSE CASTRO SIERRA,Ultra Boost,107.73,1,274.23,107.73,N,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,cantidad: texto a numero
+79,1974-06-07,ND,Air Max,127.47,1,563.55,127.47,N,BOGOTA,M,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,cantidad: texto a numero
+1,2024-02-24,MARIA OLIVA SOLANO CAICEDO,Ultra Boost,80.78,1,187.99,80.78,N,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido; cantidad: texto a numero
+36,2004-03-28,ND,Ultra Boost,167.46,3,502.38,502.38,S,MEDELLIN,ND,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,
+84,2020-11-19,MARY SANCHEZ GUERRA,Super Star,178.34,2,356.68,356.68,S,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,
+138,2000-01-28,MARIA ADRIANA LOPEZ BALLESTEROS,Air Max,122.02,1,512.42,122.02,N,MEDELLIN,F,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido; cantidad: texto a numero
+134,2006-02-15,PATRICIA PAOLA MARIN VALLEJO,Air Max,81.33,3,400.18,243.99,N,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido
+81,2007-06-02,SUSANA ELIZABETH MORENO,Super Star,102.91,4,411.64,411.64,S,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,
+57,1982-07-25,ALBERTO EDUARDO VARGAS,Ultra Boost,122.39,2,244.78,244.78,S,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+18,2015-11-30,EMILIO OSWALDO AGUILAR HERNANDEZ,Super Star,186.30,2,372.60,372.60,S,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+103,1998-12-06,ANDRES SERGIO LOPEZ ALFONSO,Air Max,131.64,4,526.56,526.56,S,MEDELLIN,F,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,
+83,1996-10-03,SANDRA MARIA PADILLA HURTADO,Air Max,187.99,2,360.88,375.98,N,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido
+55,2016-06-10,ANA AMPARO GOMEZ PRIETO,Air Max,193.17,4,356.42,772.68,N,MEDELLIN,M,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido
+146,2016-05-30,PATRICIA VILLAMIL ANDRADE,Air Max,104.39,3,313.17,313.17,S,BOGOTA,ND,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+22,1982-02-27,LICETH TORO,Air Max,103.36,1,488.55,103.36,N,MEDELLIN,F,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido
+8,2020-07-28,MANUEL ALEXANDER RIVERA,Ultra Boost,178.13,3,534.39,534.39,S,BOGOTA,M,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,
+112,2016-08-25,ND,Ultra Boost,131.77,3,395.31,395.31,S,BOGOTA,ND,ND,ventas_zapatillas_Errores_Dos.xlsx,
+89,2017-10-30,ELENA MARIA MEZA,Ultra Boost,116.78,4,467.12,467.12,S,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,
+144,1999-01-07,ANDRES BUSTOS AVILA,Air Max,133.26,2,266.52,266.52,S,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,
+9,2009-10-12,ALVARO RODRIGUEZ,Air Max,99.93,1,522.35,99.93,N,BOGOTA,ND,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; cantidad: texto a numero
+115,2015-08-12,LILIANA GONZALEZ SARMIENTO,Ultra Boost,104.21,2,188.60,208.42,N,MEDELLIN,ND,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido
+28,2005-06-12,ALBERTO HAROL CANO HERRERA,Ultra Boost,181.12,1,487.51,181.12,N,BOGOTA,M,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,total: usd removido; cantidad: texto a numero
+18,2017-01-10,CARLOS WILMER NINO GOMEZ,Air Max,196.04,3,150.17,588.12,N,MEDELLIN,F,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido
+24,2005-06-11,TATIANA CECILIA BARRAGAN SANCHEZ,Air Max,191.09,4,188.34,764.36,N,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido
+143,1999-02-03,ORLANDO MIGUEL RIOS RAMIREZ,Ultra Boost,178.01,1,115.97,178.01,N,MEDELLIN,F,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido; cantidad: texto a numero
+73,1982-09-01,ALEJANDRA MERCEDES RANGEL CARDONA,Air Max,109.02,4,171.17,436.08,N,MEDELLIN,ND,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido
+46,2015-05-14,ND,Ultra Boost,84.55,4,338.20,338.20,S,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+81,1981-01-18,JULIAN RAMIREZ DIAZ,Super Star,179.65,3,289.05,538.95,N,MEDELLIN,F,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido
+79,1990-03-09,IRMA MARIA MARTINEZ,Super Star,101.58,1,385.55,101.58,N,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido; cantidad: texto a numero
+74,1994-10-31,ROSA GLORIA CARDONA VILLAMIZAR,Air Max,138.84,2,277.68,277.68,S,MEDELLIN,ND,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,
+134,1971-12-24,ND,Ultra Boost,120.56,1,126.80,120.56,N,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; cantidad: texto a numero
+130,1996-06-17,ROSA GARZON BARRIOS,Ultra Boost,131.57,3,394.71,394.71,S,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+9,2010-06-02,VANESSA OMAIRA RESTREPO HENAO,Ultra Boost,162.31,1,271.38,162.31,N,MEDELLIN,ND,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido; cantidad: texto a numero
+94,1973-07-18,FREDY GUERRERO VARGAS,Ultra Boost,182.55,1,214.23,182.55,N,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido
+144,1990-01-26,LILIANA MARIA TORRES BRAVO,Air Max,148.69,4,594.76,594.76,S,BOGOTA,M,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,
+141,1995-04-05,EDGAR CARLOS TORO,Ultra Boost,84.48,1,84.48,84.48,S,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+122,2015-10-28,ENRIQUE JONATHAN RIASCOS MUNOZ,Super Star,188.11,2,376.22,376.22,S,BOGOTA,ND,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,
+87,2015-04-02,MARIA LEIDY PADILLA PINEDA,Air Max,86.45,2,175.89,172.90,N,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido
+24,2000-10-02,VIVIANA ISABEL PAEZ,Air Max,152.19,1,152.19,152.19,S,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+4,1997-11-01,ND,Ultra Boost,96.23,3,288.69,288.69,S,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,
+124,1975-10-25,RICHARD CARLOS RUEDA,Super Star,120.20,1,443.74,120.20,N,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,total: signo corregido; cantidad: texto a numero
+15,1992-12-16,PATRICIA LEIDY MARTINEZ,Air Max,83.88,4,335.52,335.52,S,BOGOTA,M,ND,ventas_zapatillas_Errores_Dos.xlsx,
+107,1976-05-29,CAROL GONZALEZ GONZALEZ,Super Star,142.94,1,554.56,142.94,N,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido; cantidad: texto a numero
+103,2008-10-07,ND,Super Star,199.44,2,398.88,398.88,S,BOGOTA,M,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+129,2022-03-24,FERNANDO ALBEIRO BEDOYA,Ultra Boost,114.26,3,342.78,342.78,S,BOGOTA,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+37,2022-01-23,ANGEL CARLOS CASTANO,Super Star,85.93,2,171.86,171.86,S,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+59,2009-03-05,LEON GUERRA,Ultra Boost,198.38,3,595.14,595.14,S,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+98,2013-06-12,MIGUEL ARRIETA,Super Star,144.11,3,432.33,432.33,S,BOGOTA,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,
+54,1996-11-01,YOLANDA OSPINA MOLANO,Super Star,90.58,2,181.16,181.16,S,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+22,1996-08-20,ALFREDO ESCOBAR BENITEZ,Ultra Boost,83.24,4,332.96,332.96,S,BOGOTA,M,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+68,2021-10-14,ND,Ultra Boost,125.24,3,375.72,375.72,S,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,
+19,2016-02-27,DIEGO OSPINA,Ultra Boost,100.75,2,201.50,201.50,S,BOGOTA,ND,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+70,1996-03-20,ALICIA SANDRA GALVIS,Air Max,168.39,3,505.17,505.17,S,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,
+7,2006-03-21,ND,Ultra Boost,185.71,4,742.84,742.84,S,MEDELLIN,M,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,
+32,1982-05-19,EDITH FLOR DIAZ DELGADO,Super Star,127.04,3,381.12,381.12,S,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+63,1978-12-16,NUBIA MARTHA MONTOYA BOHORQUEZ,Super Star,194.70,2,389.40,389.40,S,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+11,1997-07-04,EFREN LUIS ARIAS SALAZAR,Super Star,112.45,1,460.59,112.45,N,MEDELLIN,ND,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; cantidad: texto a numero
+41,1983-06-10,ND,Ultra Boost,141.68,1,549.74,141.68,N,BOGOTA,M,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; cantidad: texto a numero
+150,1973-10-14,ANTONIO MARTIN AYALA,Ultra Boost,145.65,1,162.21,145.65,N,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido
+11,1997-11-03,ND,Ultra Boost,150.07,3,273.73,450.21,N,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido
+54,1991-06-01,ERIKA KATHERINE CARDONA SIERRA,Air Max,85.54,2,171.08,171.08,S,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+8,1980-09-24,LAURA CARMENZA VERA PARRA,Air Max,126.33,2,351.40,252.66,N,BOGOTA,M,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido
+29,2012-07-24,OMAR FELIPE GONZALEZ,Ultra Boost,178.92,1,110.27,178.92,N,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; cantidad: texto a numero
+54,1990-04-08,ND,Super Star,156.02,1,355.69,156.02,N,BOGOTA,ND,ND,ventas_zapatillas_Errores_Dos.xlsx,total: usd removido; cantidad: texto a numero
+2,1981-02-22,ENRIQUE MORENO,Super Star,161.86,1,575.92,161.86,N,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido; cantidad: texto a numero
+40,2021-05-29,JULIA MARIA SANCHEZ RODRIGUEZ,Air Max,156.77,4,627.08,627.08,S,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,
+135,1996-03-07,ND,Air Max,185.18,4,740.72,740.72,S,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,
+127,1986-05-03,MARTHA RODRIGUEZ MARTINEZ,Ultra Boost,187.46,4,353.15,749.84,N,BOGOTA,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido
+150,2012-02-28,ND,Super Star,115.11,4,460.44,460.44,S,MEDELLIN,M,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+98,1987-09-01,ND,Ultra Boost,175.62,3,526.86,526.86,S,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+137,1997-04-07,SANTIAGO RIVERA,Air Max,154.42,2,308.84,308.84,S,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+117,2018-04-05,XIMENA MEDINA BARRERA,Super Star,187.84,1,187.84,187.84,S,BOGOTA,M,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,
+140,2014-03-15,MARIA MOLINA MORALES,Super Star,86.56,1,592.59,86.56,N,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido; cantidad: texto a numero
+116,2006-02-13,RAFAEL MANUEL CASTRO MARTINEZ,Ultra Boost,176.77,2,566.79,353.54,N,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido
+116,1999-04-30,REINALDO GUTIERREZ RODRIGUEZ,Air Max,81.61,4,326.44,326.44,S,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+8,1982-02-16,ND,Air Max,174.48,4,360.74,697.92,N,MEDELLIN,F,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido
+35,2014-06-20,CRISTINA VIRGINIA FLOREZ PINEDA,Ultra Boost,139.73,2,279.46,279.46,S,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,
+63,1986-06-18,FANNY CONSUELO GARCIA,Air Max,87.00,2,174.00,174.00,S,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,
+26,2009-05-14,ND,Ultra Boost,137.45,1,565.50,137.45,N,MEDELLIN,F,ND,ventas_zapatillas_Errores_Dos.xlsx,total: signo corregido; cantidad: texto a numero
+107,2015-04-25,ND,Super Star,100.78,1,143.75,100.78,N,MEDELLIN,F,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido; cantidad: texto a numero
+45,2013-04-18,CLAUDIA MARIA MEDINA FAJARDO,Air Max,108.46,2,216.92,216.92,S,BOGOTA,F,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+112,2004-10-17,FLOR ACOSTA,Super Star,128.53,3,385.59,385.59,S,BOGOTA,M,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,
+137,2008-02-02,VICTOR LUIS CORREA VERGARA,Air Max,145.35,2,290.70,290.70,S,MEDELLIN,ND,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,
+23,1983-08-31,ANDREA LUCILA CIFUENTES GUTIERREZ,Air Max,120.52,1,120.10,120.52,N,BOGOTA,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido; cantidad: texto a numero
+61,2010-03-19,JHON GARCIA,Super Star,82.03,3,246.09,246.09,S,BOGOTA,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,
+149,1977-02-21,ELIECER GUSTAVO RESTREPO MEJIA,Air Max,83.95,1,83.95,83.95,S,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+24,1971-04-24,DARIO DIEGO MARIN DELGADO,Super Star,196.95,3,590.85,590.85,S,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,
+113,1993-06-25,ADRIANA AURORA DAZA PACHECO,Super Star,181.84,1,201.83,181.84,N,MEDELLIN,M,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; cantidad: texto a numero
+121,1982-08-18,MARIA LOPEZ,Super Star,162.43,1,454.09,162.43,N,BOGOTA,ND,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido; cantidad: texto a numero
+145,2024-09-07,ND,Ultra Boost,131.93,3,585.82,395.79,N,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido
+56,1971-12-24,ANGEL WILFRIDO JIMENEZ,Super Star,177.82,1,89.77,177.82,N,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: usd removido; cantidad: texto a numero
+32,1981-09-19,DANIELA MOLINA,Super Star,184.10,1,597.01,184.10,N,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido; cantidad: texto a numero
+2,1978-05-18,JAVIER VILLA GOMEZ,Ultra Boost,87.75,1,87.75,87.75,S,MEDELLIN,M,ND,ventas_zapatillas_Errores_Dos.xlsx,
+119,2013-09-15,ND,Ultra Boost,126.15,2,252.30,252.30,S,BOGOTA,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,
+12,1990-03-28,ND,Air Max,168.78,3,192.36,506.34,N,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido
+147,1996-05-09,JOSE GARCIA,Air Max,163.69,1,300.86,163.69,N,MEDELLIN,M,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: usd removido; cantidad: texto a numero
+105,1997-02-13,AMPARO GIL,Ultra Boost,175.26,1,472.76,175.26,N,BOGOTA,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido; cantidad: texto a numero
+39,1998-08-17,JESUS ALBERTO SALAZAR PINEDA,Super Star,94.10,1,580.86,94.10,N,BOGOTA,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido; cantidad: texto a numero
+37,1975-08-21,FERNANDA CORREA,Ultra Boost,198.94,4,795.76,795.76,S,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,
+37,1974-08-18,VIVIANA DIAZ,Air Max,150.84,1,380.26,150.84,N,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido; cantidad: texto a numero
+126,1981-10-25,GABRIEL GABRIEL AYALA,Ultra Boost,165.41,1,165.41,165.41,S,BOGOTA,F,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+44,1972-02-13,BEATRIZ BOHORQUEZ,Air Max,138.87,1,379.13,138.87,N,BOGOTA,F,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,total: usd removido; cantidad: texto a numero
+18,1975-12-11,ANDRES SANTIAGO ZAPATA BALLESTEROS,Ultra Boost,133.85,2,466.78,267.70,N,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido
+50,1986-01-02,JAVIER LUIS SANCHEZ ROJAS,Air Max,89.98,1,468.77,89.98,N,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,total: signo corregido; cantidad: texto a numero
+135,1988-03-25,HERNAN SANCHEZ PEREZ,Air Max,192.57,4,770.28,770.28,S,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+51,1995-01-19,JUDITH PAEZ,Air Max,194.00,2,388.00,388.00,S,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+134,1998-01-21,OSVALDO PALACIO,Ultra Boost,80.16,1,80.16,80.16,S,BOGOTA,F,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+124,1987-11-02,GUILLERMO IVAN MEJIA,Super Star,88.77,1,582.89,88.77,N,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido
+112,2020-04-16,JOSE LEAL JIMENEZ,Ultra Boost,117.73,3,424.25,353.19,N,BOGOTA,F,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido
+7,2015-01-06,FERNANDO GIOVANNY DURAN GARCIA,Ultra Boost,187.34,3,562.02,562.02,S,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,
+6,1991-10-27,SMITH MENDOZA CORDOBA,Ultra Boost,162.35,4,649.40,649.40,S,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,
+93,2023-10-10,EMILSE RODRIGUEZ,Ultra Boost,170.36,2,340.72,340.72,S,BOGOTA,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,
+68,1974-12-03,ALBERTO MUNOZ MARTINEZ,Super Star,143.61,1,143.61,143.61,S,MEDELLIN,M,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,
+26,2009-02-12,ND,Ultra Boost,82.75,4,331.00,331.00,S,MEDELLIN,ND,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,
+34,1993-02-08,MARINA ORTIZ,Ultra Boost,142.39,3,131.93,427.17,N,BOGOTA,ND,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido
+82,1997-11-30,DEICY RUIZ,Air Max,114.84,1,395.07,114.84,N,MEDELLIN,ND,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: usd removido; cantidad: texto a numero
+78,1993-09-01,SAUL HURTADO CASTILLO,Ultra Boost,152.54,2,162.49,305.08,N,BOGOTA,ND,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido
+56,1990-03-06,ND,Ultra Boost,132.48,1,582.51,132.48,N,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido; cantidad: texto a numero
+128,2001-08-18,YURI TATIANA CASTILLO,Air Max,86.96,2,173.92,173.92,S,MEDELLIN,F,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,
+114,1984-06-26,MARIA BAUTISTA MONROY,Air Max,130.21,1,317.99,130.21,N,BOGOTA,ND,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido; cantidad: texto a numero
+59,2003-05-15,GLADYS RITA RAMIREZ CASTILLO,Air Max,88.22,1,215.71,88.22,N,BOGOTA,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido; cantidad: texto a numero
+8,1987-08-16,LUIS STEVEN BENAVIDES GARCIA,Ultra Boost,95.69,3,287.07,287.07,S,BOGOTA,ND,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,
+58,1992-10-19,CATALINA MERY MARIN ORJUELA,Super Star,125.90,3,377.70,377.70,S,BOGOTA,F,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+57,1994-08-12,ND,Ultra Boost,194.11,1,241.73,194.11,N,MEDELLIN,ND,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido
+100,1991-03-31,HERNAN CARLOS GOMEZ,Air Max,111.63,1,111.63,111.63,S,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+74,2002-04-30,HECTOR ALBERTO HERNANDEZ ROJAS,Ultra Boost,134.72,2,251.08,269.44,N,BOGOTA,M,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido
+69,2016-03-17,MARIA PAULA MEDINA,Ultra Boost,117.88,3,554.99,353.64,N,BOGOTA,M,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido
+98,2015-03-22,LUCY PAULA AGUILAR PEREZ,Ultra Boost,130.72,4,522.88,522.88,S,BOGOTA,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,
+137,2025-06-26,INES GUEVARA RICO,Ultra Boost,117.98,2,205.77,235.96,N,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido
+99,1975-06-12,JEISON DAZA RICO,Super Star,179.83,3,179.79,539.49,N,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido
+147,2024-04-04,ANDREA JULIETH GOMEZ SILVA,Super Star,175.95,4,703.80,703.80,S,BOGOTA,M,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+77,1987-02-14,JHONATAN VILLAMIZAR,Ultra Boost,136.49,3,409.47,409.47,S,BOGOTA,M,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+79,2020-12-01,JUAN GUERRERO,Ultra Boost,184.60,2,369.20,369.20,S,BOGOTA,ND,ND,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido
+22,2019-06-12,EDUARDO JUAN ROJAS,Super Star,97.17,3,323.40,291.51,N,BOGOTA,M,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido
+63,2008-09-28,EDUARDO EDGAR GALVIS,Super Star,92.06,2,184.12,184.12,S,MEDELLIN,F,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,

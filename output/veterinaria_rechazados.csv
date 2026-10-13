@@ -1,0 +1,33 @@
+id_registro,fecha_registro,nombre_dueno,email,telefono,ciudad,nombre_mascota,especie,raza,sexo,fecha_nacimiento,edad,peso,vacunado,motivo_consulta,RECHAZO_MOTIVO
+60,,naranjo juan,juan.naranjo43@outlook.com,09 924 59375,Qito,canelo,Hámster,Roborovski,MACHO,2025-05-06,1,0.0,no,revisión dental,fecha_registro invalida o vacia
+22,13-04-2026,MATEO CÁRDENAS MALDONADO,mateo.cardenas69@outlook.com,0988-675339,ambato,nube,Gato,,N/A,2027-03-15,1,2.1 kg,0,Cojera,fecha_nacimiento invalida o vacia
+8,2026-03-14,MALDONADO DANIELA,daniela.maldonado15@gmail.com,,Quito,kira,Perro,labrador,hembra,,8,20.9 kg,1,DESPARASITACIÓN,fecha_nacimiento invalida o vacia
+30,2026-08-05,Carolina  Carrión Velasco,carolina.carrion4@epn.edu.ec,09 402 44550,Quito,MAX,Perro,PASTOR ALEMAN,Hembra,31/02/2023,11 años,22.1,Yes,Alergia,fecha_nacimiento invalida o vacia
+40,08/08/2025,ALEJANDRA CHIRIBOGA GONZÁLEZ,alejandra.chiriboga83@yahoo.com,0990927557,Guayaquill,Max,Perro,Schnauzer,Macho,,10,34.9Kg,Pendiente,Revisión dental,fecha_nacimiento invalida o vacia
+33,ayer,Carlos Játiva Chiriboga,carlos.jativa76@gmail.com,09 147 70054,Ambato,Sol,Felino,Siamés,macho,2027-03-15,7,4.3,Yes,Chequeo anual,fecha_registro invalida o vacia; fecha_nacimiento invalida o vacia
+85,2025-11-04,  Byron Espinosa Proaño ,byron.espinosa31@gmail.com,0996520744,Guayaquil,garfield,Gato,Persa,?,2027-03-15,5,6.2,1,Desparasitación,fecha_nacimiento invalida o vacia
+82,30/03/2026,Carolina  Guerrero Paredes,carolina.guerrero74@epn.edu.ec,0924-629960,Ambato,COCO,PERRO,Buldog,,2027-03-15,2,"27,8",no,Revisión dental,fecha_nacimiento invalida o vacia
+52,2025-02-04,cristina vásquez villacís,cristina.vasquez23@epn.edu.ec,,ambato,Max,Perro,Chihuahua,M,32-01-2022,1,17.3,Sí,Desparasitación,fecha_nacimiento invalida o vacia
+57,2025-08-01,carlos naranjo naranjo,carlos.naranjo82@gmail.com,+593917659180,Ambato,Mia,Gato,Criollo,N/A,2027-03-15,0,4.9,no,Chequeo anual,fecha_nacimiento invalida o vacia
+74,18.03.25,DANIELA ORTIZ ORTIZ,DANIELA.ORTIZ42@HOTMAIL.CON,09 356 80442,guayaquil,LUNA,perro,PASTOR ALEMAN,Macho,,13,3.7 kg,NO,control general,fecha_nacimiento invalida o vacia
+25,2026-02-11,FERNANDO GONZÁLEZ CÁRDENAS,fernando.gonzalez38@yahoo.com,0923285884,Quito,Bruno,Perro,,?,fecha desconocida,122 meses,34.0,Pendiente,Problema de piel,fecha_nacimiento invalida o vacia
+106,31/04/2025,cristina maldonado cevallos,CRISTINA.MALDONADO90@HOTMAIL.COM,0986589026,quito,LUNA,Perro,pastor aleman,HEMBRA,fecha desconocida,4 años,4.8,0,Desparasitación,fecha_registro invalida o vacia; fecha_nacimiento invalida o vacia
+72,10/12/2025,  Daniela Carrión Proaño ,daniela.carrion2@yahoo.com,0994937597,Cuenca,TOM,Gato,,Femenino,2027-03-15,13,2.0,Yes,VACUNACIÓN,fecha_nacimiento invalida o vacia
+58,15/15/2025,Esteban Benítez Rodríguez,esteban.benitez7@gmail.com,0915999650,Cuenca,FIRULAIS,Perro,,Femenino,15-06-2024,1,7.9,Yes,VÓMITO,fecha_registro invalida o vacia
+37,ayer,Byron Rodríguez Pérez,byron.rodriguez71@epn.edu.ec,0914341036,Guayaquill,sol,gatito,persa,m,01/04/2015,10,"4,6",Sí,,fecha_registro invalida o vacia
+48,10/07/2025,ESTEBAN JÁTIVA CEVALLOS,esteban.jativa71@hotmail.com,0977345401,Quito,Pipo,Conejo,Cabeza de León,N/A,fecha desconocida,4,2.9,NO,Problema de piel,fecha_nacimiento invalida o vacia
+86,2025-03-24,lucía guerrero torres,lucia.guerrero43@yahoo.com,09 471 70999,AMBATO,Kira,Perro,Mestizo,Femenino,00/00/0000,2 años,18.6,0,Desparasitación,fecha_nacimiento invalida o vacia
+61,2026-02-14,Jorge Maldonado Villacís,jorge.maldonado10@outlook.com,0979688680,Quito,MISHA,Gato,Persa,Masculino,2027-03-15,10,"6,8",1,Alergia,fecha_nacimiento invalida o vacia
+13,14-07-2026,BYRON VÁSQUEZ RODRÍGUEZ,byron.vasquez89@hotmail.com,+593916658760,Guayaquil,sol,Gato,Siamés,N/A,00/00/0000,99,6.0,Pendiente,Desparasitación,fecha_nacimiento invalida o vacia
+27,15/15/2025,RICARDO GUERRERO GONZÁLEZ,ricardo.guerrero16@outlook.con,+593939005329,Ambato,garfield,Gato,Persa,,2024-13-05,14,3.3 kg,Sí,Desparasitación,fecha_registro invalida o vacia; fecha_nacimiento invalida o vacia
+67,28/08/2025,Andrés Vásquez Cárdenas,andres.vasquez44gmail.com,+593970127706,CUENCA,BELLA,Perro,Pudel,Masculino,2027-03-15,4 años,16.7 kg,Yes,vacunación,fecha_nacimiento invalida o vacia
+90,2025-05-14,Gabriela Chiriboga Velasco,,09 667 46762,Cuenca,Thor,Perro,Schnauzer,HEMBRA,00/00/0000,0,,1,Alergia,fecha_nacimiento invalida o vacia
+48,10/07/2025,ESTEBAN JÁTIVA CEVALLOS,esteban.jativa71@hotmail.com,0977345401,Quito,Pipo,Conejo,Cabeza de León,N/A,fecha desconocida,4,2.9,NO,Problema de piel,fecha_nacimiento invalida o vacia
+65,31.07.25,Pablo Vásquez Guerrero,pablo.vasquez98@outlook.com,0961340745,Quito,Toby,Perro,Poodle,f,,,n/d,0,Problema de piel,fecha_nacimiento invalida o vacia
+5,,GABRIELA CHIRIBOGA ZAMBRANO,gabriela.chiriboga9yahoo.com,09 839 30103,UIO,Toby,Perro,Schnauzer,f,2024-08-11,1,14.3 lb,Pendiente,VÓMITO,fecha_registro invalida o vacia
+70,ayer,VERÓNICA VILLACÍS ALMEIDA,veronica.villacis27@hotmail.com,09 691 46303,Guayaquil,BRUNO,Perro,Labrador,Macho,2017-11-01,7,8.3 kg,No,chequeo anual,fecha_registro invalida o vacia
+7,05/16/2025,rodríguez verónica,veronica.rodriguez73@hotmail.com,0909169985,Quito,thor,PERRO,GOLDEN,m,,7,32.9,0,chequeo anual,fecha_nacimiento invalida o vacia
+74,18.03.25,DANIELA ORTIZ ORTIZ,daniela.ortiz42@hotmail.con,09 356 80442,guayaquil,LUNA,perro,PASTOR ALEMAN,Macho,,13,3.7 kg,NO,control general,fecha_nacimiento invalida o vacia
+29,04/17/2025,fernando naranjo paredes,fernando.naranjo41@yahoo.com,0927111161,Quito, Misha ,GATO,Angora,?,2027-03-15,4,4.9Kg,No,alergia,fecha_nacimiento invalida o vacia
+66,2025-04-06,Cevallos Marco,marco.cevallos8@yahoo.com,09 223 25367,Guayaquil,Firulais,Perro,Bulldog,N/A,fecha desconocida,8,-26.4,sí,revisión dental,fecha_nacimiento invalida o vacia
+36,2025-01-29,verónica villacís almeida,veronica.villacis48@epn.edu.ec,09 814 12478,Guayaquil, Max ,PERRO,Chihuahua,M,,5,13.2 kg,Yes,Desparasitación,fecha_nacimiento invalida o vacia

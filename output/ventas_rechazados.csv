@@ -1,0 +1,158 @@
+id_venta,fecha,cliente,producto,precio_unitario,cantidad,total_venta,ciudad,genero,metodo_pago,archivo_origen,CORRECCIONES,RECHAZO_MOTIVO
+6,23/11/2002,maría diana suárez,Super Star,132.13usd,,572.88,Bogotá,m,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido,cantidad vacia o invalida
+142,28-05-1974,DELIA BARRETO,Ultra Boost,87.49,,141.43usd,Bogotá,,Efectivo,ventas_zapatillas_Errores.xlsx,total: usd removido,cantidad vacia o invalida
+89,02-11-2007,CARLOS RIVERA,Air Max,-151.69,,311.04,Bogotá,M,efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido,cantidad vacia o invalida
+68,1988/02/18,MAURICIO SARMIENTO,SuperStar,198.65usd,,338.39,Medellin,F,Transferencia,ventas_zapatillas_Errores.xlsx,precio: usd removido,cantidad vacia o invalida
+108,26/01/1996,,Ultra Boost,-152.86,,-373.7,BOGOTÁ,,tarjeta,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+55,12/04/1996,,SuperStar,179.58usd,,395.02usd,bogota,X,,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido,cantidad vacia o invalida
+144,1984/07/25,maría méndez londoño,Air Max,-183.9,,381.9usd,medellín,F,tarjeta,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+79,1989/09/13,eduardo torres,Air Max,-108.91,,107.5usd,BOGOTÁ,f,Transferencia,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+90,2024/06/09,Elizabeth Aguilar,SuperStar,199.61,,-242.87,bogota,X,tarjeta,ventas_zapatillas_Errores.xlsx,total: signo corregido,cantidad vacia o invalida
+93,25-03-1987,Luis Moreno Navarro,SuperStar,127.4,,90.78usd,medellín,M,Tarjeta,ventas_zapatillas_Errores.xlsx,total: usd removido,cantidad vacia o invalida
+149,27-02-1986,Paulina Melissa Solano Acosta,ultra boost,-192.93,,515.66usd,medellín,F,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+44,13/05/1970,jhon gabriel ramírez mendoza,Air Max,-114.72,,462.92usd,BOGOTÁ,m,,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+23,23-06-2006,Fabián Alberto Herrera Fuentes,ultra boost,-150.85,,-402.54,bogota,m,Efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+103,2007-03-04,,air max,91.07usd,,-108.69,bogota,,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido,cantidad vacia o invalida
+102,10-07-1994,Adriana Milena Mejía,Super Star,128.21,,342.87,BOGOTÁ,m,,ventas_zapatillas_Errores.xlsx,,cantidad vacia o invalida
+6,30/07/2025,gustavo uriel martínez contreras,SuperStar,96.71,,93.8,Bogotá,f,Transferencia,ventas_zapatillas_Errores.xlsx,,cantidad vacia o invalida
+10,1995-06-13,,air max,192.88usd,,252.3usd,BOGOTÁ,F,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido,cantidad vacia o invalida
+137,01/01/2019,GLADYS MARÍA RAMOS RIVERA,ultra boost,-106.67,,549.59usd,BOGOTÁ,f,tarjeta,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+130,2005/01/03,David Eduardo García,Air Max,170.61usd,,142.7usd,bogota,f,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido,cantidad vacia o invalida
+143,1972/06/22,JOHANA LISETH ROJAS JIMÉNEZ,Ultra Boost,103.27,,579.11,Medellin,m,Tarjeta,ventas_zapatillas_Errores.xlsx,,cantidad vacia o invalida
+119,20-04-1998,,Super Star,195.82,,-374.75,Medellin,X,Efectivo,ventas_zapatillas_Errores.xlsx,total: signo corregido,cantidad vacia o invalida
+52,23/03/1996,,Ultra Boost,194.28,,261.51usd,medellín,F,Tarjeta,ventas_zapatillas_Errores.xlsx,total: usd removido,cantidad vacia o invalida
+62,29/01/1985,césar vargas,Air Max,151.91,,207.38,Medellin,X,Transferencia,ventas_zapatillas_Errores.xlsx,,cantidad vacia o invalida
+33,2007-10-24,RAMIRO MARTÍNEZ,Ultra Boost,-119.04,,-124.4,medellín,m,,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+106,16/09/2025,Kelly Chaparro Molano,Super Star,-118.02,,-513.97,Medellin,M,Transferencia,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+13,2020-02-13,José Jaramillo,Ultra Boost,197.19usd,,-450.15,Bogotá,F,tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido,cantidad vacia o invalida
+143,1980/09/18,Carmen Rodríguez Ceballos,air max,147.78,,419,bogota,M,Efectivo,ventas_zapatillas_Errores.xlsx,,cantidad vacia o invalida
+80,29-07-1990,maría luz galeano vergara,Super Star,133.85usd,,265,Medellin,,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido,cantidad vacia o invalida
+66,1991/11/19,Leidy Santos Figueroa,Ultra Boost,181.15usd,,-141.39,MEDELLIN,M,efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido,cantidad vacia o invalida
+137,1973/04/12,Mercedes Nataly Parra Velásquez,Air Max,195.79,,-381.06,medellín,,Transferencia,ventas_zapatillas_Errores.xlsx,total: signo corregido,cantidad vacia o invalida
+130,29-09-2001,,air max,172.9,,-587.31,BOGOTÁ,F,Efectivo,ventas_zapatillas_Errores.xlsx,total: signo corregido,cantidad vacia o invalida
+106,22/09/2005,giovanni rojas toro,Air Max,-180.06,,189.47usd,bogota,X,efectivo,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+122,15/04/1996,MANUEL ARIAS,Air Max,154.38usd,,499.07,Bogotá,f,Transferencia,ventas_zapatillas_Errores.xlsx,precio: usd removido,cantidad vacia o invalida
+129,2015-11-26,alejandro salas,air max,103.99,,354.79,bogota,m,tarjeta,ventas_zapatillas_Errores.xlsx,,cantidad vacia o invalida
+67,09-08-2008,Stella Salcedo,ultra boost,145.74,,-293.45,bogota,X,Transferencia,ventas_zapatillas_Errores.xlsx,total: signo corregido,cantidad vacia o invalida
+26,1990/11/28,,Air Max,141.65,,-197.83,Bogotá,m,efectivo,ventas_zapatillas_Errores.xlsx,total: signo corregido,cantidad vacia o invalida
+114,11/10/2013,carlos juan díaz pabón,SuperStar,93.28,,-306.83,MEDELLIN,M,Transferencia,ventas_zapatillas_Errores.xlsx,total: signo corregido,cantidad vacia o invalida
+148,05-06-1997,Javier Sebastián Gil,SuperStar,82.41usd,,-366.58,BOGOTÁ,f,Efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido,cantidad vacia o invalida
+74,2014-06-05,esperanza maría garcía lópez,air max,-144.3,,-591.92,MEDELLIN,X,Transferencia,ventas_zapatillas_Errores.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+69,15/05/2011,nelsy marina parra,Ultra Boost,125.56usd,,343.9usd,bogota,X,efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: usd removido,cantidad vacia o invalida
+101,1972/07/25,Milena Alfonso Medina,SuperStar,199.61usd,,132.19,bogota,,efectivo,ventas_zapatillas_Errores.xlsx,precio: usd removido,cantidad vacia o invalida
+139,2004-07-05,César Rodríguez León,Ultra Boost,177.56,,98.28usd,BOGOTÁ,,Transferencia,ventas_zapatillas_Errores.xlsx,total: usd removido,cantidad vacia o invalida
+75,1975-10-16,CARLOS VALLEJO MENA,ultra boost,112.12usd,,-320.6,BOGOTÁ,,,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido,cantidad vacia o invalida
+16,2015-11-03,ELIECER SEGUNDO GONZÁLEZ,Ultra Boost,186.87usd,,-423.85,Bogotá,m,Tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido; total: signo corregido,cantidad vacia o invalida
+78,05-02-1985,Carlos Gómez Ríos,Air Max,91.09,,382.78,Bogotá,m,Transferencia,ventas_zapatillas_Errores.xlsx,,cantidad vacia o invalida
+46,10/09/1996,María Bejarano,Air Max,124.32,,206.85,Medellin,M,,ventas_zapatillas_Errores.xlsx,,cantidad vacia o invalida
+106,25/11/2017,,air max,176.35,,130.62,bogota,f,Efectivo,ventas_zapatillas_Errores.xlsx,,cantidad vacia o invalida
+128,1982/04/07,,air max,105.39usd,,311.77,bogota,F,tarjeta,ventas_zapatillas_Errores.xlsx,precio: usd removido,cantidad vacia o invalida
+119,1981/04/21,Farid Díaz González,Ultra Boost,116.95,,203.14,Bogotá,m,,ventas_zapatillas_Errores.xlsx,,cantidad vacia o invalida
+14,1996/08/13,alfonso sánchez osorio,air max,-129.43,,-530.81,medellín,m,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+146,1978-10-29,PAOLA CONCEPCIÓN RAMÍREZ LÓPEZ,ultra boost,96.1usd,,338.54,BOGOTÁ,M,,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido,cantidad vacia o invalida
+78,1974/09/25,Mónica Gutiérrez Beltrán,Super Star,190.58,,207.21usd,Bogotá,F,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,total: usd removido,cantidad vacia o invalida
+70,2001-08-13,arley jesús rodríguez garcía,Super Star,170.08usd,,-586.78,medellín,M,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: signo corregido,cantidad vacia o invalida
+79,2000/02/07,fabián ocampo barragán,Air Max,153.92usd,,452.66,medellín,F,tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido,cantidad vacia o invalida
+13,27-01-1995,,ultra boost,-106.62,,139.23,MEDELLIN,m,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido,cantidad vacia o invalida
+103,27-08-1981,Ivonne Salgado Gaviria,Super Star,91.04,,292.62usd,Medellin,,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,total: usd removido,cantidad vacia o invalida
+145,2003-02-10,,ultra boost,146.01,,116.34,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,,cantidad vacia o invalida
+69,1996-05-06,maritza muñoz herrera,SuperStar,-161.94,,461.56usd,MEDELLIN,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+26,2013/02/14,,SuperStar,130.18usd,,245.44,Medellin,f,tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido,cantidad vacia o invalida
+96,1989/01/10,,SuperStar,-164.69,,80.65usd,MEDELLIN,,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+46,2022-12-30,YANETH BECERRA,ultra boost,186.13,,221.25usd,medellín,f,,ventas_zapatillas_Errores_Uno.xlsx,total: usd removido,cantidad vacia o invalida
+54,16/04/2022,MAURICIO DIDIER QUINTERO LÓPEZ,SuperStar,92.58,,-195.35,MEDELLIN,M,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,total: signo corregido,cantidad vacia o invalida
+120,2011-08-12,Elvira García,Ultra Boost,149.62usd,,223.22,bogota,X,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido,cantidad vacia o invalida
+75,1980/02/24,Fernando Álvaro Torres,Ultra Boost,164.09usd,,151.04,BOGOTÁ,f,tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido,cantidad vacia o invalida
+143,2005-12-31,,ultra boost,199.52usd,,195.58usd,MEDELLIN,,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: usd removido,cantidad vacia o invalida
+124,01/11/1985,,Air Max,135.29,,318.16,bogota,f,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,,cantidad vacia o invalida
+4,08/01/2012,,Ultra Boost,91.64,,-394.01,Bogotá,m,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,total: signo corregido,cantidad vacia o invalida
+122,29/04/1990,josé vargas,ultra boost,-121.35,,-430.7,BOGOTÁ,f,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+143,1977-07-31,LIBIA CONSUELO DUQUE,SuperStar,149.94usd,,-458.79,Bogotá,F,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: signo corregido,cantidad vacia o invalida
+94,2012-02-23,MARIO ANDRÉS RODRÍGUEZ,Super Star,-98.87,,564.45usd,Bogotá,,efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+116,2001/03/13,JOHAN CORREA PÉREZ,SuperStar,-121.38,,-157.74,bogota,M,efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+57,1999/01/04,ISMAEL MAURICIO CARMONA,Air Max,149.48,,-423.01,medellín,F,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,total: signo corregido,cantidad vacia o invalida
+15,1973/02/23,Fabián Manuel Patiño,air max,-117.63,,586.2,bogota,X,tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido,cantidad vacia o invalida
+15,30/10/1988,María Consuelo Betancur Martínez,air max,-192.76,,-188.44,Bogotá,X,efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+120,2008/02/14,Andrea García,Ultra Boost,191.15,,592.94,BOGOTÁ,M,efectivo,ventas_zapatillas_Errores_Uno.xlsx,,cantidad vacia o invalida
+103,2002-12-17,JAIRO VILLA,Air Max,144.95usd,,-117.28,medellín,m,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: signo corregido,cantidad vacia o invalida
+125,12-05-1975,Elena Fernanda Romero,SuperStar,102.88usd,,464.59usd,BOGOTÁ,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: usd removido,cantidad vacia o invalida
+126,03-03-2012,adriana rivera,Ultra Boost,127.19usd,,495.44usd,BOGOTÁ,X,tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: usd removido,cantidad vacia o invalida
+123,1985-04-06,,Super Star,82.25usd,,-204.7,MEDELLIN,F,efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: signo corregido,cantidad vacia o invalida
+8,07/02/1995,,Super Star,-104.65,,254.05,bogota,F,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido,cantidad vacia o invalida
+137,1999-03-07,,air max,-198.26,,470.05,medellín,f,tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido,cantidad vacia o invalida
+85,20/06/1999,ronald josé alfonso romero,SuperStar,176.89,,212.17,bogota,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,,cantidad vacia o invalida
+26,15-10-2002,Jair Sebastián Ortiz Hernández,Ultra Boost,89.32usd,,419.18,Bogotá,M,tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido,cantidad vacia o invalida
+90,2019/08/04,Ocampo Benítez,SuperStar,-172.63,,98.66usd,MEDELLIN,X,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+53,2021-02-16,andrea maría meneses,Air Max,-98.23,,535.33usd,MEDELLIN,,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+66,1988-06-15,Orlando Adrián Cruz Arenas,SuperStar,151.53,,96.15usd,medellín,f,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,total: usd removido,cantidad vacia o invalida
+99,09/10/1988,isaac luis méndez maldonado,Ultra Boost,-88.38,,554.96usd,bogota,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+80,2005/04/26,,Ultra Boost,-87.19,,254.76usd,Bogotá,M,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+142,12/07/1990,yaneth zapata garcía,Super Star,-173.4,,484.57usd,Medellin,f,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+95,1970-09-14,Juan Rengifo Henao,air max,149.91usd,,116.7,Medellin,m,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido,cantidad vacia o invalida
+34,1997-01-09,,ultra boost,-170.8,,-93.31,bogota,M,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+5,06-06-2018,Jairo David Rojas,SuperStar,136.21usd,,327.33,bogota,f,Tarjeta,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido,cantidad vacia o invalida
+130,1972-07-20,,air max,-91.44,,-545.66,bogota,,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+87,2000-08-12,yeferson david estrada zapata,air max,108.56,,484.17,BOGOTÁ,f,tarjeta,ventas_zapatillas_Errores_Uno.xlsx,,cantidad vacia o invalida
+36,31/03/1981,JOSÉ ÁNGEL GUERRA MARTÍNEZ,SuperStar,159.85,,-490.88,Medellin,,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,total: signo corregido,cantidad vacia o invalida
+63,01/02/1996,,ultra boost,-100.69,,499.98,medellín,X,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,precio: signo corregido,cantidad vacia o invalida
+2,12/08/2002,,SuperStar,123.51,,224.45,Bogotá,,efectivo,ventas_zapatillas_Errores_Uno.xlsx,,cantidad vacia o invalida
+41,2013-05-30,Liliana Doris Alvarado,Air Max,124.73usd,,-545.91,bogota,,Transferencia,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido; total: signo corregido,cantidad vacia o invalida
+29,2010/04/04,KEVIN GABRIEL MOLINA ARIZA,SuperStar,144.29usd,,546.18,medellín,X,,ventas_zapatillas_Errores_Uno.xlsx,precio: usd removido,cantidad vacia o invalida
+19,20/03/1983,,air max,116.24,,304.61usd,Medellin,,Efectivo,ventas_zapatillas_Errores_Uno.xlsx,total: usd removido,cantidad vacia o invalida
+89,12-11-1994,Javier Christian Calderón,Ultra Boost,-116.48,,107.08,BOGOTÁ,m,,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido,cantidad vacia o invalida
+31,03/06/2017,,Ultra Boost,-89.87,,129.14usd,bogota,M,tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+53,2009/06/11,ENRIQUE CÓRDOBA GARCÍA,Air Max,-100.89,,384.69,Medellin,,,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido,cantidad vacia o invalida
+55,2024-05-01,,air max,184.73usd,,-138.68,MEDELLIN,X,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido,cantidad vacia o invalida
+113,05/03/2000,Ernesto Rodríguez,SuperStar,-91.73,,485.65,medellín,X,tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido,cantidad vacia o invalida
+125,21/05/2004,juan miranda ruiz,Super Star,165.82,,118.94,MEDELLIN,,efectivo,ventas_zapatillas_Errores_Dos.xlsx,,cantidad vacia o invalida
+32,05-09-1993,daniela bastidas,air max,-140.86,,-345.23,medellín,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+2,02/08/1985,DORA GARCÍA,Air Max,-88.32,,335.6usd,medellín,,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+60,1983/08/14,,ultra boost,-177.88,,-193.62,BOGOTÁ,X,,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+21,23/04/2022,Enrique Cruz,Air Max,170.04usd,,-368.85,medellín,f,,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido,cantidad vacia o invalida
+97,1977/10/13,ARIEL LUIS BEJARANO TORRES,Air Max,151.53,,566.0usd,medellín,m,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,total: usd removido,cantidad vacia o invalida
+112,12/02/1977,Liliana Luz Ardila Gómez,air max,-175.77,,-167.18,BOGOTÁ,X,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+67,26-03-1970,,air max,106.23usd,,349.46usd,MEDELLIN,X,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido,cantidad vacia o invalida
+126,1998-10-29,ARTURO GARCÍA,ultra boost,-178.85,,179.16,bogota,F,,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido,cantidad vacia o invalida
+121,01/09/1980,nubia patiño,Super Star,120.75usd,,119.5,bogota,X,tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido,cantidad vacia o invalida
+33,21/04/2024,Valentina Alzate Ruiz,Air Max,-145.56,,545.35,BOGOTÁ,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido,cantidad vacia o invalida
+31,28/11/1974,Luz Sanabria,Ultra Boost,106.53usd,,599.51usd,medellín,X,tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido,cantidad vacia o invalida
+45,25/11/2009,ADRIÁN CARRILLO,Ultra Boost,-195.15,,-152.65,Bogotá,,tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+138,01-02-2007,AMELIA ALEJANDRA GÓMEZ VARGAS,SuperStar,-192.2,,407.95,MEDELLIN,m,efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido,cantidad vacia o invalida
+64,1978-04-30,María Aura Parra,SuperStar,105.3,,233.83usd,medellín,m,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,total: usd removido,cantidad vacia o invalida
+100,19-01-1983,FERNANDO ÁLVARO GARCÍA,Air Max,-164.49,,503.23usd,Bogotá,M,,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+54,1990-02-09,,Super Star,-119.65,,-378,Bogotá,f,tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+2,31-05-1994,,air max,118.76,,145.93,bogota,m,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,,cantidad vacia o invalida
+48,22-06-1999,julieth moreno triana,air max,-165.31,,361.03usd,bogota,f,tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+28,1987/12/07,jaime vargas rodríguez,Ultra Boost,162.89,,496.27usd,MEDELLIN,X,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,total: usd removido,cantidad vacia o invalida
+75,17-03-2016,Hernán Alberto Pacheco,air max,-164.52,,556.46,BOGOTÁ,f,,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido,cantidad vacia o invalida
+92,1970-05-07,laura rivera rivera,ultra boost,149.37usd,,189.91usd,MEDELLIN,M,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido,cantidad vacia o invalida
+23,1978/06/24,,air max,-169.95,,-404.74,Medellin,M,,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+33,2013-03-06,,SuperStar,119.97,,-226.63,MEDELLIN,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,total: signo corregido,cantidad vacia o invalida
+3,11-07-1983,Alfonso César Perdomo,Ultra Boost,-172.45,,440.8,MEDELLIN,,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido,cantidad vacia o invalida
+1,21/04/2008,,SuperStar,-196.47,,242.84usd,Bogotá,,tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+7,18/01/2007,claudia paola reyes cifuentes,Ultra Boost,-133.35,,293.95,MEDELLIN,F,,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido,cantidad vacia o invalida
+66,11/07/1990,,Ultra Boost,-175.5,,-482.66,Medellin,M,,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+37,25/10/1990,ENRIQUE JUAN NARANJO,Ultra Boost,-82.09,,361.01usd,bogota,M,,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+111,1984/10/28,,ultra boost,-87.18,,593.71usd,bogota,f,,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+42,25-05-1976,Alejandro Lozano Reyes,Air Max,-184.55,,215.98,Bogotá,f,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido,cantidad vacia o invalida
+120,02/05/1971,,Super Star,-147.07,,-220.63,Bogotá,X,,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+80,04-02-2023,JULIÁN SAMUEL MALDONADO GONZÁLEZ,SuperStar,112.43,,423.95usd,medellín,m,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,total: usd removido,cantidad vacia o invalida
+29,10/05/1993,,Ultra Boost,119.26usd,,-180.19,MEDELLIN,X,,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido,cantidad vacia o invalida
+89,24/09/1989,,Air Max,166.06usd,,217.61,bogota,,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido,cantidad vacia o invalida
+139,04/10/1992,Teresa Diana Espitia Ojeda,Super Star,-196.63,,-302.03,MEDELLIN,,efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+3,17/12/2002,GUILLERMO BUITRAGO,ultra boost,-95.25,,558.11usd,bogota,F,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+102,2017/05/18,,Super Star,83.6usd,,362.9,Bogotá,F,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido,cantidad vacia o invalida
+1,1989-02-19,sandra yeny riascos,air max,-110.02,,150.34usd,bogota,,efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+134,22/03/2021,,ultra boost,138.51,,-117.7,Medellin,f,tarjeta,ventas_zapatillas_Errores_Dos.xlsx,total: signo corregido,cantidad vacia o invalida
+110,22-04-2013,maría rendón murillo,ultra boost,93.28,,295.0usd,bogota,m,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,total: usd removido,cantidad vacia o invalida
+149,2003/04/03,Eduardo Moreno Medina,Ultra Boost,-104.57,,286.43,MEDELLIN,m,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido,cantidad vacia o invalida
+132,1978-10-12,laura laura herrera,Air Max,-168.6,,468.44usd,Medellin,F,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+51,29-01-1992,Diana Paola Palacios,air max,-162.1,,187.17usd,medellín,X,efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: usd removido,cantidad vacia o invalida
+52,09-03-2001,,Ultra Boost,-140.15,,-567.84,Medellin,m,efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+96,1974-11-09,Miguel Jorge Anaya,Air Max,155.25usd,,452.88usd,medellín,m,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido,cantidad vacia o invalida
+49,21/05/2003,LEIDY MARTÍNEZ ARRIETA,Ultra Boost,160.86usd,,-202.48,bogota,m,Transferencia,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: signo corregido,cantidad vacia o invalida
+74,04/12/1973,Milena Henao Loaiza,Air Max,83.15,,313.48usd,Medellin,F,efectivo,ventas_zapatillas_Errores_Dos.xlsx,total: usd removido,cantidad vacia o invalida
+33,29/10/1979,MANUEL MORA QUINTERO,air max,-186.81,,-399.91,BOGOTÁ,,,ventas_zapatillas_Errores_Dos.xlsx,precio: signo corregido; total: signo corregido,cantidad vacia o invalida
+24,1996/05/06,claudia maría meza,Super Star,135.33,,-123.37,medellín,F,efectivo,ventas_zapatillas_Errores_Dos.xlsx,total: signo corregido,cantidad vacia o invalida
+110,03-07-1979,rosalba alexandra domínguez,Air Max,109.4usd,,134.57,BOGOTÁ,,Tarjeta,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido,cantidad vacia o invalida
+74,1995-02-15,,SuperStar,188.2usd,,213.69usd,bogota,M,Efectivo,ventas_zapatillas_Errores_Dos.xlsx,precio: usd removido; total: usd removido,cantidad vacia o invalida

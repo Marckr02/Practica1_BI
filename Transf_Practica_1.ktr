@@ -1,0 +1,2672 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<transformation>
+  <info>
+    <name>Transf_Practica_1</name>
+    <description />
+    <extended_description />
+    <trans_version />
+    <trans_type>Normal</trans_type>
+    <directory>/</directory>
+    <parameters>
+    </parameters>
+    <log>
+      <trans-log-table>
+        <connection />
+        <schema />
+        <table />
+        <size_limit_lines />
+        <interval />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STATUS</id>
+          <enabled>Y</enabled>
+          <name>STATUS</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+          <subject />
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+          <subject />
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>STARTDATE</id>
+          <enabled>Y</enabled>
+          <name>STARTDATE</name>
+        </field>
+        <field>
+          <id>ENDDATE</id>
+          <enabled>Y</enabled>
+          <name>ENDDATE</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>DEPDATE</id>
+          <enabled>Y</enabled>
+          <name>DEPDATE</name>
+        </field>
+        <field>
+          <id>REPLAYDATE</id>
+          <enabled>Y</enabled>
+          <name>REPLAYDATE</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>Y</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+        <field>
+          <id>EXECUTING_SERVER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_SERVER</name>
+        </field>
+        <field>
+          <id>EXECUTING_USER</id>
+          <enabled>N</enabled>
+          <name>EXECUTING_USER</name>
+        </field>
+        <field>
+          <id>CLIENT</id>
+          <enabled>N</enabled>
+          <name>CLIENT</name>
+        </field>
+      </trans-log-table>
+      <perf-log-table>
+        <connection />
+        <schema />
+        <table />
+        <interval />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>SEQ_NR</id>
+          <enabled>Y</enabled>
+          <name>SEQ_NR</name>
+        </field>
+        <field>
+          <id>LOGDATE</id>
+          <enabled>Y</enabled>
+          <name>LOGDATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>INPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>INPUT_BUFFER_ROWS</name>
+        </field>
+        <field>
+          <id>OUTPUT_BUFFER_ROWS</id>
+          <enabled>Y</enabled>
+          <name>OUTPUT_BUFFER_ROWS</name>
+        </field>
+      </perf-log-table>
+      <channel-log-table>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>LOGGING_OBJECT_TYPE</id>
+          <enabled>Y</enabled>
+          <name>LOGGING_OBJECT_TYPE</name>
+        </field>
+        <field>
+          <id>OBJECT_NAME</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_NAME</name>
+        </field>
+        <field>
+          <id>OBJECT_COPY</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_COPY</name>
+        </field>
+        <field>
+          <id>REPOSITORY_DIRECTORY</id>
+          <enabled>Y</enabled>
+          <name>REPOSITORY_DIRECTORY</name>
+        </field>
+        <field>
+          <id>FILENAME</id>
+          <enabled>Y</enabled>
+          <name>FILENAME</name>
+        </field>
+        <field>
+          <id>OBJECT_ID</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_ID</name>
+        </field>
+        <field>
+          <id>OBJECT_REVISION</id>
+          <enabled>Y</enabled>
+          <name>OBJECT_REVISION</name>
+        </field>
+        <field>
+          <id>PARENT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>PARENT_CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>ROOT_CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>ROOT_CHANNEL_ID</name>
+        </field>
+      </channel-log-table>
+      <step-log-table>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>TRANSNAME</id>
+          <enabled>Y</enabled>
+          <name>TRANSNAME</name>
+        </field>
+        <field>
+          <id>STEPNAME</id>
+          <enabled>Y</enabled>
+          <name>STEPNAME</name>
+        </field>
+        <field>
+          <id>STEP_COPY</id>
+          <enabled>Y</enabled>
+          <name>STEP_COPY</name>
+        </field>
+        <field>
+          <id>LINES_READ</id>
+          <enabled>Y</enabled>
+          <name>LINES_READ</name>
+        </field>
+        <field>
+          <id>LINES_WRITTEN</id>
+          <enabled>Y</enabled>
+          <name>LINES_WRITTEN</name>
+        </field>
+        <field>
+          <id>LINES_UPDATED</id>
+          <enabled>Y</enabled>
+          <name>LINES_UPDATED</name>
+        </field>
+        <field>
+          <id>LINES_INPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_INPUT</name>
+        </field>
+        <field>
+          <id>LINES_OUTPUT</id>
+          <enabled>Y</enabled>
+          <name>LINES_OUTPUT</name>
+        </field>
+        <field>
+          <id>LINES_REJECTED</id>
+          <enabled>Y</enabled>
+          <name>LINES_REJECTED</name>
+        </field>
+        <field>
+          <id>ERRORS</id>
+          <enabled>Y</enabled>
+          <name>ERRORS</name>
+        </field>
+        <field>
+          <id>LOG_FIELD</id>
+          <enabled>N</enabled>
+          <name>LOG_FIELD</name>
+        </field>
+      </step-log-table>
+      <metrics-log-table>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
+        <field>
+          <id>ID_BATCH</id>
+          <enabled>Y</enabled>
+          <name>ID_BATCH</name>
+        </field>
+        <field>
+          <id>CHANNEL_ID</id>
+          <enabled>Y</enabled>
+          <name>CHANNEL_ID</name>
+        </field>
+        <field>
+          <id>LOG_DATE</id>
+          <enabled>Y</enabled>
+          <name>LOG_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_DATE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DATE</name>
+        </field>
+        <field>
+          <id>METRICS_CODE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_CODE</name>
+        </field>
+        <field>
+          <id>METRICS_DESCRIPTION</id>
+          <enabled>Y</enabled>
+          <name>METRICS_DESCRIPTION</name>
+        </field>
+        <field>
+          <id>METRICS_SUBJECT</id>
+          <enabled>Y</enabled>
+          <name>METRICS_SUBJECT</name>
+        </field>
+        <field>
+          <id>METRICS_TYPE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_TYPE</name>
+        </field>
+        <field>
+          <id>METRICS_VALUE</id>
+          <enabled>Y</enabled>
+          <name>METRICS_VALUE</name>
+        </field>
+      </metrics-log-table>
+    </log>
+    <maxdate>
+      <connection />
+      <table />
+      <field />
+      <offset>0.0</offset>
+      <maxdiff>0.0</maxdiff>
+    </maxdate>
+    <size_rowset>10000</size_rowset>
+    <sleep_time_empty>50</sleep_time_empty>
+    <sleep_time_full>50</sleep_time_full>
+    <unique_connections>N</unique_connections>
+    <feedback_shown>Y</feedback_shown>
+    <feedback_size>50000</feedback_size>
+    <using_thread_priorities>Y</using_thread_priorities>
+    <shared_objects_file />
+    <capture_step_performance>N</capture_step_performance>
+    <step_performance_capturing_delay>1000</step_performance_capturing_delay>
+    <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
+    <dependencies>
+    </dependencies>
+    <partitionschemas>
+    </partitionschemas>
+    <slaveservers>
+    </slaveservers>
+    <clusterschemas>
+    </clusterschemas>
+    <created_user>-</created_user>
+    <created_date>2026/10/13 11:54:41.961</created_date>
+    <modified_user>-</modified_user>
+    <modified_date>2026/10/13 11:54:41.961</modified_date>
+    <key_for_session_key>H4sIAAAAAAAA/wMAAAAAAAAAAAA=</key_for_session_key>
+    <is_key_private>N</is_key_private>
+  </info>
+  <notepads>
+  </notepads>
+  <order>
+    <hop>
+      <from>Entrada Veternaria CSV</from>
+      <to>Limpieza Veterinaria</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Limpieza Veterinaria</from>
+      <to>Filtrar Fechas Validas Vet</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filtrar Fechas Validas Vet</from>
+      <to>Seleccionar Campos Vet</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filtrar Fechas Validas Vet</from>
+      <to>Salida Veterinaria Rechazados</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Seleccionar Campos Vet</from>
+      <to>Salida Veterinaria Limpia</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Entrada Zapatillas Excel</from>
+      <to>Eliminar Duplicados Zapatillas</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Eliminar Duplicados Zapatillas</from>
+      <to>Limpieza Zapatillas</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Limpieza Zapatillas</from>
+      <to>Filtrar Filas Validas Zapatillas</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filtrar Filas Validas Zapatillas</from>
+      <to>Seleccionar Campos Zapatillas</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filtrar Filas Validas Zapatillas</from>
+      <to>Salida Zapatillas Rechazados</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Seleccionar Campos Zapatillas</from>
+      <to>Salida Zapatillas Limpia</to>
+      <enabled>Y</enabled>
+    </hop>
+  </order>
+  <step>
+    <name>Entrada Veternaria CSV</name>
+    <type>CsvInput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <filename>${Internal.Transformation.Filename.Directory}/data/registro_mascotas_veterinaria.csv</filename>
+    <filename_field />
+    <rownum_field />
+    <include_filename>N</include_filename>
+    <separator>,</separator>
+    <enclosure>"</enclosure>
+    <header>Y</header>
+    <buffer_size>50000</buffer_size>
+    <lazy_conversion>N</lazy_conversion>
+    <add_filename_result>N</add_filename_result>
+    <parallel>N</parallel>
+    <newline_possible>N</newline_possible>
+    <format>mixed</format>
+    <encoding>UTF-8</encoding>
+    <fields>
+      <field>
+        <name>id_registro</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>fecha_registro</name>
+        <type>String</type>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>10</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>nombre_dueno</name>
+        <type>String</type>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>29</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>email</name>
+        <type>String</type>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>32</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>telefono</name>
+        <type>String</type>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>13</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>ciudad</name>
+        <type>String</type>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>10</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>nombre_mascota</name>
+        <type>String</type>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>8</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>especie</name>
+        <type>String</type>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>7</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>raza</name>
+        <type>String</type>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>16</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>sexo</name>
+        <type>String</type>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>9</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>fecha_nacimiento</name>
+        <type>String</type>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>17</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>edad</name>
+        <type>String</type>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>9</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>peso</name>
+        <type>String</type>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>7</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>vacunado</name>
+        <type>String</type>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>9</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>motivo_consulta</name>
+        <type>String</type>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>16</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+    </fields>
+    <attributes />
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>80</xloc>
+      <yloc>112</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Entrada Zapatillas Excel</name>
+    <type>ExcelInput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <header>Y</header>
+    <noempty>Y</noempty>
+    <stoponempty>N</stoponempty>
+    <filefield />
+    <sheetfield />
+    <sheetrownumfield />
+    <rownumfield />
+    <sheetfield />
+    <filefield />
+    <limit>0</limit>
+    <encoding />
+    <add_to_result_filenames>Y</add_to_result_filenames>
+    <accept_filenames>N</accept_filenames>
+    <accept_field />
+    <accept_stepname />
+    <file>
+      <name>${Internal.Transformation.Filename.Directory}/data/ventas_zapatillas_TODAS_COMBINADAS.xlsx</name>
+      <filemask />
+      <exclude_filemask />
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+      <name />
+      <filemask />
+      <exclude_filemask />
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+    </file>
+    <fields>
+      <field>
+        <name>id_venta</name>
+        <type>Integer</type>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format>#</format>
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+      </field>
+      <field>
+        <name>fecha</name>
+        <type>String</type>
+        <length>17</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+      </field>
+      <field>
+        <name>cliente</name>
+        <type>String</type>
+        <length>50</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+      </field>
+      <field>
+        <name>producto</name>
+        <type>String</type>
+        <length>20</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+      </field>
+      <field>
+        <name>precio_unitario</name>
+        <type>String</type>
+        <length>20</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+      </field>
+      <field>
+        <name>cantidad</name>
+        <type>String</type>
+        <length>10</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+      </field>
+      <field>
+        <name>total_venta</name>
+        <type>String</type>
+        <length>20</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+      </field>
+      <field>
+        <name>ciudad</name>
+        <type>String</type>
+        <length>15</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+      </field>
+      <field>
+        <name>genero</name>
+        <type>String</type>
+        <length>5</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+      </field>
+      <field>
+        <name>metodo_pago</name>
+        <type>String</type>
+        <length>15</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+      </field>
+      <field>
+        <name>archivo_origen</name>
+        <type>String</type>
+        <length>40</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format />
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+      </field>
+    </fields>
+    <sheets>
+      <sheet>
+        <name>Sheet1</name>
+        <startrow>0</startrow>
+        <startcol>0</startcol>
+      </sheet>
+    </sheets>
+    <strict_types>N</strict_types>
+    <error_ignored>N</error_ignored>
+    <error_line_skipped>N</error_line_skipped>
+    <bad_line_files_destination_directory />
+    <bad_line_files_extension>warning</bad_line_files_extension>
+    <error_line_files_destination_directory />
+    <error_line_files_extension>error</error_line_files_extension>
+    <line_number_files_destination_directory />
+    <line_number_files_extension>line</line_number_files_extension>
+    <shortFileFieldName />
+    <pathFieldName />
+    <hiddenFieldName />
+    <lastModificationTimeFieldName />
+    <uriNameFieldName />
+    <rootUriNameFieldName />
+    <extensionFieldName />
+    <sizeFieldName />
+    <spreadsheet_type>POI</spreadsheet_type>
+    <password>Encrypted </password>
+    <attributes />
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>80</xloc>
+      <yloc>400</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Filtrar Fechas Validas Vet</name>
+    <type>FilterRows</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <send_true_to>Seleccionar Campos Vet</send_true_to>
+    <send_false_to>Salida Veterinaria Rechazados</send_false_to>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue>FILA_VALIDA</leftvalue>
+        <function>=</function>
+        <rightvalue />
+        <value>
+          <name>constant</name>
+          <type>String</type>
+          <text>S</text>
+          <length>-1</length>
+          <precision>0</precision>
+          <isnull>N</isnull>
+          <mask />
+        </value>
+      </condition>
+    </compare>
+    <attributes />
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>400</xloc>
+      <yloc>112</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Limpieza Veterinaria</name>
+    <type>ScriptValueMod</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <compatible>Y</compatible>
+    <optimizationLevel>9</optimizationLevel>
+    <jsScripts>
+      <jsScript>
+        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>// ===== Limpieza Veterinaria (Modified Java Script Value) =====
+// Salidas a declarar en la tabla Fields (todas String salvo las indicadas):
+//  NOMBRE_DUENO_LIMPIO, NOMBRE_MASCOTA_LIMPIO, CIUDAD_STD, ESPECIE_STD, RAZA_STD,
+//  SEXO_STD, VACUNADO_STD, MOTIVO_CONSULTA_STD,
+//  PESO_KG (Number, 16, 2), EDAD_MESES (Integer, 16, 0),
+//  FECHA_REGISTRO_ISO, FECHA_NACIMIENTO_ISO, FILA_VALIDA, RECHAZO_MOTIVO
+// Solo usa JavaScript ES3 (compatible con el motor Rhino de PDI): sin normalize(), sin let/const.
+
+function txt(v) { return (v == null) ? "" : ("" + v).replace(/^\s+|\s+$/g, "").replace(/\s+/g, " "); }
+
+function sinTildes(s) {
+  return s.replace(/[áàäâÁÀÄÂ]/g, "a").replace(/[éèëêÉÈËÊ]/g, "e")
+          .replace(/[íìïîÍÌÏÎ]/g, "i").replace(/[óòöôÓÒÖÔ]/g, "o")
+          .replace(/[úùüûÚÙÜÛ]/g, "u").replace(/[ñÑ]/g, "n");
+}
+function clave(v) { return sinTildes(txt(v).toLowerCase()); }          // minúsculas, sin tildes
+function mayus(v)  { return sinTildes(txt(v)).toUpperCase(); }         // MAYÚSCULAS, sin tildes
+function titulo(s) {
+  var p = s.split(" "), i;
+  for (i = 0; i &lt; p.length; i++) if (p[i].length &gt; 0) p[i] = p[i].charAt(0).toUpperCase() + p[i].substring(1).toLowerCase();
+  return p.join(" ");
+}
+
+// ---- Fechas: devuelve "yyyy-MM-dd" o null ----
+var HOY = new Date();
+function validarFecha(v) {
+  var f = txt(v), a, d = 0, m = 0, y = 0;
+  var r1 = /^(\d{4})[-\/](\d{1,2})[-\/](\d{1,2})$/;          // yyyy-MM-dd o yyyy/MM/dd
+  var r2 = /^(\d{1,2})[\/\-.](\d{1,2})[\/\-.](\d{2,4})$/;    // dd/MM/yyyy, dd-MM-yyyy, dd.MM.yy
+  if ((a = r1.exec(f)) != null) { y = parseInt(a[1], 10); m = parseInt(a[2], 10); d = parseInt(a[3], 10); }
+  else if ((a = r2.exec(f)) != null) {
+    d = parseInt(a[1], 10); m = parseInt(a[2], 10); y = parseInt(a[3], 10);
+    if (y &lt; 100) y += 2000;
+    if (m &gt; 12 &amp;&amp; d &lt;= 12) { var t = d; d = m; m = t; }       // 01/31/2018 se interpreta como MM/dd/yyyy
+  } else return null;
+  var dim = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+  if (y % 4 == 0 &amp;&amp; (y % 100 != 0 || y % 400 == 0)) dim[1] = 29;
+  if (y &lt; 1990 || m &lt; 1 || m &gt; 12 || d &lt; 1 || d &gt; dim[m - 1]) return null;
+  if (new Date(y, m - 1, d) &gt; HOY) return null;               // no se permiten fechas futuras
+  return y + "-" + (m &lt; 10 ? "0" : "") + m + "-" + (d &lt; 10 ? "0" : "") + d;
+}
+var FECHA_REGISTRO_ISO = validarFecha(fecha_registro);
+var FECHA_NACIMIENTO_ISO = validarFecha(fecha_nacimiento);
+var motivos = [];
+if (FECHA_REGISTRO_ISO == null) motivos.push("fecha_registro invalida o vacia");
+if (FECHA_NACIMIENTO_ISO == null) motivos.push("fecha_nacimiento invalida o vacia");
+else if (FECHA_REGISTRO_ISO != null &amp;&amp; FECHA_NACIMIENTO_ISO &gt; FECHA_REGISTRO_ISO) {
+  FECHA_NACIMIENTO_ISO = null; motivos.push("fecha_nacimiento posterior al registro");
+}
+var FILA_VALIDA = (motivos.length == 0) ? "S" : "N";
+var RECHAZO_MOTIVO = motivos.join("; ");
+
+// ---- Nombres ----
+var NOMBRE_DUENO_LIMPIO = mayus(nombre_dueno);
+var NOMBRE_MASCOTA_LIMPIO = mayus(nombre_mascota);
+
+// ---- Ciudad ----
+var c = clave(ciudad), CIUDAD_STD;
+if (c == "quito" || c == "qito" || c == "uio") CIUDAD_STD = "QUITO";
+else if (c == "guayaquil" || c == "guayaquill") CIUDAD_STD = "GUAYAQUIL";
+else if (c == "") CIUDAD_STD = "ND";
+else CIUDAD_STD = c.toUpperCase();
+
+// ---- Especie ----
+var e = clave(especie), ESPECIE_STD;
+if (/perr|canino/.test(e)) ESPECIE_STD = "Perro";
+else if (/gat|felino/.test(e)) ESPECIE_STD = "Gato";
+else if (/conejo/.test(e)) ESPECIE_STD = "Conejo";
+else if (/hamster/.test(e)) ESPECIE_STD = "Hamster";
+else if (e == "ave" || /pajaro/.test(e)) ESPECIE_STD = "Ave";
+else ESPECIE_STD = (e == "") ? "ND" : titulo(e);
+
+// ---- Raza ----
+var r = clave(raza), RAZA_STD;
+if (r == "") RAZA_STD = "ND";
+else if (/^labrador/.test(r)) RAZA_STD = "Labrador";
+else if (/^golden/.test(r)) RAZA_STD = "Golden Retriever";
+else if (/^mesti/.test(r)) RAZA_STD = "Mestizo";
+else if (/^pastor/.test(r)) RAZA_STD = "Pastor Alemán";
+else if (/^bu?l+dog/.test(r)) RAZA_STD = "Bulldog";
+else if (/^(poodle|pudel)/.test(r)) RAZA_STD = "Poodle";
+else if (/^siame/.test(r)) RAZA_STD = "Siamés";
+else RAZA_STD = titulo(r);
+
+// ---- Sexo (M / H / ND) ----
+var sx = clave(sexo), SEXO_STD;
+if (sx == "m" || sx == "macho" || sx == "masculino") SEXO_STD = "M";
+else if (sx == "f" || sx == "h" || sx == "hembra" || sx == "femenino") SEXO_STD = "H";
+else SEXO_STD = "ND";
+
+// ---- Vacunado (SI / NO / ND) ----
+var vc = clave(vacunado), VACUNADO_STD;
+if (vc == "si" || vc == "yes" || vc == "1" || vc == "true") VACUNADO_STD = "SI";
+else if (vc == "no" || vc == "0" || vc == "false") VACUNADO_STD = "NO";
+else VACUNADO_STD = "ND";
+
+// ---- Motivo ----
+var MOTIVO_CONSULTA_STD = mayus(motivo_consulta);
+if (MOTIVO_CONSULTA_STD == "") MOTIVO_CONSULTA_STD = "ND";
+
+// ---- Peso en kg (null si no es válido) ----
+var ps = clave(peso).replace(",", "."), PESO_KG = null, num = parseFloat(ps);
+if (!isNaN(num)) {
+  if (/lb/.test(ps)) num = num * 0.453592;
+  else if (!/kg/.test(ps) &amp;&amp; /\dg$|\d\s*g$/.test(ps)) num = num / 1000;
+  num = Math.round(num * 100) / 100;
+  if (num &gt; 0 &amp;&amp; num &lt;= 100) PESO_KG = num;
+}
+
+// ---- Edad en meses (null si no es válida). Un número sin unidad se toma como años ----
+var ed = clave(edad), EDAD_MESES = null, palabras = { uno: 1, dos: 2, tres: 3, cuatro: 4, cinco: 5, seis: 6, siete: 7, ocho: 8, nueve: 9, diez: 10 };
+var me = /^(\d+(?:[.,]\d+)?)\s*(mes|meses)$/.exec(ed), an = /^(\d+(?:[.,]\d+)?)\s*(ano|anos|anio|anios)?$/.exec(ed), meses = null;
+if (me != null) meses = Math.round(parseFloat(me[1].replace(",", ".")));
+else if (an != null) meses = Math.round(parseFloat(an[1].replace(",", ".")) * 12);
+else if (palabras[ed] != null) meses = palabras[ed] * 12;
+if (meses != null &amp;&amp; meses &gt;= 0 &amp;&amp; meses &lt;= 360) EDAD_MESES = meses;
+</jsScript_script>
+      </jsScript>
+    </jsScripts>
+    <fields>
+      <field>
+        <name>NOMBRE_DUENO_LIMPIO</name>
+        <rename>NOMBRE_DUENO_LIMPIO</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>NOMBRE_MASCOTA_LIMPIO</name>
+        <rename>NOMBRE_MASCOTA_LIMPIO</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>CIUDAD_STD</name>
+        <rename>CIUDAD_STD</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>ESPECIE_STD</name>
+        <rename>ESPECIE_STD</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>RAZA_STD</name>
+        <rename>RAZA_STD</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>SEXO_STD</name>
+        <rename>SEXO_STD</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>VACUNADO_STD</name>
+        <rename>VACUNADO_STD</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>MOTIVO_CONSULTA_STD</name>
+        <rename>MOTIVO_CONSULTA_STD</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>PESO_KG</name>
+        <rename>PESO_KG</rename>
+        <type>Number</type>
+        <length>16</length>
+        <precision>2</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>EDAD_MESES</name>
+        <rename>EDAD_MESES</rename>
+        <type>Integer</type>
+        <length>16</length>
+        <precision>0</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>FECHA_REGISTRO_ISO</name>
+        <rename>FECHA_REGISTRO_ISO</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>FECHA_NACIMIENTO_ISO</name>
+        <rename>FECHA_NACIMIENTO_ISO</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>FILA_VALIDA</name>
+        <rename>FILA_VALIDA</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>RECHAZO_MOTIVO</name>
+        <rename>RECHAZO_MOTIVO</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+    </fields>
+    <attributes />
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>240</xloc>
+      <yloc>112</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Salida Veterinaria Limpia</name>
+    <type>TextFileOutput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <separator>,</separator>
+    <enclosure>"</enclosure>
+    <enclosure_forced>N</enclosure_forced>
+    <enclosure_fix_disabled>N</enclosure_fix_disabled>
+    <header>Y</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding>UTF-8</encoding>
+    <endedLine />
+    <fileNameInField>N</fileNameInField>
+    <fileNameField />
+    <create_parent_folder>Y</create_parent_folder>
+    <file>
+      <name>${Internal.Transformation.Filename.Directory}/output/veterinaria_limpia</name>
+      <servlet_output>N</servlet_output>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>csv</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format />
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery />
+    </file>
+    <fields>
+      <field>
+        <name>id_registro</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>FECHA_REGISTRO</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>FECHA_NACIMIENTO</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>NOMBRE_DUENO_LIMPIO</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>email</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>telefono</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>CIUDAD_STD</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>NOMBRE_MASCOTA_LIMPIO</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>ESPECIE_STD</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>RAZA_STD</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>SEXO_STD</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>EDAD_MESES</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>PESO_KG</name>
+        <type>Number</type>
+        <format>0.00</format>
+        <currency />
+        <decimal>.</decimal>
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>VACUNADO_STD</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>MOTIVO_CONSULTA_STD</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+    <attributes />
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>720</xloc>
+      <yloc>112</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Salida Veterinaria Rechazados</name>
+    <type>TextFileOutput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <separator>,</separator>
+    <enclosure>"</enclosure>
+    <enclosure_forced>N</enclosure_forced>
+    <enclosure_fix_disabled>N</enclosure_fix_disabled>
+    <header>Y</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding>UTF-8</encoding>
+    <endedLine />
+    <fileNameInField>N</fileNameInField>
+    <fileNameField />
+    <create_parent_folder>Y</create_parent_folder>
+    <file>
+      <name>${Internal.Transformation.Filename.Directory}/output/veterinaria_rechazados</name>
+      <servlet_output>N</servlet_output>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>csv</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format />
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery />
+    </file>
+    <fields>
+      <field>
+        <name>id_registro</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>fecha_registro</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>nombre_dueno</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>email</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>telefono</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>ciudad</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>nombre_mascota</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>especie</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>raza</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>sexo</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>fecha_nacimiento</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>edad</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>peso</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>vacunado</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>motivo_consulta</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>RECHAZO_MOTIVO</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+    <attributes />
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>560</xloc>
+      <yloc>224</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Seleccionar Campos Vet</name>
+    <type>SelectValues</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <fields>
+      <field>
+        <name>id_registro</name>
+        <rename>id_registro</rename>
+      </field>
+      <field>
+        <name>FECHA_REGISTRO_ISO</name>
+        <rename>FECHA_REGISTRO</rename>
+      </field>
+      <field>
+        <name>FECHA_NACIMIENTO_ISO</name>
+        <rename>FECHA_NACIMIENTO</rename>
+      </field>
+      <field>
+        <name>NOMBRE_DUENO_LIMPIO</name>
+        <rename>NOMBRE_DUENO_LIMPIO</rename>
+      </field>
+      <field>
+        <name>email</name>
+        <rename>email</rename>
+      </field>
+      <field>
+        <name>telefono</name>
+        <rename>telefono</rename>
+      </field>
+      <field>
+        <name>CIUDAD_STD</name>
+        <rename>CIUDAD_STD</rename>
+      </field>
+      <field>
+        <name>NOMBRE_MASCOTA_LIMPIO</name>
+        <rename>NOMBRE_MASCOTA_LIMPIO</rename>
+      </field>
+      <field>
+        <name>ESPECIE_STD</name>
+        <rename>ESPECIE_STD</rename>
+      </field>
+      <field>
+        <name>RAZA_STD</name>
+        <rename>RAZA_STD</rename>
+      </field>
+      <field>
+        <name>SEXO_STD</name>
+        <rename>SEXO_STD</rename>
+      </field>
+      <field>
+        <name>EDAD_MESES</name>
+        <rename>EDAD_MESES</rename>
+      </field>
+      <field>
+        <name>PESO_KG</name>
+        <rename>PESO_KG</rename>
+        <length>10</length>
+        <precision>2</precision>
+      </field>
+      <field>
+        <name>VACUNADO_STD</name>
+        <rename>VACUNADO_STD</rename>
+      </field>
+      <field>
+        <name>MOTIVO_CONSULTA_STD</name>
+        <rename>MOTIVO_CONSULTA_STD</rename>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes />
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>560</xloc>
+      <yloc>112</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Eliminar Duplicados Zapatillas</name>
+    <type>UniqueRowsByHashSet</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>240</xloc>
+      <yloc>400</yloc>
+      <draw>Y</draw>
+    </GUI>
+    <store_values>N</store_values>
+    <reject_duplicate_row>N</reject_duplicate_row>
+    <error_description />
+    <fields>
+      <field>
+        <name>id_venta</name>
+      </field>
+      <field>
+        <name>fecha</name>
+      </field>
+      <field>
+        <name>cliente</name>
+      </field>
+      <field>
+        <name>producto</name>
+      </field>
+      <field>
+        <name>precio_unitario</name>
+      </field>
+      <field>
+        <name>cantidad</name>
+      </field>
+      <field>
+        <name>total_venta</name>
+      </field>
+      <field>
+        <name>ciudad</name>
+      </field>
+      <field>
+        <name>genero</name>
+      </field>
+      <field>
+        <name>metodo_pago</name>
+      </field>
+    </fields>
+  </step>
+  <step>
+    <name>Limpieza Zapatillas</name>
+    <type>ScriptValueMod</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <compatible>Y</compatible>
+    <optimizationLevel>9</optimizationLevel>
+    <jsScripts>
+      <jsScript>
+        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>// ===== Limpieza Zapatillas (Modified Java Script Value) =====
+// Salidas a declarar en la tabla Fields (todas String salvo las indicadas):
+//  FECHA_VENTA, CLIENTE_LIMPIO, PRODUCTO_STD, CIUDAD_STD, GENERO_STD, METODO_PAGO_STD,
+//  PRECIO_UNIT (Number, 16, 2), CANTIDAD_NUM (Integer, 16, 0), TOTAL_VENTA_NUM (Number, 16, 2),
+//  TOTAL_CALCULADO (Number, 16, 2), TOTAL_CONSISTENTE, CORRECCIONES, FILA_VALIDA, RECHAZO_MOTIVO
+// Solo ES3 (compatible con Rhino): sin normalize(), sin let/const.
+
+function txt(v) { return (v == null) ? "" : ("" + v).replace(/^\s+|\s+$/g, "").replace(/\s+/g, " "); }
+function sinTildes(s) {
+  return s.replace(/[áàäâÁÀÄÂ]/g, "a").replace(/[éèëêÉÈËÊ]/g, "e")
+          .replace(/[íìïîÍÌÏÎ]/g, "i").replace(/[óòöôÓÒÖÔ]/g, "o")
+          .replace(/[úùüûÚÙÜÛ]/g, "u").replace(/[ñÑ]/g, "n");
+}
+function clave(v) { return sinTildes(txt(v).toLowerCase()); }
+function mayus(v)  { return sinTildes(txt(v)).toUpperCase(); }
+
+// ---- Fechas: devuelve "yyyy-MM-dd" o null (se asume dd/MM/yyyy cuando es ambiguo) ----
+var HOY = new Date();
+function validarFecha(v) {
+  var f = txt(v), a, d = 0, m = 0, y = 0;
+  var r1 = /^(\d{4})[-\/](\d{1,2})[-\/](\d{1,2})$/;          // yyyy-MM-dd o yyyy/MM/dd
+  var r2 = /^(\d{1,2})[\/\-.](\d{1,2})[\/\-.](\d{2,4})$/;    // dd/MM/yyyy, dd-MM-yyyy
+  if ((a = r1.exec(f)) != null) { y = parseInt(a[1], 10); m = parseInt(a[2], 10); d = parseInt(a[3], 10); }
+  else if ((a = r2.exec(f)) != null) {
+    d = parseInt(a[1], 10); m = parseInt(a[2], 10); y = parseInt(a[3], 10);
+    if (y &lt; 100) y += 2000;
+    if (m &gt; 12 &amp;&amp; d &lt;= 12) { var t = d; d = m; m = t; }
+  } else return null;
+  var dim = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+  if (y % 4 == 0 &amp;&amp; (y % 100 != 0 || y % 400 == 0)) dim[1] = 29;
+  if (y &lt; 1900 || m &lt; 1 || m &gt; 12 || d &lt; 1 || d &gt; dim[m - 1]) return null;
+  if (new Date(y, m - 1, d) &gt; HOY) return null;               // no se permiten fechas futuras
+  return y + "-" + (m &lt; 10 ? "0" : "") + m + "-" + (d &lt; 10 ? "0" : "") + d;
+}
+
+// ---- Importes: quita "usd", corrige el signo; devuelve null si no es un número ----
+var correcciones = [];
+function importe(v, campo) {
+  var crudo = clave(v), s = crudo.replace("usd", "").replace(/\s+/g, "").replace(",", ".");
+  if (!/^-?\d+(\.\d+)?$/.test(s)) return null;
+  var n = parseFloat(s);
+  if (crudo.indexOf("usd") &gt;= 0) correcciones.push(campo + ": usd removido");
+  if (n &lt; 0) { n = -n; correcciones.push(campo + ": signo corregido"); }
+  return Math.round(n * 100) / 100;
+}
+
+var FECHA_VENTA = validarFecha(fecha);
+var PRECIO_UNIT = importe(precio_unitario, "precio");
+var TOTAL_VENTA_NUM = importe(total_venta, "total");
+
+// ---- Cantidad (acepta "uno", "dos", ...) ----
+var cq = clave(cantidad), CANTIDAD_NUM = null, pal = { uno: 1, dos: 2, tres: 3, cuatro: 4, cinco: 5, seis: 6, siete: 7, ocho: 8, nueve: 9, diez: 10 };
+if (/^\d+(\.0+)?$/.test(cq)) CANTIDAD_NUM = parseInt(cq, 10);
+else if (pal[cq] != null) { CANTIDAD_NUM = pal[cq]; correcciones.push("cantidad: texto a numero"); }
+if (CANTIDAD_NUM != null &amp;&amp; (CANTIDAD_NUM &lt; 1 || CANTIDAD_NUM &gt; 100)) CANTIDAD_NUM = null;
+
+// ---- Total calculado vs total informado ----
+var TOTAL_CALCULADO = null, TOTAL_CONSISTENTE = "ND";
+if (PRECIO_UNIT != null &amp;&amp; CANTIDAD_NUM != null) {
+  TOTAL_CALCULADO = Math.round(PRECIO_UNIT * CANTIDAD_NUM * 100) / 100;
+  if (TOTAL_VENTA_NUM != null) TOTAL_CONSISTENTE = (Math.abs(TOTAL_CALCULADO - TOTAL_VENTA_NUM) &lt;= 0.01) ? "S" : "N";
+}
+
+// ---- Texto y categorías ----
+var CLIENTE_LIMPIO = mayus(cliente); if (CLIENTE_LIMPIO == "") CLIENTE_LIMPIO = "ND";
+
+var pk = clave(producto).replace(/\s+/g, ""), PRODUCTO_STD;
+if (pk == "airmax") PRODUCTO_STD = "Air Max";
+else if (pk == "ultraboost") PRODUCTO_STD = "Ultra Boost";
+else if (pk == "superstar") PRODUCTO_STD = "Super Star";
+else PRODUCTO_STD = (pk == "") ? "ND" : txt(producto);
+
+var ck = clave(ciudad), CIUDAD_STD;
+if (ck == "medellin") CIUDAD_STD = "MEDELLIN";
+else if (ck == "bogota") CIUDAD_STD = "BOGOTA";
+else CIUDAD_STD = (ck == "") ? "ND" : ck.toUpperCase();
+
+var gk = clave(genero), GENERO_STD;
+if (gk == "m") GENERO_STD = "M"; else if (gk == "f") GENERO_STD = "F"; else GENERO_STD = "ND";   // X y vacío -&gt; ND
+
+var mk = clave(metodo_pago), METODO_PAGO_STD;
+if (mk == "efectivo") METODO_PAGO_STD = "Efectivo";
+else if (mk == "tarjeta") METODO_PAGO_STD = "Tarjeta";
+else if (mk == "transferencia") METODO_PAGO_STD = "Transferencia";
+else METODO_PAGO_STD = "ND";
+
+// ---- Validez de la fila ----
+var motivos = [];
+if (FECHA_VENTA == null) motivos.push("fecha invalida o vacia");
+if (PRECIO_UNIT == null) motivos.push("precio_unitario invalido");
+if (CANTIDAD_NUM == null) motivos.push("cantidad vacia o invalida");
+if (TOTAL_VENTA_NUM == null) motivos.push("total_venta invalido");
+var FILA_VALIDA = (motivos.length == 0) ? "S" : "N";
+var RECHAZO_MOTIVO = motivos.join("; ");
+var CORRECCIONES = correcciones.join("; ");
+</jsScript_script>
+      </jsScript>
+    </jsScripts>
+    <fields>
+      <field>
+        <name>FECHA_VENTA</name>
+        <rename>FECHA_VENTA</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>CLIENTE_LIMPIO</name>
+        <rename>CLIENTE_LIMPIO</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>PRODUCTO_STD</name>
+        <rename>PRODUCTO_STD</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>CIUDAD_STD</name>
+        <rename>CIUDAD_STD</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>GENERO_STD</name>
+        <rename>GENERO_STD</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>METODO_PAGO_STD</name>
+        <rename>METODO_PAGO_STD</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>PRECIO_UNIT</name>
+        <rename>PRECIO_UNIT</rename>
+        <type>Number</type>
+        <length>16</length>
+        <precision>2</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>CANTIDAD_NUM</name>
+        <rename>CANTIDAD_NUM</rename>
+        <type>Integer</type>
+        <length>16</length>
+        <precision>0</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>TOTAL_VENTA_NUM</name>
+        <rename>TOTAL_VENTA_NUM</rename>
+        <type>Number</type>
+        <length>16</length>
+        <precision>2</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>TOTAL_CALCULADO</name>
+        <rename>TOTAL_CALCULADO</rename>
+        <type>Number</type>
+        <length>16</length>
+        <precision>2</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>TOTAL_CONSISTENTE</name>
+        <rename>TOTAL_CONSISTENTE</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>CORRECCIONES</name>
+        <rename>CORRECCIONES</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>FILA_VALIDA</name>
+        <rename>FILA_VALIDA</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>RECHAZO_MOTIVO</name>
+        <rename>RECHAZO_MOTIVO</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+    </fields>
+    <attributes />
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>400</xloc>
+      <yloc>400</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Filtrar Filas Validas Zapatillas</name>
+    <type>FilterRows</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <send_true_to>Seleccionar Campos Zapatillas</send_true_to>
+    <send_false_to>Salida Zapatillas Rechazados</send_false_to>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue>FILA_VALIDA</leftvalue>
+        <function>=</function>
+        <rightvalue />
+        <value>
+          <name>constant</name>
+          <type>String</type>
+          <text>S</text>
+          <length>-1</length>
+          <precision>0</precision>
+          <isnull>N</isnull>
+          <mask />
+        </value>
+      </condition>
+    </compare>
+    <attributes />
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>560</xloc>
+      <yloc>400</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Seleccionar Campos Zapatillas</name>
+    <type>SelectValues</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <fields>
+      <field>
+        <name>id_venta</name>
+        <rename>id_venta</rename>
+      </field>
+      <field>
+        <name>FECHA_VENTA</name>
+        <rename>FECHA_VENTA</rename>
+      </field>
+      <field>
+        <name>CLIENTE_LIMPIO</name>
+        <rename>CLIENTE_LIMPIO</rename>
+      </field>
+      <field>
+        <name>PRODUCTO_STD</name>
+        <rename>PRODUCTO_STD</rename>
+      </field>
+      <field>
+        <name>PRECIO_UNIT</name>
+        <rename>PRECIO_UNIT</rename>
+      </field>
+      <field>
+        <name>CANTIDAD_NUM</name>
+        <rename>CANTIDAD_NUM</rename>
+      </field>
+      <field>
+        <name>TOTAL_VENTA_NUM</name>
+        <rename>TOTAL_VENTA_NUM</rename>
+      </field>
+      <field>
+        <name>TOTAL_CALCULADO</name>
+        <rename>TOTAL_CALCULADO</rename>
+      </field>
+      <field>
+        <name>TOTAL_CONSISTENTE</name>
+        <rename>TOTAL_CONSISTENTE</rename>
+      </field>
+      <field>
+        <name>CIUDAD_STD</name>
+        <rename>CIUDAD_STD</rename>
+      </field>
+      <field>
+        <name>GENERO_STD</name>
+        <rename>GENERO_STD</rename>
+      </field>
+      <field>
+        <name>METODO_PAGO_STD</name>
+        <rename>METODO_PAGO_STD</rename>
+      </field>
+      <field>
+        <name>archivo_origen</name>
+        <rename>archivo_origen</rename>
+      </field>
+      <field>
+        <name>CORRECCIONES</name>
+        <rename>CORRECCIONES</rename>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes />
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>720</xloc>
+      <yloc>400</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Salida Zapatillas Limpia</name>
+    <type>TextFileOutput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <separator>,</separator>
+    <enclosure>"</enclosure>
+    <enclosure_forced>N</enclosure_forced>
+    <enclosure_fix_disabled>N</enclosure_fix_disabled>
+    <header>Y</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding>UTF-8</encoding>
+    <endedLine />
+    <fileNameInField>N</fileNameInField>
+    <fileNameField />
+    <create_parent_folder>Y</create_parent_folder>
+    <file>
+      <name>${Internal.Transformation.Filename.Directory}/output/ventas_limpio</name>
+      <servlet_output>N</servlet_output>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>csv</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format />
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery />
+    </file>
+    <fields>
+      <field>
+        <name>id_venta</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>FECHA_VENTA</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>CLIENTE_LIMPIO</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>PRODUCTO_STD</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>PRECIO_UNIT</name>
+        <type>Number</type>
+        <format>0.00</format>
+        <currency />
+        <decimal>.</decimal>
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>CANTIDAD_NUM</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>TOTAL_VENTA_NUM</name>
+        <type>Number</type>
+        <format>0.00</format>
+        <currency />
+        <decimal>.</decimal>
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>TOTAL_CALCULADO</name>
+        <type>Number</type>
+        <format>0.00</format>
+        <currency />
+        <decimal>.</decimal>
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>TOTAL_CONSISTENTE</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>CIUDAD_STD</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>GENERO_STD</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>METODO_PAGO_STD</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>archivo_origen</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>CORRECCIONES</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+    <attributes />
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>880</xloc>
+      <yloc>400</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Salida Zapatillas Rechazados</name>
+    <type>TextFileOutput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <separator>,</separator>
+    <enclosure>"</enclosure>
+    <enclosure_forced>N</enclosure_forced>
+    <enclosure_fix_disabled>N</enclosure_fix_disabled>
+    <header>Y</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding>UTF-8</encoding>
+    <endedLine />
+    <fileNameInField>N</fileNameInField>
+    <fileNameField />
+    <create_parent_folder>Y</create_parent_folder>
+    <file>
+      <name>${Internal.Transformation.Filename.Directory}/output/ventas_rechazados</name>
+      <servlet_output>N</servlet_output>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>csv</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format />
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery />
+    </file>
+    <fields>
+      <field>
+        <name>id_venta</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>fecha</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>cliente</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>producto</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>precio_unitario</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>cantidad</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>total_venta</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>ciudad</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>genero</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>metodo_pago</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>archivo_origen</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>CORRECCIONES</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>RECHAZO_MOTIVO</name>
+        <type>String</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <nullif />
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+    <attributes />
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>720</xloc>
+      <yloc>512</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step_error_handling>
+  </step_error_handling>
+  <slave-step-copy-partition-distribution>
+  </slave-step-copy-partition-distribution>
+  <slave_transformation>N</slave_transformation>
+  <attributes />
+</transformation>

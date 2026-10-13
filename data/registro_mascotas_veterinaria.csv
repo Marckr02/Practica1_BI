@@ -1,0 +1,118 @@
+id_registro,fecha_registro,nombre_dueno,email,telefono,ciudad,nombre_mascota,especie,raza,sexo,fecha_nacimiento,edad,peso,vacunado,motivo_consulta
+99,16.09.25,Daniela Espinosa Villacís,daniela.espinosa94@yahoo.com,0908821009,Guayaquil,bruno,Perro,Chihuahua,m,01/06/2016,9,9.2 kg,Yes,chequeo anual
+60,,naranjo juan,juan.naranjo43@outlook.com,09 924 59375,Qito,canelo,Hámster,Roborovski,MACHO,2025-05-06,1,0.0,no,revisión dental
+43,05/25/2025,Játiva Daniela,daniela.jativa39@outlook.con,0902767735,Quito,NUBE,Gato,Mestizo,Macho,03/07/2018,82 meses,2.5Kg,NO,Alergia
+22,13-04-2026,MATEO CÁRDENAS MALDONADO,mateo.cardenas69@outlook.com,0988-675339,ambato,nube,Gato,,N/A,2027-03-15,1,2.1 kg,0,Cojera
+3,2026-07-21,Pedro Espinosa Játiva,pedro.espinosa59@hotmail.com,0938-849696,LOJA,Rocky,Perro,Chihuahua,hembra,23-07-2018,8,30.5 kg,Si,Problema de piel
+8,2026-03-14,MALDONADO DANIELA,daniela.maldonado15@gmail.com,,Quito,kira,Perro,labrador,hembra,,8,20.9 kg,1,DESPARASITACIÓN
+30,2026-08-05,Carolina  Carrión Velasco,carolina.carrion4@epn.edu.ec,09 402 44550,Quito,MAX,Perro,PASTOR ALEMAN,Hembra,31/02/2023,11 años,22.1,Yes,Alergia
+89,2025-06-28,jorge zambrano mena,jorge.zambrano21@gmail.com,0937530011,Cuenca,Mia,Gato,Angora,F,17-10-2023,20 meses,6.4,Sí,Vacunación
+102,17/08/2025,LUCÍA RODRÍGUEZ ALMEIDA,lucia.rodriguez27@epn.edu.ec,0956770051,Guayaquil,TWEETY,CONEJO,Mestiso,macho,31/10/2019,5,"2,0",SI,
+107,05-07-2026,sofía rodríguez almeida,sofia.rodriguez51@outlook.com,+593980118489,Loja,BELLA,Perro,Golden Retriever,?,13.02.12,14,n/d,Yes,Revisión dental
+40,08/08/2025,ALEJANDRA CHIRIBOGA GONZÁLEZ,alejandra.chiriboga83@yahoo.com,0990927557,Guayaquill,Max,Perro,Schnauzer,Macho,,10,34.9Kg,Pendiente,Revisión dental
+33,ayer,Carlos Játiva Chiriboga,carlos.jativa76@gmail.com,09 147 70054,Ambato,Sol,Felino,Siamés,macho,2027-03-15,7,4.3,Yes,Chequeo anual
+14,21-01-2025,Carolina  Pérez Naranjo,CAROLINA.PEREZ11@OUTLOOK.COM,+593972046537,cuenca,Bruno,Perro,poodle,m,10/11/2021,-2,22.9Kg,SI,Alergia
+101,21/09/2026,RICARDO RODRÍGUEZ BENÍTEZ,ricardo.rodriguez65@gmail.com,0996930848,Guayaquil,Bruno,perrito,Mestizo,F,2016-09-23,10 años,24.9,SI,REVISIÓN DENTAL
+100,2025-12-06,jorge cevallos mena,JORGE.CEVALLOS43@YAHOO.COM,09314913,guayaquil,NUBE,GATO,mestizo,Hembra,2023-09-25,26 meses,-6.4,No,Desparasitación
+11,19-08-2025,Maldonado  Diego,diego.maldonado39@outlook.com,09044369,Guayaquill,Tom,Gato,Mestizo,f,11.06.15,10 años,6.0 kg,,alergia
+41,2025-03-17,  Andrés Maldonado Guerrero ,andres.maldonado38@yahoo.com,0925831323,Quito,NALA,Perro,Golden Retreiver,hembra,25/10/2012,12 años,"7,0",1,alergia
+46,11/18/2025,PABLO CÁRDENAS CÁRDENAS,pablo.cardenas62@hotmail.com,09 962 30913,quito,Thor,Perro,Labrador,N/A,20/11/2017,,-33.6,Pendiente,Problema de piel
+85,2025-11-04,  Byron Espinosa Proaño ,byron.espinosa31@gmail.com,0996520744,Guayaquil,garfield,Gato,Persa,?,2027-03-15,5,6.2,1,Desparasitación
+82,30/03/2026,Carolina  Guerrero Paredes,carolina.guerrero74@epn.edu.ec,0924-629960,Ambato,COCO,PERRO,Buldog,,2027-03-15,2,"27,8",no,Revisión dental
+52,2025-02-04,cristina vásquez villacís,cristina.vasquez23@epn.edu.ec,,ambato,Max,Perro,Chihuahua,M,32-01-2022,1,17.3,Sí,Desparasitación
+39,2026-03-22,naranjo fernando,fernando.naranjo64@yahoo.com,,QUITO,FIRULAIS,Perro,Schnauzer,Macho,2016-12-05,9,11.8,,DESPARASITACIÓN
+6,01/03/2025,carolina chiriboga villacís,carolina.chiriboga32@gmail.com,0981-080132,Guayaquil,pipo,Ave,Periquito,Hembra,2023-09-01,1,,SI,VACUNACIÓN
+95,2026-01-12,ALEJANDRA PROAÑO MENA,alejandra.proaño58@gmail.com,0983863840,Quito,COPITO,HAMSTER,Roborovski,Femenino,26-09-2021,4,,,control general
+4,30/06/2026,Benítez Byron,byron.benitez65@gmail.com,0948932528,Loja,Felix,Gato,mestizo,macho,2014-03-16,45,5.8 kg,1,Esterilización
+64,2025-03-26,Paola Andrade Játiva,paola.andrade83@hotmail.com,0974225790,Loja,Tweety,Conejo,Mini Lop,hembra,2022-03-27,3 años,2.1,0,REVISIÓN DENTAL
+87,12-12-2025,verónica paredes espinosa,veronica.paredes62outlook.com,0983505830,GUAYAQUIL,simba,perrito,Golden Retriever,HEMBRA,14.12.16,9 años,16.9,no,vacunación
+19,11.09.26,Jorge  Montalvo Montalvo,JORGE.MONTALVO26@OUTLOOK.COM,0932421024,Ambato, Bruno ,PERRO,Bulldog,macho,09/08/2015,11,11.0 kg,,Problema de piel
+6,01/03/2025,carolina chiriboga villacís,carolina.chiriboga32@gmail.com,0981-080132,Guayaquil,pipo,Ave,Periquito,Hembra,2023-09-01,1,,SI,VACUNACIÓN
+50,21/03/2025,Daniela Andrade Naranjo,daniela.andrade91@yahoo.com,09459332,LOJA,Garfield,Gato,Criollo,MACHO,17.08.14,10,6.6 kg,1,revisión dental
+56,29.12.25,LUCÍA RODRÍGUEZ ORTIZ,lucia.rodriguez59@yahoo.con,09 977 00886,GUAYAQUIL, Lola ,Perro,mestizo,MACHO,05/02/2022,46 meses,11.6 lb,,Control general
+20,02-01-2025,ESPINOSA SANTIAGO,santiago.espinosa75@outlook.com,0971756551,Quito,Kira,Perro,Labrador,hembra,2012-01-06,156 meses,,Sí,esterilización
+38,2026-07-11,Alejandra  Rodríguez Guerrero,alejandra.rodriguez14@epn.edu.ec,0952058527,guayaquil,THOR,Perro,pastor aleman,?,2020-06-06,6,18.1 kg,No,Control general
+21,15-07-2025,DANIELA CHIRIBOGA ORTIZ,daniela.chiriboga81@epn.edu.ec,0924808613,Ambato,Pelusa,GATO,Angora,HEMBRA,03/29/2023,2,,1,Problema de piel
+108,2025-09-05,Jorge Rodríguez Naranjo,jorge.rodriguez87@hotmail.com,09 658 80434,Cuenca,thor,Perro,Pastor Alemán,m,2021-12-25,3 años,30.9Kg,Si,Revisión dental
+76,2025-06-29,almeida pablo,pablo.almeida46@epn.edu.ec,0921334803,Loja,SIMBA,PERRO,Poodle,macho,2017-04-20,8 años,18.7 kg,sí,Desparasitación
+57,2025-08-01,carlos naranjo naranjo,carlos.naranjo82@gmail.com,+593917659180,Ambato,Mia,Gato,Criollo,N/A,2027-03-15,0,4.9,no,Chequeo anual
+32,06/10/2026,Fernando Ortiz Guerrero,fernando.ortiz32@outlook.com,09 816 45352,guayaquil,NIEVE,ave,Periquito,Masculino,01/03/2026,0,0.5,0,Vómito
+91,23/01/2026,Cristina Salazar Zambrano,cristina.salazar13@outlook.com,09 375 62890,LOJA,Copito,Conejo,Mini Lop,f,31/08/2022,siete,1.8Kg,Yes,vacunación
+92,2025-02-16,Vásquez Carolina,carolina.vasquez80@yahoo.com,+593983755037,Cuenca,MISHA,Felino,PERSA,Hembra,15-07-2014,10,,Si,cojera
+1,2025-12-15,RICARDO CEVALLOS PÉREZ,ricardo.cevallos18@gmail.com,+593981960013,Guayaquil,nube,Gato,Criollo,m,2015-06-19,10,3.4Kg,No,Vacunación
+84,2026-01-19,PEDRO TORRES ESPINOSA,pedro.torres84@outlook.com,0907229034,Loja, Felix ,Felino,Persa,F,04-04-2018,7 anios,4.8,NO,problema de piel
+74,18.03.25,DANIELA ORTIZ ORTIZ,DANIELA.ORTIZ42@HOTMAIL.CON,09 356 80442,guayaquil,LUNA,perro,PASTOR ALEMAN,Macho,,13,3.7 kg,NO,control general
+10,05-12-2025,pablo almeida guerrero,pablo.almeida69@yahoo.com,0914-294019,CUENCA,nieve,HAMSTER,,M,26.03.20,5 años,0.1,Pendiente,Problema de piel
+83,01-05-2026,Santiago Montalvo Andrade,santiago.montalvo52@hotmail.com,09 890 23303,quito,nala,Perro,Golden Retriever,f,10/12/2011,14 años,"21,8",no,vacunación
+25,2026-02-11,FERNANDO GONZÁLEZ CÁRDENAS,fernando.gonzalez38@yahoo.com,0923285884,Quito,Bruno,Perro,,?,fecha desconocida,122 meses,34.0,Pendiente,Problema de piel
+28,10/04/2026,  Valeria Chiriboga Carrión ,valeria.chiriboga58@epn.edu.ec,0990847007,Guayaquill,ROCKY,perrito,Bulldog,HEMBRA,2018-03-07,8,-19.2,sí,Cojera
+80,2026-03-05,ana proaño montalvo,ana.proaño85@yahoo.con,09 862 56527,GUAYAQUIL,Misha,Gato,Criollo,macho,19/11/2013,12,6.8,Pendiente,Vacunación
+93,2025-11-26,pedro ortiz salazar,PEDRO.ORTIZ82@EPN.EDU.EC,0977982708,Guayaquill,Nieve,Ave,Canario,Masculino,17.03.22,3,500 g,No,REVISIÓN DENTAL
+73,2025-04-19,María Torres Zambrano,maria.torres59@gmail.com,0982619906,QUITO, Canelo ,Pájaro,,MACHO,01/07/2024,9 meses,-0.2,No,control general
+69,2025-03-11,Mónica Velasco Proaño,monica.velasco85@yahoo.com,0998-364037,Quito,Max,Perro,Pudel,M,16.10.24,0,3.4Kg,no,COJERA
+106,31/04/2025,cristina maldonado cevallos,CRISTINA.MALDONADO90@HOTMAIL.COM,0986589026,quito,LUNA,Perro,pastor aleman,HEMBRA,fecha desconocida,4 años,4.8,0,Desparasitación
+53,2026-01-21,Mónica Cárdenas Salazar,monica.cardenas42@hotmail.com,0928364408,Ambato,Michi,Felino,Angora,hembra,2023-08-29,2 años,,Sí,Chequeo anual
+15,04/16/2026,MARCO ANDRADE PROAÑO,marco.andrade40@epn.edu.ec,0966319314,Guayaquil,Luna,PERRO,Pudel,Macho,11.09.16,9,-25.6,Yes,Revisión dental
+72,10/12/2025,  Daniela Carrión Proaño ,daniela.carrion2@yahoo.com,0994937597,Cuenca,TOM,Gato,,Femenino,2027-03-15,13,2.0,Yes,VACUNACIÓN
+58,15/15/2025,Esteban Benítez Rodríguez,esteban.benitez7@gmail.com,0915999650,Cuenca,FIRULAIS,Perro,,Femenino,15-06-2024,1,7.9,Yes,VÓMITO
+9,2025-08-16,MONTALVO JESSICA,jessica.montalvo32@gmail.com,09 869 23226,cuenca,pepe,Conejo,Cabeza de León,M,05/06/2020,5 anios,1.4,no,
+37,ayer,Byron Rodríguez Pérez,byron.rodriguez71@epn.edu.ec,0914341036,Guayaquill,sol,gatito,persa,m,01/04/2015,10,"4,6",Sí,
+12,06/04/2026,Valeria Naranjo Torres,valeria.naranjo97@gmail.com,09328708,Ambato,Tweety,hamster,Roborovski,?,24-01-2021,5,0.1Kg,Si,problema de piel
+62,07-09-2025,  Fernando Carrión Maldonado ,fernando.carrion45@gmail.com,09461125,Qito,thor,Perro,,Femenino,10/09/2013,12 anios,n/d,SI,Cojera
+18,2025-06-27,luis villacís montalvo,luis.villacis32@gmail.com,0969993867,Quito,Simba,Perro,Golden Retriever,M,28-12-2022,30 meses,20.7 kg,No,revisión dental
+26,17/05/2026,Ana  Maldonado Torres,ana.maldonado72@yahoo.com,0931746120,Quito,thor,Canino,Chihuahua,?,04-09-2024,1 anios,22.7,NO,Control general
+105,11/02/2026,mateo cevallos paredes,mateo.cevallos30@gmail.com,09 864 30098,Quito,MISHA,GATO,Criollo,HEMBRA,26/10/2021,4,5.8 lb,No,Alergia
+77,23.01.26,  Cristina Salazar González ,cristina.salazar19@gmail.com,+593951569154,Loja,Thor,Perro,Mestizo,HEMBRA,09-10-2013,12 años,12.8,0,vacunación
+48,10/07/2025,ESTEBAN JÁTIVA CEVALLOS,esteban.jativa71@hotmail.com,0977345401,Quito,Pipo,Conejo,Cabeza de León,N/A,fecha desconocida,4,2.9,NO,Problema de piel
+54,11/09/2026,Diego  Torres Almeida,diego.torres58@yahoo.con,09 304 69901,Cuenca,Mia,GATO,siames,macho,2013-01-02,13 años,5.5 lb,No,Problema de piel
+86,2025-03-24,lucía guerrero torres,lucia.guerrero43@yahoo.com,09 471 70999,AMBATO,Kira,Perro,Mestizo,Femenino,00/00/0000,2 años,18.6,0,Desparasitación
+104,19/06/2026,Jorge Andrade Benítez,jorge.andrade77@epn.edu.ec,0966210388,Ambato,SIMBA,Perro,GOLDEN,?,02/09/2016,9,16.5,NO,Alergia
+64,2025-03-26,Paola Andrade Játiva,paola.andrade83@hotmail.com,0974225790,Loja,Tweety,Conejo,Mini Lop,hembra,2022-03-27,3 años,2.1,0,REVISIÓN DENTAL
+78,23-01-2026,ALEJANDRA VELASCO TORRES,alejandra.velasco64@hotmail.com,09 135 52157,Quito,BRUNO,Perro,Chihuahua,N/A,27-07-2018,7,"14,2",Yes,
+81,01/10/2026,Karen Velasco Villacís,karen.velasco23@hotmail.com,0932061632,Quito,tweety,AVE,Periquito,,2021-12-14,4 años,0.5,Si,CONTROL GENERAL
+44,07/19/2025,chiriboga santiago,santiago.chiriboga12@outlook.com,0933950047,Ambato,FIRULAIS,Perro,Bulldog,F,14/12/2016,103 meses,14.6Kg,0,control general
+61,2026-02-14,Jorge Maldonado Villacís,jorge.maldonado10@outlook.com,0979688680,Quito,MISHA,Gato,Persa,Masculino,2027-03-15,10,"6,8",1,Alergia
+35,26-04-2026,Carlos Proaño Montalvo,carlos.proaño95epn.edu.ec,0959296222,Cuenca,Coco,Canino,Pastor Alemán,f,09/07/2021,4,31.9 kg,1,Chequeo anual
+31,20/01/2025,Ana  Guerrero Paredes,ana.guerrero76@outlook.com,+593940369003,QUITO, Bruno ,Canino,Mestiso,Femenino,03/04/2024,0 anios,17.7 kg,no,Vacunación
+80,2026-03-05,ana proaño montalvo,ana.proaño85@yahoo.con,09 862 56527,GUAYAQUIL,Misha,Gato,Criollo,macho,19/11/2013,12,6.8,Pendiente,Vacunación
+71,2025-11-24,  Mateo Espinosa Rodríguez ,mateo.espinosa8@outlook.com,0925241913,Quito,Firulais,PERRO,Mestizo,f,03/07/2019,76 meses,11.7 kg,Sí,cojera
+41,2025-03-17,  ANDRÉS MALDONADO GUERRERO ,ANDRES.MALDONADO38@YAHOO.COM,0925831323,Quito,NALA,Perro,Golden Retreiver,hembra,25/10/2012,12 años,"7,0",1,alergia
+34,2026-06-24,Daniela  Naranjo Paredes,daniela.naranjo7@yahoo.con,09 186 44925,Cuenca,lola,Perro,Golden Retreiver,Femenino,2015-11-20,-2,6.0,Yes,esterilización
+79,18/05/2026,Jorge Cevallos Rodríguez,jorge.cevallos21@gmail.com,0915997062,GUAYAQUIL,Bruno,perrito,Bulldog,MACHO,01/31/2018,cinco,"7,9",sí,Desparasitación
+47,30-07-2026,Proaño Carolina,carolina.proaño99@yahoo.com,0975758441,Guayaquil,BELLA,perro,Golden Retreiver,HEMBRA,19/05/2022,4,25.3 kg,,esterilización
+42,30/01/2025,  Zambrano Paola ,,+593935841438,Guayaquil,Simba,Perro,Mestiso,HEMBRA,2024-04-13,0,5.6,Sí,Revisión dental
+13,14-07-2026,BYRON VÁSQUEZ RODRÍGUEZ,byron.vasquez89@hotmail.com,+593916658760,Guayaquil,sol,Gato,Siamés,N/A,00/00/0000,99,6.0,Pendiente,Desparasitación
+75,27/01/2026,cárdenas sofía,sofia.cardenas4@outlook.com,09 253 24472,GUAYAQUIL,THOR,Perro,Buldog,MACHO,30/01/2014,,"28,0",SI,Vacunación
+49,2026-01-28,BYRON VILLACÍS ZAMBRANO,,09 742 05493,Ambato,Pipo,Conejo,Cabeza de León,f,2025-11-16,0,1.5,Pendiente,esterilización
+27,15/15/2025,RICARDO GUERRERO GONZÁLEZ,ricardo.guerrero16@outlook.con,+593939005329,Ambato,garfield,Gato,Persa,,2024-13-05,14,3.3 kg,Sí,Desparasitación
+96,2026-07-04,santiago cevallos naranjo,,0940572025,Cuenca,tweety,CONEJO,mestizo,m,28-11-2023,2,"1,8",0,Chequeo anual
+2,07/25/2026,Diego  Rodríguez Vásquez,,+593910341316,GUAYAQUIL,Bruno,Perro,Golden Retriever,macho,2022-05-14,4,"10,0",Si,Esterilización
+41,2025-03-17,  Andrés Maldonado Guerrero ,andres.maldonado38@yahoo.com,0925831323,Quito,NALA,Perro,Golden Retreiver,hembra,25/10/2012,12 años,"7,0",1,alergia
+94,20-06-2026,Byron Benítez Zambrano,byron.benitez41@epn.edu.ec,,Guayaquil,Sol,gatito,Angora,N/A,2014-04-11,12 años,2.5 lb,,
+67,28/08/2025,Andrés Vásquez Cárdenas,andres.vasquez44gmail.com,+593970127706,CUENCA,BELLA,Perro,Pudel,Masculino,2027-03-15,4 años,16.7 kg,Yes,vacunación
+90,2025-05-14,Gabriela Chiriboga Velasco,,09 667 46762,Cuenca,Thor,Perro,Schnauzer,HEMBRA,00/00/0000,0,,1,Alergia
+16,04/04/2026,cristina torres rodríguez,cristina.torres97@outlook.com,0965-075273,UIO,Pelusa,Gato,SIAMES,Masculino,26-07-2015,10 años,6.0 kg,1,Vómito
+59,06.03.25,paola chiriboga vásquez,paola.chiriboga4@gmail.com,0919-956046,Quito,Tweety,Ave,Cacatúa,Macho,30-01-2022,3 anios,0.2Kg,Yes,Alergia
+23,04.07.25,Vásquez  Cristina,cristina.vasquez98@outlook.com,0909134316,Cuenca,MAX,PERRO,LABRADOR,MACHO,20/03/2015,10,8.4 kg,Yes,Problema de piel
+88,04/10/2025,  Luis Mena Benítez ,luis.mena16@yahoo.com,0906489090,CUENCA,nala,Perro,Mestiso,F,07/10/2015,120 meses,22.9,Si,revisión dental
+48,10/07/2025,ESTEBAN JÁTIVA CEVALLOS,esteban.jativa71@hotmail.com,0977345401,Quito,Pipo,Conejo,Cabeza de León,N/A,fecha desconocida,4,2.9,NO,Problema de piel
+45,18-01-2025,gabriela montalvo salazar,gabriela.montalvo19@hotmail.com,,Quito,COCO,Perro,Bulldog,Hembra,08/11/2017,7,14.8,Sí,Alergia
+65,31.07.25,Pablo Vásquez Guerrero,pablo.vasquez98@outlook.com,0961340745,Quito,Toby,Perro,Poodle,f,,,n/d,0,Problema de piel
+5,,GABRIELA CHIRIBOGA ZAMBRANO,gabriela.chiriboga9yahoo.com,09 839 30103,UIO,Toby,Perro,Schnauzer,f,2024-08-11,1,14.3 lb,Pendiente,VÓMITO
+70,ayer,VERÓNICA VILLACÍS ALMEIDA,veronica.villacis27@hotmail.com,09 691 46303,Guayaquil,BRUNO,Perro,Labrador,Macho,2017-11-01,7,8.3 kg,No,chequeo anual
+62,07-09-2025,  Fernando Carrión Maldonado ,fernando.carrion45@gmail.com,09461125,Qito,thor,Perro,,Femenino,10/09/2013,12 anios,n/d,SI,Cojera
+55,23.06.25,alejandra benítez játiva,alejandra.benitez27@yahoo.com,0909320489,GUAYAQUIL,Thor,perro,Pudel,Femenino,06/26/2013,12 años,,Si,Vacunación
+103,2025-10-18,RICARDO ALMEIDA MENA,ricardo.almeida78@gmail.com,09 651 77739,Ambato,Lola,perro,MESTIZO,HEMBRA,15/03/2016,9,33.3Kg,SI,Alergia
+68,30/03/2025,ANA PAREDES ORTIZ,ana.paredes50@gmail.com,0911554262,CUENCA,thor,Perro,Pastor Alemán,hembra,09-05-2012,12 años,31.7 kg,sí,Problema de piel
+7,05/16/2025,rodríguez verónica,veronica.rodriguez73@hotmail.com,0909169985,Quito,thor,PERRO,GOLDEN,m,,7,32.9,0,chequeo anual
+17,01/13/2025,ESTEBAN CHIRIBOGA ALMEIDA,esteban.chiriboga93@hotmail.com,0982337498,Loja,Max,PERRO,mestizo,macho,04.05.23,dos,-21.4,Si,Cojera
+74,18.03.25,DANIELA ORTIZ ORTIZ,daniela.ortiz42@hotmail.con,09 356 80442,guayaquil,LUNA,perro,PASTOR ALEMAN,Macho,,13,3.7 kg,NO,control general
+97,2026-10-04,ricardo pérez cevallos,ricardo.perez83@epn.edu.ec,0930561648,QUITO,michi,Felino,persa,?,08/31/2018,8,2.3,Pendiente,Cojera
+29,04/17/2025,fernando naranjo paredes,fernando.naranjo41@yahoo.com,0927111161,Quito, Misha ,GATO,Angora,?,2027-03-15,4,4.9Kg,No,alergia
+51,2025-05-19,játiva mateo,MATEO.JATIVA8@OUTLOOK.COM,0967-908740,Ambato,Misha,GATO,,hembra,26/06/2022,2,5.8,no,cojera
+80,2026-03-05,ANA PROAÑO MONTALVO,ANA.PROAÑO85@YAHOO.CON,09 862 56527,GUAYAQUIL,Misha,Gato,Criollo,macho,19/11/2013,12,6.8,Pendiente,Vacunación
+66,2025-04-06,Cevallos Marco,marco.cevallos8@yahoo.com,09 223 25367,Guayaquil,Firulais,Perro,Bulldog,N/A,fecha desconocida,8,-26.4,sí,revisión dental
+98,2025-11-05,LUIS PÉREZ CHIRIBOGA,,09481934,Guayaquill,Misha,gatito,,MACHO,2024-01-18,1,5.0Kg,sí,Desparasitación
+24,24-08-2025,FERNANDO PROAÑO MALDONADO,fernando.proaño45@epn.edu.ec,+593964743671,Guayaquil,pipo,HAMSTER,Sirio,Hembra,13/12/2020,4,"0,1",SI,Control general
+63,2025-11-01,Fernando Cárdenas Paredes,fernando.cardenas27@yahoo.com,09191825,Quito,sol,Gato,Angora,hembra,2016-07-17,9,6.6,SI,Chequeo anual
+36,2025-01-29,verónica villacís almeida,veronica.villacis48@epn.edu.ec,09 814 12478,Guayaquil, Max ,PERRO,Chihuahua,M,,5,13.2 kg,Yes,Desparasitación
