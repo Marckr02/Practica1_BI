@@ -1,8 +1,9 @@
-# Guía Paso a Paso: ETL en Pentaho Data Integration (Spoon)
+# Guía Paso a Paso: ETL Ventas Zapatillas en Pentaho Data Integration (Spoon)
 
-## Fuentes de Datos Creadas
-- **graduados.csv** → Abrir en Excel y guardar como `graduados.xlsx` (Fuente 1: Excel)
-- **empleos.csv** → Fuente 2: CSV
+## Fuentes de Datos
+- **Fuente 1**: `data/ventas_zapatillas_Errores.xlsx` (Excel - 200 registros)
+- **Fuente 2**: `data/ventas_zapatillas_Errores_Uno.csv` (CSV - 200 registros)
+- *Ambas tienen la misma estructura pero diferente distribución de errores*
 
 ---
 
@@ -10,193 +11,339 @@
 
 ### 1.1 Abrir Spoon y crear nueva transformación
 - `File` → `New` → `Transformation`
-- Guardar como `etl_graduados_empleos.ktr`
+- Guardar como `transformations/etl_ventas_zapatillas.ktr`
 
 ---
 
-## 2. Configurar Entrada Excel (graduados.xlsx)
+## 2. Configurar Entrada Excel (Fuente 1)
 
 ### 2.1 Arrastrar **Microsoft Excel Input** (categoría Input)
 ### 2.2 Configurar:
-- **Step name**: `Leer Graduados Excel`
-- **File or directory**: Seleccionar `data/graduados.xlsx`
-- **Sheet name**: `Hoja1` (o el nombre de la hoja)
+- **Step name**: `Leer Ventas Excel`
+- **File or directory**: Seleccionar `data/ventas_zapatillas_Errores.xlsx`
+- **Sheet name**: `Sheet1` (o el nombre de la hoja)
 - **Header row present**: ✓
-- **Preview**: Verificar que lee 10 filas
+- **Preview**: Verificar que lee 200 filas, 10 columnas
 
 ---
 
-## 3. Configurar Entrada CSV (empleos.csv)
+## 3. Configurar Entrada CSV (Fuente 2)
 
 ### 3.1 Arrastrar **CSV File Input** (categoría Input)
 ### 3.2 Configurar:
-- **Step name**: `Leer Empleos CSV`
-- **File or directory**: Seleccionar `data/empleos.csv`
+- **Step name**: `Leer Ventas CSV`
+- **File or directory**: Seleccionar `data/ventas_zapatillas_Errores_Uno.csv`
 - **Separator**: `,` (coma)
 - **Header row present**: ✓
 - **Encoding**: `UTF-8`
-- **Preview**: Verificar 10 filas
+- **Preview**: Verificar 200 filas, 10 columnas
 
 ---
 
-## 4. Transformación 1: Limpiar y Estandarizar Nombres (Graduados)
+## 4. Transformación 1: Estandarizar Valores Categóricos (Ambas Fuentes)
 
-### 4.1 Arrastrar **JavaScript** (categoría Transform)
-### 4.2 Conectar `Leer Graduados Excel` → `JavaScript`
-### 4.3 Configurar JavaScript:
-- **Step name**: `Limpiar Nombres Graduados`
-- **Código**:
+### 4.1 Arrastrar **Modified Java Script Value** (categoría Transform)
+### 4.2 Conectar `Leer Ventas Excel` → `Modified Java Script Value`
+### 4.3 **Step name**: `Estandarizar Categoricos`
+### 4.4 Código JavaScript:
+
 ```javascript
-// Capitalizar correctamente: Primera letra mayúscula, resto minúscula
-function capitalize(str) {
-    if (!str) return "";
-    return str.toLowerCase().replace(/\b\w/g, function(l) { return l.toUpperCase(); });
+// ============================================
+// NORMALIZACIÓN DE PRODUCTO (6 variantes → 3)
+// ============================================
+var prod = PRODUCTO ? PRODUCTO.toString().trim().toLowerCase() : "";
+var producto_std;
+switch(prod) {
+    case "air max": 
+    case "airmax": 
+        producto_std = "Air Max"; 
+        break;
+    case "super star": 
+    case "superstar": 
+        producto_std = "Super Star"; 
+        break;
+    case "ultra boost": 
+    case "ultraboost": 
+        producto_std = "Ultra Boost"; 
+        break;
+    default: 
+        producto_std = PRODUCTO; // mantener original si no coincide
 }
+PRODUCTO_STD = producto_std;
 
-var nombresLimpio = capitalize(NOMBRES);
-var apellidosLimpio = capitalize(APELLIDOS);
+// ============================================
+// NORMALIZACIÓN DE CIUDAD (6 variantes → 2)
+// ============================================
+var ciud = CIUDAD ? CIUDAD.toString() : "";
+// Quitar acentos y normalizar
+ciud = ciud.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase().trim();
+var ciudad_std;
+if (ciud.indexOf("BOGOTA") >= 0) {
+    ciudad_std = "BOGOTA";
+} else if (ciud.indexOf("MEDELLIN") >= 0) {
+    ciudad_std = "MEDELLIN";
+} else {
+    ciudad_std = ciud;
+}
+CIUDAD_STD = ciudad_std;
 
-// Eliminar espacios extra
-nombresLimpio = nombresLimpio.replace(/\s+/g, ' ').trim();
-apellidosLimpio = apellidosLimpio.replace(/\s+/g, ' ').trim();
+// ============================================
+// NORMALIZACIÓN DE GÉNERO (M/m/F/f/X → M/F/ND)
+// ============================================
+var gen = GENERO ? GENERO.toString().trim().toUpperCase() : "";
+var genero_std;
+if (gen == "M") genero_std = "M";
+else if (gen == "F") genero_std = "F";
+else genero_std = "ND"; // No definido (incluye X, nulos, etc.)
+GENERO_STD = genero_std;
 
-// Crear nombre completo
-var nombreCompleto = nombresLimpio + " " + apellidosLimpio;
+// ============================================
+// NORMALIZACIÓN MÉTODO PAGO (6 variantes → 4)
+// ============================================
+var mp = METODO_PAGO ? METODO_PAGO.toString().trim().toLowerCase() : "";
+var metodo_pago_std;
+if (mp.indexOf("efectivo") >= 0) metodo_pago_std = "Efectivo";
+else if (mp.indexOf("tarjeta") >= 0) metodo_pago_std = "Tarjeta";
+else if (mp.indexOf("transfer") >= 0) metodo_pago_std = "Transferencia";
+else metodo_pago_std = "ND";
+METODO_PAGO_STD = metodo_pago_std;
 
-// Retornar campos originales + nuevos
-NOMBRES_LIMPIO = nombresLimpio;
-APELLIDOS_LIMPIO = apellidosLimpio;
-NOMBRE_COMPLETO = nombreCompleto;
+// ============================================
+// LIMPIEZA CLIENTE (quitar acentos, mayúsculas)
+// ============================================
+var cli = CLIENTE ? CLIENTE.toString() : "";
+if (cli) {
+    cli = cli.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase().trim();
+}
+CLIENTE_LIMPIO = cli;
 ```
-- **Get Fields**: Obtener campos del stream anterior
-- **Compatibility mode**: ✓
+
+### 4.5 **Get Fields**: Click para obtener campos del stream anterior
+### 4.6 **Compatibility mode**: ✓
+
+### 4.7 **Duplicar para Fuente 2**:
+- Copiar el paso `Estandarizar Categoricos` (Ctrl+C, Ctrl+V)
+- Conectar `Leer Ventas CSV` → copia
+- Renombrar copia a `Estandarizar Categoricos CSV`
 
 ---
 
-## 5. Transformación 2: Validar y Estandarizar Fechas (Graduados)
+## 5. Transformación 2: Limpiar Numéricos y Fechas (Ambas Fuentes)
 
-### 5.1 Arrastrar **Select Values** (categoría Transform) → Renombrar a `Estandarizar Fecha Graduacion`
-### 5.2 Conectar `Limpiar Nombres Graduados` → `Estandarizar Fecha Graduacion`
-### 5.3 Configurar:
-- En pestaña **Select & Alter**: Mantener todos los campos
-- En pestaña **Metadata**: Cambiar `FECHA_GRADUACION`:
-  - **Type**: `Date`
-  - **Format**: `dd/MM/yyyy` (PDI intentará parsear múltiples formatos)
-  - **Length**: 10
-  - **Precision**: -1
+### 5.1 Arrastrar **Modified Java Script Value** → Conectar después de `Estandarizar Categoricos`
+### 5.2 **Step name**: `Limpiar Numericos Fechas`
+### 5.3 Código JavaScript:
 
-### 5.4 Agregar **Filter Rows** después para validar fechas nulas:
-- **Step name**: `Filtrar Fechas Válidas`
-- **Condition**: `FECHA_GRADUACION is not null`
-- **Send true to**: Siguiente paso
-- **Send false to**: `Log Invalidos` (crear un **Dummy** o **Text File Output** para errores)
-
----
-
-## 6. Limpiar Datos de Empleos (CSV)
-
-### 6.1 Arrastrar **JavaScript** → Conectar `Leer Empleos CSV`
-### 6.2 **Step name**: `Limpiar Datos Empleos`
-### 6.3 Código:
 ```javascript
-// Estandarizar ciudad y sector
-CIUDAD_LIMPIA = CIUDAD ? CIUDAD.trim().toUpperCase() : "";
-SECTOR_LIMPIO = SECTOR ? SECTOR.trim() : "";
+// ============================================
+// PRECIO_UNITARIO: quitar "usd", convertir, corregir negativos
+// ============================================
+var precioStr = PRECIO_UNITARIO ? PRECIO_UNITARIO.toString().replace(/usd/gi, "").trim() : "0";
+var precioNum = parseFloat(precioStr);
+if (isNaN(precioNum)) precioNum = 0;
+PRECIO_LIMPIO = Math.abs(precioNum); // Valor absoluto para corregir negativos
 
-// Validar salario numérico
-SALARIO_NUM = parseFloat(SALARIO);
-if (isNaN(SALARIO_NUM)) SALARIO_NUM = 0;
+// ============================================
+// CANTIDAD: "uno" → 1, texto → número, nulos → 0
+// ============================================
+var cantStr = CANTIDAD ? CANTIDAD.toString().trim().toLowerCase() : "0";
+var cantNum;
+switch(cantStr) {
+    case "uno": case "1": cantNum = 1; break;
+    case "2": cantNum = 2; break;
+    case "3": cantNum = 3; break;
+    case "4": cantNum = 4; break;
+    default: cantNum = 0;
+}
+CANTIDAD_LIMPIA = cantNum;
 
-// Estandarizar fecha inicio
-// PDI la parseará en Select Values después
-FECHA_INICIO_RAW = FECHA_INICIO;
+// ============================================
+// TOTAL_VENTA: RECALCULAR = precio × cantidad (más confiable)
+// ============================================
+TOTAL_CALCULADO = PRECIO_LIMPIO * CANTIDAD_LIMPIA;
+
+// ============================================
+// FECHA: mantener original para que Select Values la parseé
+// ============================================
+FECHA_ORIGINAL = FECHA;
 ```
 
-### 6.4 Agregar **Select Values** → `Estandarizar Fecha Empleo`
-- Cambiar `FECHA_INICIO_RAW` a **Date**, formato `dd/MM/yyyy` (o probar `yyyy-MM-dd`)
+### 5.4 **Get Fields** → Click
+### 5.5 **Compatibility mode**: ✓
+
+### 5.6 **Duplicar para Fuente 2** (igual que paso anterior)
 
 ---
 
-## 7. Unir (Join) las Dos Fuentes
+## 6. Validación y Conversión de Fechas (Select Values)
 
-### 7.1 Arrastrar **Merge Join** (categoría Join)
-### 7.2 Conectar:
-- `Estandarizar Fecha Graduacion` → Merge Join (lado **Left**)
-- `Estandarizar Fecha Empleo` → Merge Join (lado **Right**)
-### 7.3 Configurar Merge Join:
-- **Step name**: `Unir Graduados Empleos`
-- **Join type**: `Inner Join` (o Left Join si quieres todos los graduados)
-- **Keys**:
-  - Left: `ID` (de graduados)
-  - Right: `ID_GRADUADO` (de empleos)
-- **Importante**: Ambos streams deben estar **ordenados** por la clave
+### 6.1 Arrastrar **Select Values** (categoría Transform)
+### 6.2 Conectar `Limpiar Numericos Fechas` → `Select Values`
+### 6.3 **Step name**: `Convertir Fecha`
+### 6.4 Pestaña **Select & Alter**: Mantener todos los campos
+### 6.5 Pestaña **Metadata**:
+- Buscar campo `FECHA_ORIGINAL` (o `FECHA` si no renombraste)
+- **Name**: `FECHA_STD` (nuevo nombre)
+- **Type**: `Date`
+- **Format**: `dd/MM/yyyy`  ← **IMPORTANTE**: PDI 9+ auto-detecta: `yyyy-MM-dd`, `yyyy/MM/dd`, `dd-MM-yyyy`
+- **Length**: 10
+- **Precision**: -1
 
-### 7.4 Agregar **Sort Rows** antes del Merge Join en AMBOS streams:
-- **Graduados**: Sort by `ID` (Ascending)
-- **Empleos**: Sort by `ID_GRADUADO` (Ascending)
+> **Nota**: Si PDI no parsea algún formato, agregar un paso `Replace in string` ANTES para unificar separadores (`/` → `-`)
+
+### 6.6 **Duplicar para Fuente 2**
 
 ---
 
-## 8. Salida: Guardar Resultado Procesado
+## 7. Filtrar Fechas Inválidas (Control de Calidad)
 
-### 8.1 Arrastrar **Text File Output** (categoría Output) o **Microsoft Excel Writer**
-### 8.2 Conectar `Unir Graduados Empleos` → Output
-### 8.3 Configurar (Text File Output):
-- **Step name**: `Escribir Resultado Final`
-- **File**: `output/graduados_empleos_procesados.csv`
-- **Separator**: `,`
+### 7.1 Arrastrar **Filter Rows** (categoría Flow)
+### 7.2 Conectar `Convertir Fecha` → `Filter Rows`
+### 7.3 **Step name**: `Validar Fechas`
+### 7.4 **Condition**: `FECHA_STD is not null`
+### 7.5 **Send true to**: Siguiente paso (datos válidos)
+### 7.6 **Send false to**: Crear **Text File Output** → `output/fechas_invalidas.xlsx` (auditoría)
+
+### 7.7 **Duplicar para Fuente 2**
+
+---
+
+## 8. Seleccionar Campos Finales por Fuente (Select Values)
+
+### 8.1 Arrastrar **Select Values** después de `Validar Fechas` (rama true)
+### 8.2 **Step name**: `Seleccionar Campos Finales`
+### 8.3 Pestaña **Select & Alter**: Seleccionar solo:
+- `ID_VENTA` (o `id_venta`)
+- `FECHA_STD`
+- `CLIENTE_LIMPIO`
+- `PRODUCTO_STD`
+- `PRECIO_LIMPIO`
+- `CANTIDAD_LIMPIA`
+- `TOTAL_CALCULADO`
+- `CIUDAD_STD`
+- `GENERO_STD`
+- `METODO_PAGO_STD`
+
+### 8.4 **Duplicar para Fuente 2** (misma selección de campos)
+
+---
+
+## 9. Unir (Append) las Dos Fuentes
+
+### 9.1 Arrastrar **Append Streams** (categoría Flow)
+### 9.2 Conectar:
+- `Seleccionar Campos Finales` (Fuente 1) → `Append Streams` (input 1)
+- `Seleccionar Campos Finales` (Fuente 2) → `Append Streams` (input 2)
+### 9.3 **Step name**: `Unir Ventas Consolidado`
+- No requiere ordenación ni claves (simple unión vertical)
+
+---
+
+## 10. Salida Principal: Dataset Consolidado Limpio
+
+### 10.1 Arrastrar **Text File Output** (categoría Output)
+### 10.2 Conectar `Unir Ventas Consolidado` → `Text File Output`
+### 10.3 **Step name**: `Escribir Ventas Limpio`
+### 10.4 Configurar:
+- **File**: `output/ventas_consolidadas_limpias.csv`
+- **Extension**: `csv`
+- **Separator**: `,` (o `;` según locale)
 - **Header**: ✓
 - **Encoding**: `UTF-8`
 - **Append**: No
-- **Fields**: `Get Fields` → Seleccionar campos deseados
-
-### 8.4 Campos sugeridos para salida:
-- ID, NOMBRE_COMPLETO, ESTADO_ESTANDAR, FECHA_GRADUACION, CARRERA, PROMEDIO
-- EMPRESA, CARGO, FECHA_INICIO, SALARIO_NUM, CIUDAD_LIMPIA, SECTOR_LIMPIO
+- **Fast data dump**: No
+- **Fields**: `Get Fields` → Seleccionar todos
 
 ---
 
-## 9. Validación de Resultados
+## 11. Validación: Métricas de Calidad (Group By)
 
-### 9.1 Agregar **Group By** después del Join para estadísticas:
-- **Step name**: `Estadisticas Validacion`
-- **Group by**: `ESTADO_ESTANDAR`, `SECTOR_LIMPIO`
-- **Aggregates**: Count(*), Average(PROMEDIO), Average(SALARIO_NUM)
+### 11.1 Arrastrar **Group By** (categoría Transform)
+### 11.2 Conectar `Unir Ventas Consolidado` → `Group By`
+### 11.3 **Step name**: `Metricas Validacion`
+### 11.4 **Group by fields**:
+- `PRODUCTO_STD`
+- `CIUDAD_STD`
+- `GENERO_STD`
+- `METODO_PAGO_STD`
 
-### 9.2 Agregar **Text File Output** para reporte de validación:
-- **File**: `output/validacion_reporte.csv`
+### 11.5 **Aggregates** (Agregar):
+| Subject | Type | Result Field Name |
+|---------|------|-------------------|
+| `*` (count) | Count | `TOTAL_VENTAS` |
+| `PRECIO_LIMPIO` | Average | `PRECIO_PROMEDIO` |
+| `TOTAL_CALCULADO` | Sum | `VENTAS_TOTALES` |
+| `CANTIDAD_LIMPIA` | Average | `CANTIDAD_PROMEDIO` |
 
-### 9.3 Verificar en Spoon:
-- Ejecutar transformación (F9)
-- Revisar **Execution Results** → **Logging**
-- Verificar: Filas leídas, escritas, errores
-
----
-
-## 10. Crear Job (Opcional - para orquestar)
-
-### 10.1 `File` → `New` → `Job`
-### 10.2 Arrastrar **Transformation** job entry
-### 10.3 Configurar para ejecutar `etl_graduados_empleos.ktr`
-### 10.4 Agregar **Check if file exists** para validar salida
-### 10.5 Guardar como `job_etl_principal.kjb`
+### 11.6 Arrastrar **Text File Output** → Conectar `Metricas Validacion`
+### 11.7 **File**: `output/validacion_metricas.csv`
+### 11.8 Configurar igual que salida principal
 
 ---
 
-## Estructura de Carpetas Sugerida
+## 12. (Opcional) Job de Orquestación
+
+### 12.1 `File` → `New` → `Job`
+### 12.2 Arrastrar **Transformation** job entry
+### 12.3 Configurar para ejecutar `transformations/etl_ventas_zapatillas.ktr`
+### 12.4 Agregar **Check file exists** para validar `output/ventas_consolidadas_limpias.csv`
+### 12.5 Agregar **Mail** o **Write to log** para notificación
+### 12.6 Guardar como `jobs/job_etl_ventas.kjb`
+
+---
+
+## 13. Variables de Entorno (Buena Práctica)
+
+En lugar de rutas hardcodeadas, usar variables:
+
+1. `Edit` → `Edit the transformation settings` → `Parameters`
+2. Agregar:
+   - `PARAM_DIR_DATA` = `${Internal.Transformation.Filename.Directory}/../data`
+   - `PARAM_DIR_OUTPUT` = `${Internal.Transformation.Filename.Directory}/../output`
+3. En pasos Input/Output usar: `${PARAM_DIR_DATA}/ventas_zapatillas_Errores.xlsx`
+
+---
+
+## 14. Ejecutar y Verificar
+
+### 14.1 Ejecutar (F9)
+### 14.2 Revisar **Execution Results**:
+- `Leer Ventas Excel`: 200 filas leídas
+- `Leer Ventas CSV`: 200 filas leídas
+- `Unir Ventas Consolidado`: 400 filas escritas
+- `Escribir Ventas Limpio`: 400 filas
+- `Metricas Validacion`: ~20-30 filas (grupos únicos)
+
+### 14.3 Verificar archivos generados:
+```bash
+# En terminal
+wc -l output/ventas_consolidadas_limpias.csv  # Debe ser 401 (header + 400)
+wc -l output/validacion_metricas.csv
+```
+
+### 14.4 Abrir CSV en Excel para revisión visual
+
+---
+
+## Estructura de Carpetas Final
 ```
 PRACTICA_1/
 ├── data/
-│   ├── graduados.xlsx      (convertir desde CSV)
-│   └── empleos.csv
+│   ├── ventas_zapatillas_Errores.xlsx
+│   ├── ventas_zapatillas_Errores_Uno.csv
+│   ├── ventas_zapatillas_Errores_Uno.xlsx
+│   ├── ventas_zapatillas_Errores_Dos.xlsx
+│   └── GenDT.py
 ├── output/
-│   ├── graduados_empleos_procesados.csv
-│   └── validacion_reporte.csv
+│   ├── ventas_consolidadas_limpias.csv
+│   ├── validacion_metricas.csv
+│   └── fechas_invalidas.csv
 ├── transformations/
-│   └── etl_graduados_empleos.ktr
+│   └── etl_ventas_zapatillas.ktr
 ├── jobs/
-│   └── job_etl_principal.kjb
-└── README.md               (documentación GitHub)
+│   └── job_etl_ventas.kjb
+└── docs/
+    └── (14 capturas de pantalla)
 ```
 
 ---
@@ -205,25 +352,41 @@ PRACTICA_1/
 
 | Problema | Solución |
 |----------|----------|
-| Fechas no parsean | Usar **Replace in string** antes para unificar separadores (`/` → `-`) |
-| Join devuelve 0 filas | Verificar que IDs coincidan exactamente y streams estén ordenados |
-| Caracteres extraños | Verificar **Encoding: UTF-8** en ambos inputs |
-| Nombres con espacios múltiples | Usar `replace(/\s+/g, ' ')` en JavaScript |
+| Fechas no parsean (quedan null) | Agregar `Replace in string` ANTES de Select Values: reemplazar `/` por `-` en campo FECHA |
+| "uno" no convierte a 1 | Verificar `toLowerCase()` y `trim()` en JavaScript; debug con `Write to log` |
+| Acentos se ven mal (�) | Usar `normalize("NFD").replace(/[\u0300-\u036f]/g, "")` en JavaScript |
+| Append Streams duplica header | Verificar que **ambos** streams tengan mismos nombres de campos y orden |
+| Memoria/Java heap | En `spoon.bat`/`.sh`: aumentar `-Xmx2g` o más |
+| Encoding CSV | Forzar `UTF-8` en CSV Input y Text File Output |
 
 ---
 
-## Ejecutar desde Línea de Comandos (Pan)
+## Ejecutar desde Línea de Comandos
+
 ```bash
-pan.bat /file:transformations/etl_graduados_empleos.ktr /level:Basic
+# Windows
+cd <PENTAHO_HOME>
+pan.bat /file:"D:\ruta\PRACTICA_1\transformations\etl_ventas_zapatillas.ktr" /level:Basic
+
+# Linux/Mac
+./pan.sh -file:"D:/ruta/PRACTICA_1/transformations/etl_ventas_zapatillas.ktr" -level:Basic
+
+# Job
+kitchen.bat /file:"D:\ruta\PRACTICA_1\jobs\job_etl_ventas.kjb" /level:Basic
 ```
 
 ---
 
-## Notas para la Documentación GitHub
+## Checklist de Entrega
 
-Captura pantallazos de:
-1. Transformación completa en Spoon (vista general)
-2. Configuración de cada paso clave
-3. Execution Results (filas procesadas)
-4. Archivo de salida abierto en Excel
-5. Reporte de validación
+- [ ] Transformación `.ktr` funciona sin errores
+- [ ] 2 fuentes: Excel + CSV
+- [ ] Staging Area (pasos Input separados)
+- [ ] Transformación 1: Categorísticos (JS + Replace)
+- [ ] Transformación 2: Numéricos + Fechas (JS + Select Values + Filter)
+- [ ] Unión: Append Streams
+- [ ] Salida principal: CSV consolidado (400 regs)
+- [ ] Validación: Group By + métricas
+- [ ] 14 capturas en `docs/`
+- [ ] README.md completo (7 secciones)
+- [ ] Subido a GitHub: https://github.com/Marckr02/Practica1_BI.git
