@@ -2,7 +2,7 @@
 
 **Asignatura:** Business Intelligence – Escuela Politécnica Nacional (Facultad de Ingeniería de Sistemas)
 **Herramienta:** Pentaho Data Integration (PDI / Spoon) 10.2 · JDK 18
-**Integrantes:** _Marco Rios, Dilan Real, Javier Guallicho,Axel Manotoa _
+**Integrantes:** Marco Ríos, Dilan Real, Javier Guallicho,Axel Manotoa 
 
 ---
 
