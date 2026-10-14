@@ -1,8 +1,12 @@
+# Escuela Politécnica Nacional
+# Business Intelligence 
 # Práctica 1 – Proceso ETL con Pentaho Data Integration
 
-**Asignatura:** Business Intelligence – Escuela Politécnica Nacional (Facultad de Ingeniería de Sistemas)
+**Asignatura:** Business Intelligence – (Facultad de Ingeniería de Sistemas) 
+
 **Herramienta:** Pentaho Data Integration (PDI / Spoon) 10.2 · JDK 18
-**Integrantes:** _(completar)_
+
+**Integrantes:** Dilan Real - Axel Manotoa - Javier Guallichico - Marco Ríos
 
 ---
 
@@ -157,11 +161,12 @@ Entrada Zapatillas Excel ─► Eliminar Duplicados Zapatillas ─► Limpieza Z
 - **Veterinaria:** 85 + 32 = 117. Los motivos están en la columna `RECHAZO_MOTIVO` de `veterinaria_rechazados.csv`.
 
 ### 6.2 Capturas
-- ![Transformación completa](docs/capturas/transformacion.png)
-- ![Ejecución exitosa](docs/capturas/ejecucion.png)
-- ![Salida de ventas](docs/capturas/ventas_limpio.png)
-- ![Salida de veterinaria](docs/capturas/veterinaria_limpia.png)
-- ![Archivos rechazados](docs/capturas/rechazados.png)
+- Salida Completa y ejecucion Exitosa ![Transformación completa](SalidaCompleta.png)
+
+- Datos de Zapatillas Limpios![Salida de ventas 1](VentasLimpio1.png)
+- ![Salida de ventas 2](VentasLimpio2.png)
+- Datos de veteria Limpios ![Salida de veterinaria 1](VeterinariaLimpio1.png)
+- Ventas Rechazadas ![Archivos rechazados](VentasRechazo1.png)
 
 ### 6.3 Validación de resultados
 
@@ -205,7 +210,6 @@ Entrada Zapatillas Excel ─► Eliminar Duplicados Zapatillas ─► Limpieza Z
 | Archivos `ventas_limpio.csv` y `veterinaria_limpia.csv` | **Destino**. Por fines didácticos es un archivo; en una solución real serían tablas del Data Warehouse o de un Data Mart |
 
 En un DW real, los datos limpios alimentarían un modelo dimensional. Ventas podría tener `dim_cliente`, `dim_producto`, `dim_ciudad` y `dim_fecha`, con la tabla de hechos `fact_ventas` (cantidad y total). La veterinaria podría tener `dim_mascota`, `dim_dueno` y `dim_fecha`, con una tabla de hechos de consultas. Estandarizar categorías y fechas permite que esas dimensiones sean consistentes y que los reportes agrupen correctamente.
-
 ---
 
 ## Limitaciones y criterios asumidos
