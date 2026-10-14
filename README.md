@@ -231,6 +231,31 @@ Muestra de la salida limpia veterinaria después de normalizar categorías, fech
 
 ![Figura 7. Datos procesados veterinarios](screenshots/07_datos_procesados_veterinaria.png)
 
+**Figura 8. Salida completa del flujo ETL.**  
+Vista general de la salida consolidada con los resultados de ambas ramas del proceso.
+
+![Figura 8. Salida completa del flujo ETL](screenshots/08_salida_completa.png)
+
+**Figura 9. Ventas limpias (parte 1).**  
+Primer bloque de registros de ventas ya normalizados y con marcas de consistencia.
+
+![Figura 9. Ventas limpias (parte 1)](screenshots/09_ventas_limpio_1.png)
+
+**Figura 10. Ventas limpias (parte 2).**  
+Continuación de los registros finales de ventas con el formato estandarizado.
+
+![Figura 10. Ventas limpias (parte 2)](screenshots/10_ventas_limpio_2.png)
+
+**Figura 11. Registros rechazados de ventas.**  
+Muestra de las filas que no superaron la validación y los motivos asociados.
+
+![Figura 11. Registros rechazados de ventas](screenshots/11_ventas_rechazo_1.png)
+
+**Figura 12. Veterinaria limpia.**  
+Vista de la tabla final con el formato normalizado para nombres, fechas, edades y pesos.
+
+![Figura 12. Veterinaria limpia](screenshots/12_veterinaria_limpia.png)
+
 ### 6.3 Validación de resultados
 
 **Tabla 6. Lista de verificaciones de calidad.**  
@@ -276,12 +301,13 @@ Se relacionan los archivos y pasos de esta práctica con las capas habituales de
 | Elemento del proyecto | Rol en una arquitectura de DW |
 |---|---|
 | Excel y CSV en `data/` | **Fuentes** (sistemas operacionales) |
-| Pasos de entrada y flujo de filas hasta la limpieza | **Extracción** y **staging lógico**: los datos se leen sin modificar la fuente. En esta práctica el staging no se guarda en disco; en un entorno real se persistiría como tablas o archivos intermedios para poder reprocesar |
-| Pasos *Limpieza*, *Eliminar Duplicados* y *Filtrar* | La **T** de ETL: limpieza, estandarización, validación y deduplicación |
-| Archivos `*_rechazados.csv` | Control de calidad: registro de lo que no pasó las reglas y por qué |
-| Archivos `ventas_limpio.csv` y `veterinaria_limpia.csv` | **Destino**. Por fines didácticos es un archivo; en una solución real serían tablas del Data Warehouse o de un Data Mart |
+| Pasos de entrada y flujo de filas hasta la limpieza | **Extracción** y **staging lógico**: se leen los datos sin alterar la fuente. En un entorno real, ese staging se guardaría como tablas o archivos intermedios. |
+| Pasos *Limpieza*, *Eliminar Duplicados* y *Filtrar* | La **T** de ETL: limpieza, estandarización, validación y deduplicación. |
+| Archivos `*_rechazados.csv` | **Control de calidad**: registran los datos que no cumplieron las reglas. |
+| Archivos `ventas_limpio.csv` y `veterinaria_limpia.csv` | **Destino**: en este ejercicio son archivos CSV; en un DW real serían tablas o Data Marts. |
 
-En un DW real, los datos limpios alimentarían un modelo dimensional. Ventas podría tener `dim_cliente`, `dim_producto`, `dim_ciudad` y `dim_fecha`, con la tabla de hechos `fact_ventas` (cantidad y total). La veterinaria podría tener `dim_mascota`, `dim_dueno` y `dim_fecha`, con una tabla de hechos de consultas. Estandarizar categorías y fechas permite que esas dimensiones sean consistentes y que los reportes agrupen correctamente.
+En un DW real, estos datos limpios alimentarían un modelo dimensional. Por ejemplo, ventas podría usar `dim_cliente`, `dim_producto`, `dim_ciudad` y `dim_fecha`, mientras la veterinaria usaría `dim_mascota`, `dim_dueno` y `dim_fecha`. Estandarizar categorías y fechas hace que los reportes y los agregados sean consistentes.
+
 ---
 
 ## 8. Limitaciones y criterios asumidos
