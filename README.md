@@ -1,8 +1,29 @@
-# Práctica 1 – Proceso ETL con Pentaho Data Integration
+# Escuela Politécnica Nacional
+## Facultad de Ingeniería de Sistemas
 
-**Asignatura:** Business Intelligence – Escuela Politécnica Nacional (Facultad de Ingeniería de Sistemas)
-**Herramienta:** Pentaho Data Integration (PDI / Spoon) 10.2 · JDK 18
-**Integrantes:** Marco Ríos, Dilan Real, Javier Guallicho,Axel Manotoa 
+### Business Intelligence — Práctica 1
+# Proceso ETL con Pentaho Data Integration
+
+| Dato | Información |
+|---|---|
+| **Asignatura** | Business Intelligence |
+| **Paralelo** | GR2SW |
+| **Integrantes** | Marco Ríos, Dilan Real, Javier Guallichico, Axel Manotoa |
+| **Herramienta** | Pentaho Data Integration (PDI / Spoon) 10.2 · JDK 18 |
+| **Fecha** | 13 de octubre de 2026 |
+
+## Índice
+
+1. [Objetivo del proceso](#1-objetivo-del-proceso)
+2. [Fuentes de datos utilizadas](#2-fuentes-de-datos-utilizadas)
+3. [Problemas encontrados en los datos](#3-problemas-encontrados-en-los-datos)
+4. [Transformaciones aplicadas](#4-transformaciones-aplicadas)
+5. [Flujo ETL desarrollado](#5-flujo-etl-desarrollado)
+6. [Evidencia del resultado](#6-evidencia-del-resultado)
+7. [Relación con una arquitectura de Data Warehouse](#7-relación-con-una-arquitectura-de-data-warehouse)
+8. [Limitaciones y criterios asumidos](#8-limitaciones-y-criterios-asumidos)
+9. [Referencias bibliográficas](#9-referencias-bibliográficas)
+10. [Declaración de uso de inteligencia artificial](#10-declaración-de-uso-de-inteligencia-artificial)
 
 ---
 
@@ -18,6 +39,9 @@ Diseñar y ejecutar un proceso ETL con Pentaho Data Integration que:
 ---
 
 ## 2. Fuentes de datos utilizadas
+
+**Tabla 1. Fuentes de datos y pasos de entrada utilizados.**  
+La tabla resume el origen, formato, volumen y componente de PDI empleado para leer cada conjunto.
 
 | # | Archivo | Tipo | Filas | Descripción | Paso de PDI |
 |---|---|---|---|---|---|
@@ -35,6 +59,9 @@ Los archivos originales se conservan sin modificar en `data/` como evidencia de 
 ## 3. Problemas encontrados en los datos
 
 ### 3.1 Ventas de zapatillas (Excel, 800 filas)
+
+**Tabla 2. Problemas identificados en las ventas de zapatillas.**  
+Se detallan las inconsistencias detectadas antes de aplicar las transformaciones.
 
 | Columna | Problema | Filas afectadas |
 |---|---|---|
@@ -56,6 +83,9 @@ Los archivos originales se conservan sin modificar en `data/` como evidencia de 
 | `id_venta` | No es único entre lotes (cada lote reutiliza los mismos números), por eso no sirve como clave | — |
 
 ### 3.2 Registro de mascotas (CSV, 117 filas)
+
+**Tabla 3. Problemas identificados en el registro veterinario.**  
+Esta tabla muestra los campos que requieren limpieza, normalización o validación.
 
 | Columna | Problema |
 |---|---|
@@ -94,6 +124,9 @@ Toda la lógica de limpieza está en un paso **Modified Java Script Value** por 
 
 ### 4.2 Otras transformaciones
 
+**Tabla 4. Transformaciones complementarias por conjunto de datos.**  
+Estas reglas completan las dos transformaciones principales y dejan trazabilidad de los rechazos.
+
 | Dataset | Transformación | Detalle |
 |---|---|---|
 | Ventas | Eliminar duplicados | Paso *Unique rows (HashSet)* sobre todas las columnas excepto `archivo_origen` |
@@ -116,7 +149,7 @@ Una sola transformación, `Transf_Practica_1.ktr`, con dos ramas independientes:
 
 ```
 RAMA VETERINARIA
-Entrada Veternaria CSV ─► Limpieza Veterinaria ─► Filtrar Fechas Validas Vet (FILA_VALIDA = S)
+Entrada Veterinaria CSV ─► Limpieza Veterinaria ─► Filtrar Fechas Validas Vet (FILA_VALIDA = S)
                                                         ├─ true  ─► Seleccionar Campos Vet ─► Salida Veterinaria Limpia  (output/veterinaria_limpia.csv)
                                                         └─ false ─► Salida Veterinaria Rechazados                         (output/veterinaria_rechazados.csv)
 
@@ -134,7 +167,7 @@ Entrada Zapatillas Excel ─► Eliminar Duplicados Zapatillas ─► Limpieza Z
 ├── data/        (archivos originales)
 ├── output/      (resultados: limpios y rechazados)
 ├── scripts/     (limpieza_veterinaria.js, limpieza_zapatillas.js)
-└── docs/capturas/
+└── screenshots/ (evidencias numeradas del proceso)
 ```
 
 **Cómo reproducirlo**
@@ -148,6 +181,9 @@ Entrada Zapatillas Excel ─► Eliminar Duplicados Zapatillas ─► Limpieza Z
 
 ### 6.1 Resumen de la ejecución (log de Spoon)
 
+**Tabla 5. Resumen cuantitativo de la ejecución del proceso ETL.**  
+La suma de filas duplicadas, rechazadas y limpias permite verificar que el flujo procesó todo el volumen de entrada.
+
 | Rama | Leídas | Duplicados eliminados | Rechazadas | Limpias |
 |---|---|---|---|---|
 | Ventas (Excel) | 800 | 200 | 157 | 443 |
@@ -157,13 +193,48 @@ Entrada Zapatillas Excel ─► Eliminar Duplicados Zapatillas ─► Limpieza Z
 - **Veterinaria:** 85 + 32 = 117. Los motivos están en la columna `RECHAZO_MOTIVO` de `veterinaria_rechazados.csv`.
 
 ### 6.2 Capturas
-- ![Transformación completa](docs/capturas/transformacion.png)
-- ![Ejecución exitosa](docs/capturas/ejecucion.png)
-- ![Salida de ventas](docs/capturas/ventas_limpio.png)
-- ![Salida de veterinaria](docs/capturas/veterinaria_limpia.png)
-- ![Archivos rechazados](docs/capturas/rechazados.png)
+
+Las capturas están numeradas en el orden en que se presenta el proceso: datos de entrada, diseño de las ramas ETL, ejecución y resultados. Cada figura incluye una descripción de la evidencia observada.
+
+**Figura 1. Datos de entrada de ventas.**  
+Vista del archivo de ventas antes de la limpieza, con ejemplos de formatos y valores inconsistentes.
+
+![Figura 1. Datos de entrada de ventas](screenshots/01_datos_venta.png)
+
+**Figura 2. Datos de entrada veterinarios.**  
+Vista del archivo CSV de mascotas antes de la transformación.
+
+![Figura 2. Datos de entrada veterinarios](screenshots/02_datos_veterinaria.png)
+
+**Figura 3. Flujo ETL de ventas.**  
+Rama de Pentaho que lee el Excel, elimina duplicados, limpia los campos, valida las filas y genera las salidas.
+
+![Figura 3. Flujo ETL de ventas](screenshots/03_flujo_venta.png)
+
+**Figura 4. Flujo ETL veterinario.**  
+Rama de Pentaho que procesa el CSV veterinario y separa los registros válidos de los rechazados.
+
+![Figura 4. Flujo ETL veterinario](screenshots/04_flujo_veterinaria.png)
+
+**Figura 5. Resultados de la ejecución.**  
+Registro visual de la ejecución exitosa de la transformación en Spoon.
+
+![Figura 5. Resultados de la ejecución](screenshots/05_resultados_de_ejecucion.png)
+
+**Figura 6. Datos procesados de ventas.**  
+Muestra de la salida limpia de ventas con los campos estandarizados y las marcas de consistencia.
+
+![Figura 6. Datos procesados de ventas](screenshots/06_datos_procesados_venta.png)
+
+**Figura 7. Datos procesados veterinarios.**  
+Muestra de la salida limpia veterinaria después de normalizar categorías, fechas, pesos y edades.
+
+![Figura 7. Datos procesados veterinarios](screenshots/07_datos_procesados_veterinaria.png)
 
 ### 6.3 Validación de resultados
+
+**Tabla 6. Lista de verificaciones de calidad.**  
+Las verificaciones permiten confirmar que las salidas cumplen las reglas definidas en la transformación.
 
 | Verificación | Cómo comprobarlo | Cumple |
 |---|---|---|
@@ -177,6 +248,9 @@ Entrada Zapatillas Excel ─► Eliminar Duplicados Zapatillas ─► Limpieza Z
 **Hallazgo de calidad:** en más de la mitad de las ventas limpias, `total_venta` no coincide con `precio × cantidad`. Las filas se conservan, pero quedan marcadas con `N` en `TOTAL_CONSISTENTE` para que se revisen en el sistema de origen.
 
 ### 6.4 Antes y después
+
+**Tabla 7. Ejemplos de estandarización antes y después.**  
+Los ejemplos muestran cómo se transforman nombres, fechas, importes, categorías y unidades.
 
 | Campo | Antes | Después |
 |---|---|---|
@@ -196,6 +270,9 @@ Entrada Zapatillas Excel ─► Eliminar Duplicados Zapatillas ─► Limpieza Z
 
 ## 7. Relación con una arquitectura de Data Warehouse
 
+**Tabla 8. Correspondencia entre componentes ETL y arquitectura de Data Warehouse.**  
+Se relacionan los archivos y pasos de esta práctica con las capas habituales de una solución de inteligencia de negocios.
+
 | Elemento del proyecto | Rol en una arquitectura de DW |
 |---|---|
 | Excel y CSV en `data/` | **Fuentes** (sistemas operacionales) |
@@ -208,7 +285,7 @@ En un DW real, los datos limpios alimentarían un modelo dimensional. Ventas pod
 
 ---
 
-## Limitaciones y criterios asumidos
+## 8. Limitaciones y criterios asumidos
 
 - **Veterinaria:** no se eliminan los 9 duplicados, y `email` y `telefono` pasan sin limpiar. Quedan como mejora pendiente.
 - **Nombres:** se estandarizan en MAYÚSCULAS sin tildes. Los que vienen como "Apellido Nombre" no se reordenan.
@@ -218,3 +295,17 @@ En un DW real, los datos limpios alimentarían un modelo dimensional. Ventas pod
 - **Fechas de venta:** van de 1970 a 2025, algo inusual; no se rechazaron.
 - **Datos simulados:** el dataset de veterinaria fue generado con errores intencionales.
 - **Destino:** en la práctica es un archivo CSV; en una solución real sería una base de datos o un Data Warehouse.
+
+---
+
+## 9. Referencias bibliográficas
+
+Las referencias se presentan en formato APA 7.ª edición:
+
+1. Hitachi Vantara. (s. f.). *Pentaho Data Integration documentation*. Recuperado el 13 de octubre de 2026, de https://docs.hitachivantara.com/r/en-us/pentaho-data-integration
+2. Oracle. (s. f.). *Java Platform, Standard Edition documentation*. Recuperado el 13 de octubre de 2026, de https://docs.oracle.com/en/java/javase/18/
+3. Kimball, R., & Ross, M. (2013). *The data warehouse toolkit: The definitive guide to dimensional modeling* (3rd ed.). Wiley.
+
+## 10. Declaración de uso de inteligencia artificial
+
+Se declara un uso aproximado del **15 % de inteligencia artificial** en la elaboración de este informe. La herramienta se utilizó como apoyo para revisar la redacción, organizar la estructura del README y verificar la presentación de tablas y figuras. El diseño del proceso ETL, la preparación de los datos, la ejecución en Pentaho, la interpretación de resultados y la validación final fueron realizados y revisados por los integrantes del grupo.
