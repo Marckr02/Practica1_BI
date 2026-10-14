@@ -5,8 +5,7 @@
 **Asignatura:** Business Intelligence – (Facultad de Ingeniería de Sistemas) 
 
 **Herramienta:** Pentaho Data Integration (PDI / Spoon) 10.2 · JDK 18
-
-**Integrantes:** Dilan Real - Axel Manotoa - Javier Guallichico - Marco Ríos
+**Integrantes:** Marco Ríos, Dilan Real, Javier Guallicho,Axel Manotoa 
 
 ---
 
